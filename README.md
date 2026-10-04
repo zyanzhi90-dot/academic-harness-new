@@ -46,6 +46,17 @@ python -m harness lit select-reading-subset --help
 python -m harness lit submit-field-map --help
 ```
 
+来源策略校验后，必须由人工明确选择批准或要求修订；AI 只记录该决定，不自行批准。以研究目录为当前工作目录，单独运行对应命令，保留以下完整前缀（审批命令不在 `lit` 前插入 `--root`）：
+
+```powershell
+python -m harness lit human-approve "<run-id>" source_policy_approval --decision approve
+python -m harness lit request-source-policy-revision "<run-id>"
+```
+
+这两行表示不同人工决定，不连续执行。`python3 -m harness`、`py -m harness` 和 `academic-harness lit` 的对应前缀也受相同提示规则覆盖。安装到研究目录的 PreToolUse Hook 放行这些前缀，由 `.codex/rules/aris.rules` 逐次提示人工确认；Hook 放行本身不代表批准。若当前运行环境不能显示确认，交由人工在该研究目录直接执行，不由 AI 替代确认。其余命令仍可使用上方的全局 `--root` 写法。
+
+已在旧提交下初始化的研究目录，可从该目录运行 `python -m harness lit start "<已有run-id>" --executor "<实际执行模型标识>"` 刷新受管 `.codex` 层；原 run 的地图和证据继续保留。按已有 Hook 信任说明确认变更后的定义并加载当前项目配置；安装器不会覆盖已有 `AGENTS.md`，因此其审批说明须参照本节更新。
+
 SerpApi 使用环境变量 `SERPAPI_KEY`；浏览器 Scholar 和 IEEE Xplore、arXiv、元数据核验、OA 全文及人工补交等路由按保留的来源策略和 Gateway 调用。未配置或不可用的路由会返回原有人工检索／全文交接，不自动把缺失访问解释为不存在相关研究。本轮没有测试这些外部服务的实际可用性。
 
 ## 按需补充调研与交接

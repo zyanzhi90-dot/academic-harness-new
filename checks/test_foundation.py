@@ -12,6 +12,7 @@ from harness.__main__ import main, literature_handoff
 from arisctl import ARISController, ControllerError
 from arisctl.workflow import literature_workflow_path
 from tests import test_aris_controller as fixtures
+from checks.test_installed_entry import installed_command
 
 
 @pytest.fixture
@@ -23,7 +24,8 @@ def accepted_landscape(tmp_path: Path, monkeypatch, capsys) -> ARISController:
     state = json.loads(capsys.readouterr().out)
     assert [item["phase"] for item in state["phases"]] == ["landscape"]
     controller = ARISController(tmp_path, "run-1", literature_workflow_path())
-    fixtures.approve(controller, "source_policy_approval")
+    installed_command(tmp_path, ["python", "-m", "harness", "lit", "human-approve", "run-1",
+                                 "source_policy_approval", "--decision", "approve"])
     controller.submit_query_plan({
         "coverage_gaps": ["anchor"],
         "queries": [{"query": "test field", "purpose": "close explicit gap"}],
@@ -79,7 +81,11 @@ def test_gap_update_reuses_registry_revises_map_and_can_repeat(accepted_landscap
     context = {"core_application": "synthetic fixture", "selected_problem": "P-selected", "problem_version": 2, "route_revision": "R1"}
     for cycle in (1, 2):
         query = f"boundary mechanism cycle {cycle}"
-        controller.request_literature_update([gap], requested_by="method_design", context=context)
+        context_path = controller.root / "context.json"
+        context_path.write_text(json.dumps(context), encoding="utf-8")
+        installed_command(controller.root, ["python", "-m", "harness", "update-literature", controller.run_id,
+                                           "--requested-by", "method_design", "--gap", gap,
+                                           "--context", "context.json"])
         with pytest.raises(ControllerError, match="LANDSCAPE_ACCEPTED"):
             literature_handoff(controller)
         with pytest.raises(ControllerError, match="required coverage gap"):
@@ -109,7 +115,7 @@ def test_gap_update_reuses_registry_revises_map_and_can_repeat(accepted_landscap
         controller.submit_coverage_review(review)
         assert controller.current_stage() == "LANDSCAPE_ACCEPTED"
         assert controller.status()["research_lit"]["accepted_artifacts"]["evidence:P1"] == before
-        assert "evidence:P2" in literature_handoff(controller)["evidence"]
+        assert "evidence:P2" in installed_command(controller.root, ["academic-harness", "literature-handoff", controller.run_id])["evidence"]
     state = controller.status()
     assert len(state["research_lit"]["literature_update_requests"]) == 2
     assert state["research_lit"]["literature_update_requests"][-1]["context"] == context
@@ -136,14 +142,14 @@ def test_public_entry_does_not_expose_old_method_workflow():
 
 
 def test_standalone_recovery_uses_new_entry_and_preserves_accepted_map(accepted_landscape, tmp_path):
-    from arisctl.recovery import save_recovery_snapshot
-
     controller = accepted_landscape
     destination = tmp_path.parent / (tmp_path.name + "-recovery")
-    save_recovery_snapshot(controller.root, controller.run_id, destination)
+    installed_command(controller.root, ["python", "-m", "harness", "lit", "save-recovery", controller.run_id, str(destination)])
     manifest = json.loads((destination / "ARIS_RECOVERY.json").read_text(encoding="utf-8"))
     assert manifest["resume"]["status_command"] == "python -m harness lit status run-1"
     restored = ARISController(destination, controller.run_id, literature_workflow_path())
+    assert installed_command(destination, ["python", "-m", "harness", "lit", "status", controller.run_id])["research_lit"]["current_stage"] == "LANDSCAPE_ACCEPTED"
+    assert installed_command(destination, ["academic-harness", "literature-handoff", controller.run_id])["stage"] == "LANDSCAPE_ACCEPTED"
     assert literature_handoff(restored)["artifacts"]["active_field_map"]["sha256"] == (
         literature_handoff(controller)["artifacts"]["active_field_map"]["sha256"]
     )

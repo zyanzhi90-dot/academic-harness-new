@@ -209,6 +209,17 @@ def install_project_codex_layer(root: str | Path, *, literature_only: bool = Fal
                 "- Main plans queries and synthesizes the map. Use paper_reader and "
                 "coverage_reviewer only when authorized by the Controller.\n"
                 "- Reuse the same map, corpus, ledger and Evidence Registry for updates.\n"
+                "- Only after the user explicitly decides, record the decision through "
+                "`python -m harness lit human-approve <run-id> source_policy_approval "
+                "--decision approve` or `python -m harness lit "
+                "request-source-policy-revision <run-id>`. The console equivalents "
+                "are `academic-harness lit human-approve` and "
+                "`academic-harness lit request-source-policy-revision`. Run these "
+                "as separate commands from this active research directory, with "
+                "no --root before lit; the managed rules prompt each time. "
+                "Hook passage is not human approval. Never approve on the AI's "
+                "own judgment; if UI confirmation is unavailable, have the human "
+                "run the command directly.\n"
                 + _hook_trust_instruction(),
                 encoding="utf-8",
             )

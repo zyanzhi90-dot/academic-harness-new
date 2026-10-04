@@ -39,6 +39,15 @@ Controller 与 Validator 同时包含调研和旧后半段，拆函数会扩大�
 5. 安装到研究目录的 attestation hook 从已有运行层 manifest 找到新 vendor checkout，避免依赖旧 editable 安装；用隔离进程验证。
 6. 当前 `skills/research-lit/SKILL.md` 从旧 Codex 调研 Skill 派生，只改入口、profile、引用和当前科研边界，保留科学调研内容。
 7. 修复旧 Codex research-refine 镜像中已有的一个方法模板相对链接，并复制实际模板，以保证复用资料链接完整。
+8. 负责人复验 `64ad70f` 后，补齐实际安装层遗漏：PreToolUse Hook 和 `.codex/rules/aris.rules` 同时适配 `python/python3/py -m harness lit` 与 `academic-harness lit` 的 `human-approve`、`request-source-policy-revision`。Hook 放行交由已有命令提示规则逐次确认，不改变 Controller 的候选校验、批准绑定或人工决策语义。生成的研究目录说明、README 和当前调研 Skill 同步说明命令前缀及人工职责。
+
+## 64ad70f 调研入口复验修复
+
+基线的 378 项检查未覆盖安装后的 PreToolUse 与新人工命令交互；之前的隔离 Hook 测试针对 Stop attestation。复验发现新入口在 CLI 转发层可用，但安装 Hook 拒绝两项人工命令，规则也未提示新前缀。控制台入口存在同类遗漏，本轮一并适配。其他公开调研动作、连续更新、交接及恢复沿原实现，不扩展问题发现或方法设计。
+
+人工决定命令使用活动研究目录及规则覆盖的完整前缀，不在 `lit` 前插入全局 `--root`；普通命令继续支持 `--root`。未匹配提示规则的人工调用方式仍被拒绝。不能把 Hook 放行当作人工同意；不能显示确认时，由人工直接执行，AI 不代替决定。
+
+既有研究目录通过对同一 run 再次调用 `lit start` 更新受管 Hook／规则及 manifest，不重建状态。已有 `AGENTS.md` 保持用户内容，需按 README 的迁移说明更新审批用法。没有清理旧规则、增加审批机制、改写旧项目或运行科研案例。安装目录交互测试、原生 execpolicy 检查及回归结果详见 `CHECK_RESULTS.md`；真实 Codex 配置加载、信任和 UI 确认仍须负责人复验。
 
 新有效要求明确两类问题路径、人工选择、强 prior 后持续追问、核心问题保持、具体技术主线与成熟方法复用，见 `SCIENTIFIC_REQUIREMENTS.md`。规则已写入当前入口及 AGENTS.md；完整问题／方法模块尚未实现。
 

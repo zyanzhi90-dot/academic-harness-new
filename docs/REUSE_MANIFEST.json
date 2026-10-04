@@ -79,9 +79,9 @@
       "source": ".codex/hooks/pre_tool_use_policy.py",
       "destination": "vendor/aris/.codex/hooks/pre_tool_use_policy.py",
       "source_sha256": "88dceb2403611acd9b44d1dbf49b87a57e23eb9a54a0d580cda5fba95cfd2025",
-      "destination_sha256": "88dceb2403611acd9b44d1dbf49b87a57e23eb9a54a0d580cda5fba95cfd2025",
+      "destination_sha256": "86a5e1251585cecd705d6a2349472788c5351e5292d0102a429c114ce765db29",
       "source_local_modified": false,
-      "adaptation": "none; byte-preserved"
+      "adaptation": "Adapt installed PreToolUse to exact public literature human-command prompt prefixes; retain legacy routes and human semantics."
     },
     {
       "source": ".codex/hooks/subagent_attestation.py",
@@ -103,9 +103,9 @@
       "source": ".codex/rules/aris.rules",
       "destination": "vendor/aris/.codex/rules/aris.rules",
       "source_sha256": "e838e26b8156267c55ea0e2bed8f0be08b5ef5addb0cb71bd474716b89d6f8df",
-      "destination_sha256": "e838e26b8156267c55ea0e2bed8f0be08b5ef5addb0cb71bd474716b89d6f8df",
+      "destination_sha256": "a10774831c7716a626568e10a85ea51b82b0ef76c725ca0d713b0b7b74768514",
       "source_local_modified": false,
-      "adaptation": "none; byte-preserved"
+      "adaptation": "Add per-command prompt rules for public module and console literature approval/revision prefixes; retain legacy rules."
     },
     {
       "source": "arisctl/__init__.py",
@@ -159,9 +159,9 @@
       "source": "arisctl/project_setup.py",
       "destination": "vendor/aris/arisctl/project_setup.py",
       "source_sha256": "34ce95774e7c35b2492f0b3949db482256bddbf3b5acd678960afc5a2e3afd29",
-      "destination_sha256": "ea2c8707cbd6184b9c4b9c327d4519f5bd3c4cb5c803a427524c6a52d3e141d9",
+      "destination_sha256": "659c16cc921017bcb32196339adb665651f0dc6adde18f5c91656685c8f47e54",
       "source_local_modified": false,
-      "adaptation": "Generate current standalone instructions and remove old absolute path dependency."
+      "adaptation": "Generate current standalone instructions and remove old absolute path dependency; document public human-command prefixes and explicit human confirmation."
     },
     {
       "source": "arisctl/recovery.py",
@@ -711,9 +711,9 @@
       "source": "skills/skills-codex/research-lit/SKILL.md",
       "destination": "skills/research-lit/SKILL.md",
       "source_sha256": "763facbf8021defce954184dd543968ac2c8753ad3e147d99a09c442599d3eff",
-      "destination_sha256": "d2f84b153d1a4455151a22b201483e914d6fbb61e4629eb32aebe7722cc682e0",
+      "destination_sha256": "3cab480425a4e11358399056738ba4335ceaa7ec1aaccbe396cc8070b9886bde",
       "source_local_modified": false,
-      "adaptation": "Retain native literature scientific text; change entry/profile/references and inherit the field-map human audit view.",
+      "adaptation": "Retain native literature scientific text; change entry/profile/references and inherit the field-map human audit view; document explicit human approval/revision commands and confirmation.",
       "additional_source": {
         "path": "skills/skills-codex/idea-discovery/SKILL.md",
         "sha256": "03d5e474bdb2346fd166691b541b55e0ad4237d4dee0b8bbf7e2519130d09a33"

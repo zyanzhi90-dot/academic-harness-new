@@ -27,6 +27,17 @@ path directly and do not approve the candidate. The Controller validates the
 candidate before it opens `source_policy_approval`; retrieval remains forbidden
 until the user approves that exact validated candidate.
 
+Only after an explicit human decision, record approval with
+`python -m harness lit human-approve <run-id> source_policy_approval --decision approve`,
+or request revision with
+`python -m harness lit request-source-policy-revision <run-id>`.
+Run the chosen command separately from the active research directory, without
+`--root` before `lit`, so the installed prompt rule matches. The corresponding
+`academic-harness lit` commands use the same confirmation policy.
+PreToolUse passage does not grant approval; retain the per-command UI confirmation.
+If confirmation is unavailable, the human must execute the command directly.
+Never infer approval from coverage, a prior decision, or the AI's own judgment.
+
 The mechanical contract is `vendor/aris/skills/shared-references/literature-workflow.yaml`, enforced by
 `python -m harness lit`. This Skill intentionally does not duplicate stage order, budgets,
 artifact-existence rules, admission permission, human approval, transition

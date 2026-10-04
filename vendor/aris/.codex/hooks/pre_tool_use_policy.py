@@ -108,6 +108,15 @@ def main() -> int:
     command = str(tool_input.get("command") or tool_input.get("cmd") or "")
     serialized_input = json.dumps(tool_input, ensure_ascii=False)
     normalized = serialized_input.replace("\\", "/").lower()
+    if re.match(
+        r"^\s*(?:(?:python(?:3)?|py)\s+-m\s+harness|academic-harness)"
+        r"\s+lit\s+(?:human-approve|request-source-policy-revision)(?=\s|$)",
+        command,
+    ):
+        # Match the installed prompt-rule prefixes. Human decisions run from
+        # the active research directory, without global options before `lit`.
+        # Passing this Hook is not approval: execpolicy still prompts each time.
+        return 0
     if re.search(
         r"(?i)\b(?:python(?:3)?|py)\s+-m\s+arisctl\b.*\b(human-approve|request-source-policy-revision|revise-problem)\b", command
     ):
@@ -121,7 +130,12 @@ def main() -> int:
         "revise-problem", "revise_problem",
         "request-problem-revision", "request_problem_revision",
     )):
-        return deny("Human approval must use the exact UI-reviewed arisctl CLI route.")
+        return deny(
+            "Human decisions must use the UI-reviewed CLI prefix: "
+            "python -m harness lit human-approve or request-source-policy-revision "
+            "(or academic-harness lit), from the active research directory without "
+            "--root before lit. The legacy arisctl route remains supported."
+        )
     if CONTROL_BYPASS.search(serialized_input):
         return deny("Controller internals cannot be imported or scripted through agent tools.")
     if "run_state.py" in normalized and re.search(

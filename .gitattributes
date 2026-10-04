@@ -1,2 +1,6 @@
 * text=auto eol=lf
 .githooks/* text eol=lf
+科研Harness_* -text
+# Preserve inherited EOF blank lines in these byte-identical reference files.
+vendor/aris/skills/shared-references/reference-paper-intake.md whitespace=-blank-at-eof
+vendor/aris/skills/skills-codex/shared-references/reference-paper-intake.md whitespace=-blank-at-eof

@@ -1,0 +1,739 @@
+{
+  "schema_version": 1,
+  "source_directory": "D:\\桌面\\科研Agent Harness设计\\ARIS",
+  "source_remote": "git@github.com:zyanzhi90-dot/research-harness.git",
+  "source_branch": "scientific-core",
+  "source_commit": "4212c84da80fac41a3433cf01859d955617888dc",
+  "declared_package_version": "0.2.0",
+  "source_worktree_status": "M arisctl/controller.py\n M arisctl/validators.py\n M skills/shared-references/idea-workflow.yaml\n M skills/shared-references/method-design-contract.md\n M skills/skills-codex/shared-references/idea-workflow.yaml\n M skills/skills-codex/shared-references/method-design-contract.md\n M tests/test_aris_controller.py\n M tools/run_state.py",
+  "basis_files": [
+    "科研Harness_新对话接力与长期规划依据_20261004.txt",
+    "科研Harness_基座与复用方案_20261004.md"
+  ],
+  "files": [
+    {
+      "source": ".codex/agents/coverage_reviewer.toml",
+      "destination": "vendor/aris/.codex/agents/coverage_reviewer.toml",
+      "source_sha256": "718fb2283ed03fe72ec10133b2d04bce545a8c8d42185b5c0ab5d8607920d891",
+      "destination_sha256": "718fb2283ed03fe72ec10133b2d04bce545a8c8d42185b5c0ab5d8607920d891",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/agents/independent_method_reviewer.toml",
+      "destination": "vendor/aris/.codex/agents/independent_method_reviewer.toml",
+      "source_sha256": "0faf611bbfd4c1e9b074867073e0f3b532ce2e076ace49cfa0337d976d990c89",
+      "destination_sha256": "0faf611bbfd4c1e9b074867073e0f3b532ce2e076ace49cfa0337d976d990c89",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/agents/independent_novelty_reviewer.toml",
+      "destination": "vendor/aris/.codex/agents/independent_novelty_reviewer.toml",
+      "source_sha256": "0241930a027636e66e6c3ce952b37681529f554d9acc3317cb614ef50f1601bc",
+      "destination_sha256": "0241930a027636e66e6c3ce952b37681529f554d9acc3317cb614ef50f1601bc",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/agents/independent_problem_reviewer.toml",
+      "destination": "vendor/aris/.codex/agents/independent_problem_reviewer.toml",
+      "source_sha256": "e5614de424d1f270edd1e1f8a11d3717d43674c75292d2474b0d612f7a4df94c",
+      "destination_sha256": "e5614de424d1f270edd1e1f8a11d3717d43674c75292d2474b0d612f7a4df94c",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/agents/independent_root_cause_reviewer.toml",
+      "destination": "vendor/aris/.codex/agents/independent_root_cause_reviewer.toml",
+      "source_sha256": "01a5ddba8b1e0c9fc3a66db840331ecbe83cc08162cb66852e2532237f380ca2",
+      "destination_sha256": "01a5ddba8b1e0c9fc3a66db840331ecbe83cc08162cb66852e2532237f380ca2",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/agents/paper_reader.toml",
+      "destination": "vendor/aris/.codex/agents/paper_reader.toml",
+      "source_sha256": "66505403981d3a867c97c5de18a375b6ef0241cf44f8cf1cd33ea793e802ece2",
+      "destination_sha256": "66505403981d3a867c97c5de18a375b6ef0241cf44f8cf1cd33ea793e802ece2",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/agents/result_to_claim_reviewer.toml",
+      "destination": "vendor/aris/.codex/agents/result_to_claim_reviewer.toml",
+      "source_sha256": "77572a9e6e32bf365920e1c0cee7cbb1cc01201bbaf7502a98659363e822f115",
+      "destination_sha256": "77572a9e6e32bf365920e1c0cee7cbb1cc01201bbaf7502a98659363e822f115",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/config.toml",
+      "destination": "vendor/aris/.codex/config.toml",
+      "source_sha256": "efd250b68855b413c02e055caae392e908fbb1b4ab5bda84da27ad1c22f9228b",
+      "destination_sha256": "efd250b68855b413c02e055caae392e908fbb1b4ab5bda84da27ad1c22f9228b",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/hooks/pre_tool_use_policy.py",
+      "destination": "vendor/aris/.codex/hooks/pre_tool_use_policy.py",
+      "source_sha256": "88dceb2403611acd9b44d1dbf49b87a57e23eb9a54a0d580cda5fba95cfd2025",
+      "destination_sha256": "88dceb2403611acd9b44d1dbf49b87a57e23eb9a54a0d580cda5fba95cfd2025",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/hooks/subagent_attestation.py",
+      "destination": "vendor/aris/.codex/hooks/subagent_attestation.py",
+      "source_sha256": "cbfdb89eba9275f8dc8225431818f3417136f28080f677694adc6c3b044651d3",
+      "destination_sha256": "09275bdb51196fda739153096752c2cf8bb2bd6ff3445cfe012b33950dd10667",
+      "source_local_modified": false,
+      "adaptation": "Resolve migrated runtime from installed project-layer manifest."
+    },
+    {
+      "source": ".codex/hooks.json",
+      "destination": "vendor/aris/.codex/hooks.json",
+      "source_sha256": "ab67124d99d6eb9604fef6c4e7d035bb1dc2747aa51ade623b0412566143ddf7",
+      "destination_sha256": "ab67124d99d6eb9604fef6c4e7d035bb1dc2747aa51ade623b0412566143ddf7",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": ".codex/rules/aris.rules",
+      "destination": "vendor/aris/.codex/rules/aris.rules",
+      "source_sha256": "e838e26b8156267c55ea0e2bed8f0be08b5ef5addb0cb71bd474716b89d6f8df",
+      "destination_sha256": "e838e26b8156267c55ea0e2bed8f0be08b5ef5addb0cb71bd474716b89d6f8df",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "arisctl/__init__.py",
+      "destination": "vendor/aris/arisctl/__init__.py",
+      "source_sha256": "94c428a8ae2ee1e1acf4ace19d608e2039f5166c7042bf9cb8b91287a52376fd",
+      "destination_sha256": "94c428a8ae2ee1e1acf4ace19d608e2039f5166c7042bf9cb8b91287a52376fd",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "arisctl/__main__.py",
+      "destination": "vendor/aris/arisctl/__main__.py",
+      "source_sha256": "c5e609f23734e34c05e98ba25a01d8ca4cf75a224795752421a1dba3f42d7eb4",
+      "destination_sha256": "1e28fe8cb1c100c180ed1c9d9cdc6db3f898dcb5938842d097bf1500f9e7fdfb",
+      "source_local_modified": false,
+      "adaptation": "Accept argv and selected built-in workflow from the new entry."
+    },
+    {
+      "source": "arisctl/browser_ieee.py",
+      "destination": "vendor/aris/arisctl/browser_ieee.py",
+      "source_sha256": "ef49c07be6765984777e4c73002ee3c35e9f4929337e4e27c79f733b8fb54a01",
+      "destination_sha256": "ef49c07be6765984777e4c73002ee3c35e9f4929337e4e27c79f733b8fb54a01",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "arisctl/browser_scholar.py",
+      "destination": "vendor/aris/arisctl/browser_scholar.py",
+      "source_sha256": "39f8d9230fc954270e5be66016dfb48fbaba01fcf15d1912b8179cab3fcb9797",
+      "destination_sha256": "39f8d9230fc954270e5be66016dfb48fbaba01fcf15d1912b8179cab3fcb9797",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "arisctl/controller.py",
+      "destination": "vendor/aris/arisctl/controller.py",
+      "source_sha256": "d923bbae218e6d17760d8a8e68719d77a5553339be78301f56e3e97ed7eb136b",
+      "destination_sha256": "2dd1dcb1705b8125d38321b9de0316f1ba2dff852757b14cf314a55895a9f861",
+      "source_local_modified": true,
+      "adaptation": "Allow built-in literature-only profile; stop at accepted landscape; reopen by concrete knowledge gaps."
+    },
+    {
+      "source": "arisctl/gateways.py",
+      "destination": "vendor/aris/arisctl/gateways.py",
+      "source_sha256": "b28d4864500e16f96a15b990264976c076befc827d2fe299ffa1cfb4e4d59543",
+      "destination_sha256": "b28d4864500e16f96a15b990264976c076befc827d2fe299ffa1cfb4e4d59543",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "arisctl/project_setup.py",
+      "destination": "vendor/aris/arisctl/project_setup.py",
+      "source_sha256": "34ce95774e7c35b2492f0b3949db482256bddbf3b5acd678960afc5a2e3afd29",
+      "destination_sha256": "ea2c8707cbd6184b9c4b9c327d4519f5bd3c4cb5c803a427524c6a52d3e141d9",
+      "source_local_modified": false,
+      "adaptation": "Generate current standalone instructions and remove old absolute path dependency."
+    },
+    {
+      "source": "arisctl/recovery.py",
+      "destination": "vendor/aris/arisctl/recovery.py",
+      "source_sha256": "ef8e06df6727711ba55ff59c438e40982eddb92b139e6437312746d913e5dfcb",
+      "destination_sha256": "22626b677037c26c35753308a240d9b76f6d71ac14949d0603faae351454b8e3",
+      "source_local_modified": false,
+      "adaptation": "Use the new public entry in standalone snapshot resume commands."
+    },
+    {
+      "source": "arisctl/reviews.py",
+      "destination": "vendor/aris/arisctl/reviews.py",
+      "source_sha256": "2233be4706e6efcc963ab8efa3ae93c3c1f6bcfa7b3a8d37499c272e073b3849",
+      "destination_sha256": "2233be4706e6efcc963ab8efa3ae93c3c1f6bcfa7b3a8d37499c272e073b3849",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "arisctl/state.py",
+      "destination": "vendor/aris/arisctl/state.py",
+      "source_sha256": "03b8cbc5259cbbcb381d433cb41c836e4a2b11a8fa0ef9920edccaa41977c7dc",
+      "destination_sha256": "03b8cbc5259cbbcb381d433cb41c836e4a2b11a8fa0ef9920edccaa41977c7dc",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "arisctl/transcript_attestation.py",
+      "destination": "vendor/aris/arisctl/transcript_attestation.py",
+      "source_sha256": "d4bca7756ea449598a141d3957c98e06de70b4965442413fe76623252b649444",
+      "destination_sha256": "d4bca7756ea449598a141d3957c98e06de70b4965442413fe76623252b649444",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "arisctl/validators.py",
+      "destination": "vendor/aris/arisctl/validators.py",
+      "source_sha256": "a2660f22b50cafc25544e67636b5040c7e98740b501d1ae2e980c3415ebf947e",
+      "destination_sha256": "a2660f22b50cafc25544e67636b5040c7e98740b501d1ae2e980c3415ebf947e",
+      "source_local_modified": true,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "arisctl/workflow.py",
+      "destination": "vendor/aris/arisctl/workflow.py",
+      "source_sha256": "f24fa6322f02b8cd99c9b45d79ecbd5f9d1d56e2e9510990cdc1f92cd274fc8b",
+      "destination_sha256": "ba437e516d4645f4c99ffad295f91ee6854183a3860189848eb683fb581934b4",
+      "source_local_modified": false,
+      "adaptation": "Load the literature-only profile without the old scientific-core declaration."
+    },
+    {
+      "source": "LICENSE",
+      "destination": "vendor/aris/LICENSE",
+      "source_sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "destination_sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "pyproject.toml",
+      "destination": "vendor/aris/pyproject.toml",
+      "source_sha256": "8b1fb74b23471467958270addda5f4a96fcf129a46ee5cc999e400843e180482",
+      "destination_sha256": "8b1fb74b23471467958270addda5f4a96fcf129a46ee5cc999e400843e180482",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/idea-discovery/SKILL.md",
+      "destination": "vendor/aris/skills/idea-discovery/SKILL.md",
+      "source_sha256": "7b56560ab7776f124f4d9672bac9da6e24152c0615151d6978aa4526db362b9d",
+      "destination_sha256": "7b56560ab7776f124f4d9672bac9da6e24152c0615151d6978aa4526db362b9d",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/research-lit/SKILL.md",
+      "destination": "vendor/aris/skills/research-lit/SKILL.md",
+      "source_sha256": "8f7f5079a3e41bd05c6d660f8c3659d983a3ec9b5454bb1e241a2373dd0afff7",
+      "destination_sha256": "8f7f5079a3e41bd05c6d660f8c3659d983a3ec9b5454bb1e241a2373dd0afff7",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/research-refine/SKILL.md",
+      "destination": "vendor/aris/skills/research-refine/SKILL.md",
+      "source_sha256": "4c8cef2ddc717fb65baab1adf395d3153b2d05c2531fa791e53820a0570754a7",
+      "destination_sha256": "4c8cef2ddc717fb65baab1adf395d3153b2d05c2531fa791e53820a0570754a7",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/acceptance-gate.md",
+      "destination": "vendor/aris/skills/shared-references/acceptance-gate.md",
+      "source_sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "destination_sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/fan-out-pattern.md",
+      "destination": "vendor/aris/skills/shared-references/fan-out-pattern.md",
+      "source_sha256": "c4481b9a8ab48e4b4a04c304964e624e980534ffa17a37e835d51c8bc8ac2bc0",
+      "destination_sha256": "c4481b9a8ab48e4b4a04c304964e624e980534ffa17a37e835d51c8bc8ac2bc0",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/idea-output-composition.md",
+      "destination": "vendor/aris/skills/shared-references/idea-output-composition.md",
+      "source_sha256": "90b9d5b002cc8cf02ca4e6b5b503b197c53113b0b0eb7b7accb4c9303868cf80",
+      "destination_sha256": "90b9d5b002cc8cf02ca4e6b5b503b197c53113b0b0eb7b7accb4c9303868cf80",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/idea-workflow.yaml",
+      "destination": "vendor/aris/skills/shared-references/idea-workflow.yaml",
+      "source_sha256": "120376b6e35cd88eafb1e42f599831ae721fd6f06e6e390fa5eb3c63ebae91f3",
+      "destination_sha256": "120376b6e35cd88eafb1e42f599831ae721fd6f06e6e390fa5eb3c63ebae91f3",
+      "source_local_modified": true,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/method-design-contract.md",
+      "destination": "vendor/aris/skills/shared-references/method-design-contract.md",
+      "source_sha256": "97ee0cd7f93ea89eb094af519126549020f21e2be063f730164aa4b2d55098fc",
+      "destination_sha256": "97ee0cd7f93ea89eb094af519126549020f21e2be063f730164aa4b2d55098fc",
+      "source_local_modified": true,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/method-refinement-protocol.md",
+      "destination": "vendor/aris/skills/shared-references/method-refinement-protocol.md",
+      "source_sha256": "52ccf94a09faefab20fbb8ab42ef1f110c832854ab38824a9cebd3049f6f17a3",
+      "destination_sha256": "52ccf94a09faefab20fbb8ab42ef1f110c832854ab38824a9cebd3049f6f17a3",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/output-composition.md",
+      "destination": "vendor/aris/skills/shared-references/output-composition.md",
+      "source_sha256": "8de81708431091a21a641be5f91db7958bb9f9a4b85d4fe03f52c5b496948651",
+      "destination_sha256": "8de81708431091a21a641be5f91db7958bb9f9a4b85d4fe03f52c5b496948651",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/output-language.md",
+      "destination": "vendor/aris/skills/shared-references/output-language.md",
+      "source_sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "destination_sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/output-manifest.md",
+      "destination": "vendor/aris/skills/shared-references/output-manifest.md",
+      "source_sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "destination_sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/output-versioning.md",
+      "destination": "vendor/aris/skills/shared-references/output-versioning.md",
+      "source_sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "destination_sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/problem-discovery-contract.md",
+      "destination": "vendor/aris/skills/shared-references/problem-discovery-contract.md",
+      "source_sha256": "30292e54d8c0eb2a5ad0e127a2e224ca5601d80768e5fd8789f550b3d0fd45a5",
+      "destination_sha256": "30292e54d8c0eb2a5ad0e127a2e224ca5601d80768e5fd8789f550b3d0fd45a5",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/problem-necessity-contract.md",
+      "destination": "vendor/aris/skills/shared-references/problem-necessity-contract.md",
+      "source_sha256": "11f20a995ea1b3c980120119a23adac97a261365ee364b20be6279fb21816944",
+      "destination_sha256": "11f20a995ea1b3c980120119a23adac97a261365ee364b20be6279fb21816944",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/reference-paper-intake.md",
+      "destination": "vendor/aris/skills/shared-references/reference-paper-intake.md",
+      "source_sha256": "9ac50c4d476a751d212995c70147547468313a814b1c7bbf888661b67dab0f6d",
+      "destination_sha256": "9ac50c4d476a751d212995c70147547468313a814b1c7bbf888661b67dab0f6d",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/review-tracing.md",
+      "destination": "vendor/aris/skills/shared-references/review-tracing.md",
+      "source_sha256": "bd56b53afd3d9c7023dc08ed2a23054e280624aca4c93d2a0bec4d1463107aa7",
+      "destination_sha256": "bd56b53afd3d9c7023dc08ed2a23054e280624aca4c93d2a0bec4d1463107aa7",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/reviewer-independence.md",
+      "destination": "vendor/aris/skills/shared-references/reviewer-independence.md",
+      "source_sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "destination_sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/root-cause-analysis-contract.md",
+      "destination": "vendor/aris/skills/shared-references/root-cause-analysis-contract.md",
+      "source_sha256": "4f3252be75149bb69da4e1c8e12193ed037bfa0f04a741c8280f5145703e78ce",
+      "destination_sha256": "4f3252be75149bb69da4e1c8e12193ed037bfa0f04a741c8280f5145703e78ce",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/shared-references/source-admission-policy.md",
+      "destination": "vendor/aris/skills/shared-references/source-admission-policy.md",
+      "source_sha256": "856fd4e661cfb8f230a4b853db231b13ea9dc3c3a3f96973d1110fb17d8783e5",
+      "destination_sha256": "856fd4e661cfb8f230a4b853db231b13ea9dc3c3a3f96973d1110fb17d8783e5",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/idea-discovery/SKILL.md",
+      "destination": "vendor/aris/skills/skills-codex/idea-discovery/SKILL.md",
+      "source_sha256": "03d5e474bdb2346fd166691b541b55e0ad4237d4dee0b8bbf7e2519130d09a33",
+      "destination_sha256": "03d5e474bdb2346fd166691b541b55e0ad4237d4dee0b8bbf7e2519130d09a33",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/research-lit/SKILL.md",
+      "destination": "vendor/aris/skills/skills-codex/research-lit/SKILL.md",
+      "source_sha256": "763facbf8021defce954184dd543968ac2c8753ad3e147d99a09c442599d3eff",
+      "destination_sha256": "763facbf8021defce954184dd543968ac2c8753ad3e147d99a09c442599d3eff",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/research-refine/SKILL.md",
+      "destination": "vendor/aris/skills/skills-codex/research-refine/SKILL.md",
+      "source_sha256": "ae61f1a13c5a4ba13bec1b0d5c7dde05c10e45967f96afc8284fe7027ddf3ee5",
+      "destination_sha256": "1016f2bd90e3102b45f2f30367d0516dbf49e6551ac2edef7f41ee713a946147",
+      "source_local_modified": false,
+      "adaptation": "Repair pre-existing template relative link."
+    },
+    {
+      "source": "skills/skills-codex/shared-references/acceptance-gate.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/acceptance-gate.md",
+      "source_sha256": "462726457f58e6317abf91fe409a5acb14227881041e30709be8f7e04eeaef8e",
+      "destination_sha256": "462726457f58e6317abf91fe409a5acb14227881041e30709be8f7e04eeaef8e",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/fan-out-pattern.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/fan-out-pattern.md",
+      "source_sha256": "20be6529b818da13acedc0a208ec651d3993afbbf9b4a2c0a0be6b4dae22e27e",
+      "destination_sha256": "20be6529b818da13acedc0a208ec651d3993afbbf9b4a2c0a0be6b4dae22e27e",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/idea-output-composition.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/idea-output-composition.md",
+      "source_sha256": "90b9d5b002cc8cf02ca4e6b5b503b197c53113b0b0eb7b7accb4c9303868cf80",
+      "destination_sha256": "90b9d5b002cc8cf02ca4e6b5b503b197c53113b0b0eb7b7accb4c9303868cf80",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/idea-workflow.yaml",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/idea-workflow.yaml",
+      "source_sha256": "120376b6e35cd88eafb1e42f599831ae721fd6f06e6e390fa5eb3c63ebae91f3",
+      "destination_sha256": "120376b6e35cd88eafb1e42f599831ae721fd6f06e6e390fa5eb3c63ebae91f3",
+      "source_local_modified": true,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/method-design-contract.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/method-design-contract.md",
+      "source_sha256": "97ee0cd7f93ea89eb094af519126549020f21e2be063f730164aa4b2d55098fc",
+      "destination_sha256": "97ee0cd7f93ea89eb094af519126549020f21e2be063f730164aa4b2d55098fc",
+      "source_local_modified": true,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/method-refinement-protocol.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/method-refinement-protocol.md",
+      "source_sha256": "52ccf94a09faefab20fbb8ab42ef1f110c832854ab38824a9cebd3049f6f17a3",
+      "destination_sha256": "52ccf94a09faefab20fbb8ab42ef1f110c832854ab38824a9cebd3049f6f17a3",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/output-composition.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/output-composition.md",
+      "source_sha256": "79a72c7ea02102c460ae3ad55853c21a4054b9df93f377c29dd34555e6d3c3a7",
+      "destination_sha256": "79a72c7ea02102c460ae3ad55853c21a4054b9df93f377c29dd34555e6d3c3a7",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/output-language.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/output-language.md",
+      "source_sha256": "0f1447579bd7a2195fd4a074be70ae6345b5c368f1a70d327e89748bf5a378f9",
+      "destination_sha256": "0f1447579bd7a2195fd4a074be70ae6345b5c368f1a70d327e89748bf5a378f9",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/output-manifest.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/output-manifest.md",
+      "source_sha256": "edf0d6bf598f086d4dd2d8849223e2589e0f442aed6e8acd74d3fc9c8296fab2",
+      "destination_sha256": "edf0d6bf598f086d4dd2d8849223e2589e0f442aed6e8acd74d3fc9c8296fab2",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/output-versioning.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/output-versioning.md",
+      "source_sha256": "de8e7ac23069de6c5d0c482d4cef117dd5a543e00b57e2dc6c62560a457290c5",
+      "destination_sha256": "de8e7ac23069de6c5d0c482d4cef117dd5a543e00b57e2dc6c62560a457290c5",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/problem-discovery-contract.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/problem-discovery-contract.md",
+      "source_sha256": "30292e54d8c0eb2a5ad0e127a2e224ca5601d80768e5fd8789f550b3d0fd45a5",
+      "destination_sha256": "30292e54d8c0eb2a5ad0e127a2e224ca5601d80768e5fd8789f550b3d0fd45a5",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/problem-necessity-contract.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/problem-necessity-contract.md",
+      "source_sha256": "11f20a995ea1b3c980120119a23adac97a261365ee364b20be6279fb21816944",
+      "destination_sha256": "11f20a995ea1b3c980120119a23adac97a261365ee364b20be6279fb21816944",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/reference-paper-intake.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/reference-paper-intake.md",
+      "source_sha256": "9ac50c4d476a751d212995c70147547468313a814b1c7bbf888661b67dab0f6d",
+      "destination_sha256": "9ac50c4d476a751d212995c70147547468313a814b1c7bbf888661b67dab0f6d",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/review-tracing.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/review-tracing.md",
+      "source_sha256": "4f4936984391da87464b8e8bf6f7c984f3f186e8fdc42890d0ac999b5e2024dc",
+      "destination_sha256": "4f4936984391da87464b8e8bf6f7c984f3f186e8fdc42890d0ac999b5e2024dc",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/reviewer-independence.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/reviewer-independence.md",
+      "source_sha256": "d66262e74d5f69b1614007bf744b9f2220aeb35d1f36ec66196dfe32b0438530",
+      "destination_sha256": "d66262e74d5f69b1614007bf744b9f2220aeb35d1f36ec66196dfe32b0438530",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/root-cause-analysis-contract.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/root-cause-analysis-contract.md",
+      "source_sha256": "4f3252be75149bb69da4e1c8e12193ed037bfa0f04a741c8280f5145703e78ce",
+      "destination_sha256": "4f3252be75149bb69da4e1c8e12193ed037bfa0f04a741c8280f5145703e78ce",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/shared-references/source-admission-policy.md",
+      "destination": "vendor/aris/skills/skills-codex/shared-references/source-admission-policy.md",
+      "source_sha256": "856fd4e661cfb8f230a4b853db231b13ea9dc3c3a3f96973d1110fb17d8783e5",
+      "destination_sha256": "856fd4e661cfb8f230a4b853db231b13ea9dc3c3a3f96973d1110fb17d8783e5",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "templates/METHOD_PROPOSAL_TEMPLATE.md",
+      "destination": "vendor/aris/templates/METHOD_PROPOSAL_TEMPLATE.md",
+      "source_sha256": "7ae935cf644b86176e82363c1a0f6377d96158221049023f5470bc0cd71ee194",
+      "destination_sha256": "7ae935cf644b86176e82363c1a0f6377d96158221049023f5470bc0cd71ee194",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "templates/SOURCE_ADMISSION_POLICY_TEMPLATE.yaml",
+      "destination": "vendor/aris/templates/SOURCE_ADMISSION_POLICY_TEMPLATE.yaml",
+      "source_sha256": "6617b9d55ae36238cb1143ebb0281e72688a91925f0755a4a4a1bda18c5d8ca9",
+      "destination_sha256": "6617b9d55ae36238cb1143ebb0281e72688a91925f0755a4a4a1bda18c5d8ca9",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/__init__.py",
+      "destination": "vendor/aris/tests/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "destination_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/conftest.py",
+      "destination": "vendor/aris/tests/conftest.py",
+      "source_sha256": "cc05b36c8b78dd92bcd4305e5bd3b8ef8586944ddea12a726e3088a9fa2752d3",
+      "destination_sha256": "cc05b36c8b78dd92bcd4305e5bd3b8ef8586944ddea12a726e3088a9fa2752d3",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_aris_cli_output.py",
+      "destination": "vendor/aris/tests/test_aris_cli_output.py",
+      "source_sha256": "d4ed2ea37c11445b498c67c1ff335dfa14bdf7dc89e30ac24e8a8480bc03aa9e",
+      "destination_sha256": "d4ed2ea37c11445b498c67c1ff335dfa14bdf7dc89e30ac24e8a8480bc03aa9e",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_aris_controller.py",
+      "destination": "vendor/aris/tests/test_aris_controller.py",
+      "source_sha256": "d32873200dfbc7b797dff0850533edf8bff27c1d43914276613e51c806de4e16",
+      "destination_sha256": "d32873200dfbc7b797dff0850533edf8bff27c1d43914276613e51c806de4e16",
+      "source_local_modified": true,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_batch4_final_method.py",
+      "destination": "vendor/aris/tests/test_batch4_final_method.py",
+      "source_sha256": "aa043d984d6313e2b62d101335d08b8bb1e18ceadc905a32429a16425da86e6d",
+      "destination_sha256": "aa043d984d6313e2b62d101335d08b8bb1e18ceadc905a32429a16425da86e6d",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_browser_ieee.py",
+      "destination": "vendor/aris/tests/test_browser_ieee.py",
+      "source_sha256": "36c4c84d54be71dc2ef4250c8575a3b5e374f5ddb447bc0f0385808c26ee2ae7",
+      "destination_sha256": "36c4c84d54be71dc2ef4250c8575a3b5e374f5ddb447bc0f0385808c26ee2ae7",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_browser_scholar.py",
+      "destination": "vendor/aris/tests/test_browser_scholar.py",
+      "source_sha256": "ae8025a617b9f21bdaca951c02027ffeb43dad27025be1bc3b9022bcbf21f897",
+      "destination_sha256": "ae8025a617b9f21bdaca951c02027ffeb43dad27025be1bc3b9022bcbf21f897",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_field_map_audit_view.py",
+      "destination": "vendor/aris/tests/test_field_map_audit_view.py",
+      "source_sha256": "a7891d15ee87c4bb56de61f3d825d68c3af488203e5cff48f1f3af3a8c6772fe",
+      "destination_sha256": "a7891d15ee87c4bb56de61f3d825d68c3af488203e5cff48f1f3af3a8c6772fe",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_project_setup.py",
+      "destination": "vendor/aris/tests/test_project_setup.py",
+      "source_sha256": "a2ee04a760597310ec4a6a6ca908d044032a29eedc92efcf6320e6c1d85418f9",
+      "destination_sha256": "a2ee04a760597310ec4a6a6ca908d044032a29eedc92efcf6320e6c1d85418f9",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_provenance.py",
+      "destination": "vendor/aris/tests/test_provenance.py",
+      "source_sha256": "4739e07ec078543a1d5da745f49226c28aab7f43da7a4c527c55cd4c25a8c4b2",
+      "destination_sha256": "4739e07ec078543a1d5da745f49226c28aab7f43da7a4c527c55cd4c25a8c4b2",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_recovery_snapshot.py",
+      "destination": "vendor/aris/tests/test_recovery_snapshot.py",
+      "source_sha256": "1bbb7d7fe45863f93cc0b89082f2540b1c30c6e8aac30e32156dd6caf9c2ee54",
+      "destination_sha256": "1bbb7d7fe45863f93cc0b89082f2540b1c30c6e8aac30e32156dd6caf9c2ee54",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_research_lit_gateways.py",
+      "destination": "vendor/aris/tests/test_research_lit_gateways.py",
+      "source_sha256": "e022238b5fcdfa0774de2dd40ae0e35362b9ee1ae5c8a23620d073ca28879e34",
+      "destination_sha256": "e022238b5fcdfa0774de2dd40ae0e35362b9ee1ae5c8a23620d073ca28879e34",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_run_state.py",
+      "destination": "vendor/aris/tests/test_run_state.py",
+      "source_sha256": "a908f581ab90092f7c42bb6cfa2f3901219b48410c4db5fd84011635e8c4f6c2",
+      "destination_sha256": "a908f581ab90092f7c42bb6cfa2f3901219b48410c4db5fd84011635e8c4f6c2",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tests/test_transcript_attestation.py",
+      "destination": "vendor/aris/tests/test_transcript_attestation.py",
+      "source_sha256": "06ad4f4832e34d6b260ab6afe9069b0f66c8e7e95bb64524452f0b22fc7084cd",
+      "destination_sha256": "06ad4f4832e34d6b260ab6afe9069b0f66c8e7e95bb64524452f0b22fc7084cd",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tools/literature_coverage_audit.py",
+      "destination": "vendor/aris/tools/literature_coverage_audit.py",
+      "source_sha256": "f596d7bdf7752aa972bcaa58a14a60cd6c0e3a15a77544f4a402b5f09ce56520",
+      "destination_sha256": "f596d7bdf7752aa972bcaa58a14a60cd6c0e3a15a77544f4a402b5f09ce56520",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tools/provenance.py",
+      "destination": "vendor/aris/tools/provenance.py",
+      "source_sha256": "e063b46fee48db692662f407848f20a486148e89bac67682ff79295884f7ec6d",
+      "destination_sha256": "e063b46fee48db692662f407848f20a486148e89bac67682ff79295884f7ec6d",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "tools/run_state.py",
+      "destination": "vendor/aris/tools/run_state.py",
+      "source_sha256": "d8a4e5016affd7e44d71ea1e01cb79b3dca176dce2512e53577a4fff3c33ea7c",
+      "destination_sha256": "d8a4e5016affd7e44d71ea1e01cb79b3dca176dce2512e53577a4fff3c33ea7c",
+      "source_local_modified": true,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "templates/METHOD_PROPOSAL_TEMPLATE.md",
+      "destination": "vendor/aris/templates/METHOD_PROPOSAL_TEMPLATE.md",
+      "source_sha256": "7ae935cf644b86176e82363c1a0f6377d96158221049023f5470bc0cd71ee194",
+      "destination_sha256": "7ae935cf644b86176e82363c1a0f6377d96158221049023f5470bc0cd71ee194",
+      "source_local_modified": false,
+      "adaptation": "none; byte-preserved"
+    },
+    {
+      "source": "skills/skills-codex/research-lit/SKILL.md",
+      "destination": "skills/research-lit/SKILL.md",
+      "source_sha256": "763facbf8021defce954184dd543968ac2c8753ad3e147d99a09c442599d3eff",
+      "destination_sha256": "d2f84b153d1a4455151a22b201483e914d6fbb61e4629eb32aebe7722cc682e0",
+      "source_local_modified": false,
+      "adaptation": "Retain native literature scientific text; change entry/profile/references and inherit the field-map human audit view.",
+      "additional_source": {
+        "path": "skills/skills-codex/idea-discovery/SKILL.md",
+        "sha256": "03d5e474bdb2346fd166691b541b55e0ad4237d4dee0b8bbf7e2519130d09a33"
+      }
+    }
+  ],
+  "unresolved_local_links": [],
+  "date": "2026-10-05",
+  "basis_sha256": {
+    "科研Harness_新对话接力与长期规划依据_20261004.txt": "befb271893fbbbe16b2e90b4cad2b39cbdeb9bf95f3917b7752250aa36a2375f",
+    "科研Harness_基座与复用方案_20261004.md": "2aced02cc80eeb0391a5713fb5d2c02d9325a0fd15ff187a4ce1372818e80e3c"
+  },
+  "generated_profiles": [
+    {
+      "path": "vendor/aris/skills/shared-references/literature-workflow.yaml",
+      "sha256": "1eb7a7079e5ad2ca009411509c030c60595178db9cf03e346618d8fae5ee8f1e"
+    },
+    {
+      "path": "vendor/aris/skills/skills-codex/shared-references/literature-workflow.yaml",
+      "sha256": "1eb7a7079e5ad2ca009411509c030c60595178db9cf03e346618d8fae5ee8f1e"
+    }
+  ]
+}

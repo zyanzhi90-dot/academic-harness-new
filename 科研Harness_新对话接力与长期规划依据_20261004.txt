@@ -1,0 +1,346 @@
+科研 Harness：新对话接力与长期规划依据
+整理日期：2026-10-04
+用途：供新对话主力 AI 直接接手，依据已确认的科研思路重新分析项目，持续负责规划、给 Codex 提示词和验收。
+
+阅读起点
+用户通过讨论逐步明确了目标，随后重新分析并确认科研流程，形成以“完整保留现有研究现状调研模块”开头的最终版本；再要求据此对照自己的 Harness、ARS-Codex 和 Nature Skills，判断工程基座、可复用能力及最快实现路径，得到最新建议。
+新对话以这两份输出为主要起点，用用户核心原话核对原意。第一、二部分原样保存这三份文本；后文仅补齐任务、材料入口和实际状态。
+当前核心思路和真实实现已足以开展规划。更早资料按实际分析需要回查，材料中的科研或工程主张经分析、由用户确认后再作为新增要求纳入。
+
+一、用户核心要求与确认版科研流程
+
+1.1 确认版科研流程：原样全文
+
+**完整保留现有研究现状调研模块，重点改进找研究问题和方法设计。三者是反复迭代的过程，贡献检查与验证属于方法设计的一部分。**以下以你的原话为底稿，合并重复并整理顺序。
+
+**1．研究现状调研**
+
+现有研究现状调研模块做得不错，完整保留。Academic Research Suite 和 Nature Skill 中可能有值得借鉴的地方，后面再优化。
+
+调研要建立对领域的整体认识，搞清楚已有技术路线、为什么有效、解决到了什么程度，以及依赖的假设和局限。重要判断要能回查到具体论文内容，并区分论文明确结论、AI 的归纳和待验证猜想。
+
+找研究问题和设计方法时，仍可能需要针对某个方向继续调研，更新研究现状。
+
+**2．找出真正值得研究的问题**
+
+从领域研究现状出发，保留两条找问题的路径：
+
+- **领域公认的难题。**可以来自某一篇文章，最好是几篇文章反映的共性问题。
+- **尚未被明确提出的共性 failure。**从这个领域的应用本身入手，从第一性原理出发，结合多篇文章，发现现有方法存在的共性问题。
+
+真问题可能藏在文献冲突、解释缺口和边界条件里。这需要头脑风暴、质疑精神和苏格拉底式追问，不能只摘录论文已经写出的局限。
+
+Harness 最大的问题是过度防守：总觉得某个问题已有工作研究过，就避开它，不断降低研究问题的科学增量。**遇到强 prior，应继续追问它有没有问题、为什么仍存在这些问题，以及哪些痛点值得进一步研究。**
+
+研究问题可以随着认知深入不断优化，但不要偏离核心研究问题太多，导致问题过于抽象、过小或过大。
+
+**3．列出问题候选，由人工选择**
+
+列出一个或多个真正值得研究的问题，让人看清具体痛点、文献依据、现有方法的解决程度和进一步研究的价值。
+
+经人工审核、决定研究哪个问题之后，再进入方法设计。
+
+**4．围绕选定问题设计方法**
+
+锚定一条技术主线，这条主线可以随着认识和尝试而调整。
+
+优先从其他领域寻找可借鉴、可迁移的成熟方法，理解其作用机制，尝试直接复用、必要改造与融合；需要时自行设计。目标是**尝试、融合、改造出最适合本研究问题的完整技术路线**。
+
+不能把所有方法设计都限定为“从失败中找问题并改进”。RCA → Principle Search → Principle Competition 只适用于一类方法；顶级研究还存在 representation-first、formal-generalization、measurement-first、capability-composition 等形成模式。这些模式以后逐步吸收完善。
+
+**5．在方法设计中持续检查、验证贡献**
+
+紧扣研究问题和研究现状，分清发现的是本领域强 prior，还是其他领域可借鉴、可迁移的方法。
+
+- **如果本领域强 prior 已实质覆盖当前问题或拟议贡献，**就更新研究现状，回到找研究问题阶段，用苏格拉底式追问继续分析这个方法或这些方法有没有 failure、哪些痛点仍值得研究。不能为了避开已有工作，不断缩小科研增量。
+- **如果其他领域已有成熟方法，**应积极把它视为迁移机会，无需重复造轮子。优先尝试迁移，检查其机制能否解决本领域问题、需要什么改造，并通过理论或实验验证实际贡献。
+
+让 AI 根据文献持续挑想法的毛病，帮助研究问题和方法逐步成型；不把经验中的“前三个／前十个想法”或“三轮质疑”变成固定流程。
+
+**当前建设目标**
+
+先得到一个**能稳定产出顶会顶刊级方法的可运行 Harness**。这一轮优先解决过度防守、混淆本领域强 prior 与外域可迁移方法、研究问题漂移，以及方法设计受单一路径限制的问题。后续再不断优化完善，无需先建立覆盖所有科研创新模式的完备理论。
+
+1.2 用户核心原话：原样全文
+
+你先等会儿，我记得我的研究现状调研这个模块做的不错，这一部分可以完整的保留，后面或许academic research suite和nature skill有可以借鉴的地方，不过可以后面再优化，然后我重点关注的还是找研究问题和方法设计模块，不过需要说明的是，这是一个迭代过程，比如找研究问题的过程中仍可能需要重新针对某个方向继续调研研究现状。
+
+总之，我把我的理解告诉你，而且这是我多次思考后的结果，每次可能都对之前有修改，或者之前写的对，后面就不提了，总之就是前面几段是比较新的：“harness最大的问题是过度防守，总是觉得该问题已有工作研究过所以避开他，降低我们的研究问题的科学增量，但应该用苏格拉底式的追问法，遇到强prior要继续追问他有没有什么问题，继续改进。而且虽然科研问题可以随着认知深入不断优化，但是不要想着想着就偏离核心研究问题太多，导致研究问题太抽象或过于小/大，
+
+而且ai经常分不清什么是本领域强prior和其他领域的可借鉴/迁移的方法，应该严扣研究问题和研究现状进行判断，如果方法属于其他领域，应该感到非常兴奋，因为无需重复造轮子，迁移改造即可
+
+Harness的方法设计思路！我觉得这个非常好。
+从领域研究现状出发，列出真正值得研究的研究问题，这分为两种情况，一种是领域公认的难题，可以来自某一篇文章，最好是来自某几篇文章的共性问题，第二种是没人提的failure，但是从某几篇文章中提炼出的共性问题，而且这种问题必须是从这个领域的应用本身入手，从第一性原理出发，发现当前这个领域的方法存在某个共性问题，这可能需要头脑风暴，一点质疑精神以及苏格拉底式的追问方法，因为这个需要思考能力。然后，列出一个或多个研究问题，人工审核，研究哪个研究问题之后进入方法设计环节
+锚定一条主线，这个是可以变的，然后从其他领域迁移方法或者实在不行就自行设计方法，总之就是尝试、融合、改造出最适合本研究问题的技术路线，而且这一步有几个注意点，第一个是可能调研出一些可迁移方法， 需要搞清楚它是本领域的方法还是其他领域的方法，如果是其他领域的方法，那最好直接方法迁移过来，就有很强的创新性， 如果是本领域已有的方法，那也不要不断的缩小科研增量，导致研究问题最后变得抽象又没有任何意义，而是回到找研究问题的阶段，采用苏格拉底式的追问法，进一步不断的追问这个方法或这些方法有没有failure
+
+真问题藏在文献冲突、解释缺口和边界条件里。
+
+同工科过来人说句实话：idea这事别指望AI直接生成，它给的前十个基本都被人做过了。更好用的是反着来，把近三年文献喂给它，让它当面挑你想法的毛病，挑三轮idea自己就成型了。plus和business对个人没大区别，plus够用
+
+harness方法设计模块的方法论，通过逆向分析多篇顶会顶刊发现当前问题迁移的这种方法只适合于从失败中找问题并改进，但顶会顶刊在设计方法时还存在其他模式，我的想法是: 后面再改进，不断的优化完善harness，第一步是先得到一个能稳定产出顶会顶刊级方法的可运行 Harness
+而不是做一个“覆盖所有科研创新模式”的完备理论
+即:
+第一轮发现：你当前的 RCA → Principle Search → Principle Competition 只适用于一类方法，顶级研究还存在 representation-first、formal-generalization、measurement-first、capability-composition 等其他形成模式。”
+
+你先以我的原话为底稿，做必要整理，梳理一遍，谈谈你对整个流程每一步的理解
+
+另一个明确确认过的原话：
+
+验证贡献应该属于设计方法的一部分，换言之，验证贡献的时候很容易找到本领域prior或者非本领域prior，有前者则说明需要回退到找研究问题阶段，更新研究现状，然后用苏格拉底式追问法搞清楚到底什么痛点值得进一步研究，如果是后者，那就说明可以尝试迁移更成熟的方法解决本领域的问题。
+
+然后，文献调研 发现问题 设计方法都是要完成的
+
+二、最新基座与复用建议：原样全文
+
+这份建议是用户认可的规划起点；新对话需依据最新仓库复核具体范围和实现路径。其末尾实施提示词保留作为后续参考，新对话首轮任务见第三部分。
+其中旧 sandbox 链接是当时导出的本地路径；详细方案的持久定位见第四部分。
+
+**我的建议是：以你现有的 Harness 为基座，完整保留调研模块，集中重构问题发现与方法设计；从 ARS-Codex 和 Nature Skills 中选择性复用具体能力。**
+
+已核对当前版本：Harness `5faa38b`、ARS-Codex `52228e8`（3.23.0）、Nature `8488081`。本轮未修改仓库。
+
+**为什么这样最快、最合适**
+
+你的调研能力已有实际使用效果，后半段也已有证据、版本、反馈和执行能力。换成 ARS 或 Nature，仍要重新建设你最需要的机器人问题发现与算法设计流程，还要迁移已有成果。
+
+另外两套系统值得借鉴，但都不能直接承担你的完整目标：
+
+| 来源 | 具体吸收什么 | 怎样使用 |
+|---|---|---|
+| **现有 Harness** | 调研、领域地图、证据、增量检索、版本与反馈记录 | 保留为基座，修正后半段的科研规则 |
+| **ARS-Codex** | 前提追问、反例、替代解释、问题价值、跨域术语寻找 | 帮助 AI 深入分析问题和质疑强 prior |
+| **Nature Skills** | 论文洞见与设计的逆向分析、组件作用、假设与验证、工程评审 | 帮助形成完整方法，并检查贡献是否成立 |
+
+例如，ARS 原版 Socratic 模式主要**引导用户自己形成问题**，明确限制 AI 主动生成候选。这与你希望 AI 根据文献主动提炼问题不同，所以应复用它的追问方法，而不是照搬教学流程。[原文](https://github.com/Imbad0202/academic-research-skills-codex/blob/52228e8280dd1770e18ecfc3b1fdf16b13b58104/skills/academic-research-suite/ars/deep-research/agents/research_question_agent.md)
+
+Nature 的 Paper Card 则会分析“核心洞见怎样变成设计、每个组件为什么需要、什么证据支持它”，这一部分很适合用于学习成熟方法的形成过程。[原文](https://github.com/Yuan1z0825/nature-skills/blob/84880815fb37317b3766bff2c2abba395b8993c3/skills/nature-paper-card/static/core/workflow.md)
+
+**现有 Harness 最需要改的四处**
+
+1. **遇到强 prior 后继续追问。**现有规则已有共性 failure 和文献冲突分析，但还缺少明确的持续路径：查清最强方法的边界，追问仍值得研究的痛点，更新问题；不能只拒绝或缩小范围。
+2. **修正方法迁移规则。**问题契约把问题形成机制的同构要求延伸到了方法迁移，方法契约却说整体问题与根因无需同构；同时存在禁止复制源实现的绝对规则。应统一为检查方法作用机制与目标问题是否匹配，允许直接复用及必要改造。
+3. **取消抽象 Principle 的强制前置链。**当前必须先选择、测试并收敛 Principle，才能设计具体方法。应允许围绕具体技术主线同步分析、推导、查新和验证。
+4. **允许有实质收益的改进。**当前精炼规则只允许在最小实现暴露剩余缺口后加入机制。应保留避免无依据拼接的保障，同时允许围绕研究问题做有价值、可验证的改进。[方法契约](https://github.com/zyanzhi90-dot/harness/blob/5faa38b3e78af914386ffe5ca093976597ee6a35/ARIS/skills/shared-references/method-design-contract.md) · [精炼规则](https://github.com/zyanzhi90-dot/harness/blob/5faa38b3e78af914386ffe5ca093976597ee6a35/ARIS/skills/shared-references/method-refinement-protocol.md)
+
+**实施顺序**
+
+1. **固定保留部分。**保留完整调研模块及成果，明确后半段的改造边界。
+2. **完成一轮集中改造。**联动修改科研规则、流程、Controller、Validator 和实际加载入口。旧路径已经进入代码，只改提示词无法生效。
+3. **用已有失败案例实际运行。**检查过度防守、prior 混淆、问题漂移和抽象化是否改善，并审查是否形成完整技术路线。
+4. **用新问题检查迁移。**已有案例达到要求后，再检验新问题；之后才扩展其他创新模式和优化调研。
+
+验收要看**实际问题、方法、推导与验证结果**。规则加载成功、流程测试通过或模型打高分，都不能替代方法质量验收。
+
+完整依据与实施范围已整理为：
+
+[科研Harness_基座与复用方案_20261004.md](sandbox:/workspace/scratch/40ba190c2579/科研Harness_基座与复用方案_20261004.md)
+
+下一步给 Codex 的提示词：
+
+> 以用户已确认的科研思路和《科研Harness_基座与复用方案_20261004.md》为依据，核对最新仓库，在可回退分支实施首轮改造。以现有 Harness 为基座，完整保留调研模块及有效成果，重点重构问题发现与方法设计。
+>
+> 落实强 prior 后的持续追问、两类 prior 的区分与处置、核心问题的保持，以及围绕可调整技术主线的迁移、复用、改造和验证。取消抽象 Principle 收敛后才能设计具体方法的强制前置链，允许有依据且有实质收益的改进。
+>
+> 选择性复用 ARS 的追问、质疑与跨域寻找，以及 Nature 的机制逆向分析和工程验证检查。联动修改规则、流程、执行代码和所需适配，保留证据、版本及反馈保障。用已有调研与失败案例完成一次真实运行，原样记录首次产物和运行证据，分别报告工程可运行性、已知 failure 的改善和方法质量。完成本轮改造与案例验收后交付，暂不扩展外围能力或全部创新模式。
+
+三、新对话的任务与长期职责
+
+3.1 首轮任务
+依据第一部分的核心思路和第二部分的最新建议，对照当前 Harness、ARS-Codex 和 Nature Skills，重新梳理已有能力、实际差距、工程基座和复用方式，形成尽快达到目标的实施规划。
+按“当前目标需要什么 → 真实实现已经具备什么、哪里受阻 → 怎样保留、改造或复用”展开分析。现有规则与历史方案本身也是分析对象，是否有用取决于能否帮助实现当前核心思路。
+先完成只读梳理与规划，给出下一步实施提示词。项目已有调研成果与此前梳理可复用，相关事实回查实际产物、原始来源和当前实现。
+
+3.2 首轮交付
+- 当前项目能力与实际状态，并注明事实来源及尚未核对的部分。
+- 当前科研思路与实现之间的实质差距，说明保留或修改的理由。
+- 基座与复用判断，以及改造范围、推进顺序和验收依据。
+- 给 Codex 的下一步提示词，明确背景、目标、必要内容和约束。
+如发现更早资料中有值得新增的要求，说明来源、作用及与当前目标的关系，用准确、简洁的条列交给用户决定保留、剔除或修改。这是分析中需要时进行的补充判断。
+
+3.3 长期职责
+主力 AI 负责独立规划、给 Codex 提示词、验收真实改动和效果，并依据结果判断继续修改还是推进。
+规划说明具体问题、改变什么行为及预期收益。工程可运行性与科研效果分别判断，方法质量以实际问题、方法、推导和验证结果为依据。
+围绕当前阶段目标工作，根据实际证据更新受影响的部分。后续实施按用户当前指令推进。
+
+四、必读材料与定向回查入口
+
+4.1 阅读顺序与访问方式
+先完整阅读本文件第一、二部分，再读最新详细方案，随后按分析目标阅读三套仓库的实际入口与相关实现。
+下面列的是分析入口，代码和关联参考按实际执行关系追踪。旧资料、失败案例及完整文献库在需要查证事实或提炼经验时定向读取。
+资料库文件按准确文件名和完整路径定位；GitHub 文件按仓库相对路径定位。新会话重新取得文件，旧 sandbox 路径只作历史链接。材料不可访问时说明影响的具体判断，待取得原文再核实。
+
+4.2 最新详细方案：必读
+资料库路径：/优化已有harness/科研Harness_基座与复用方案_20261004.md
+作用：第二部分建议的详细依据，包括科学规则与代码关联、可复用内容、改造范围、实施和验收顺序，以及固定版本原文链接。
+地位：规划依据，结合当前仓库复核。
+
+4.3 仓库与本对话分析版本
+工程仓库：https://github.com/zyanzhi90-dot/harness
+分析版本：scientific-core，5faa38b3e78af914386ffe5ca093976597ee6a35。
+
+成熟参考：https://github.com/Imbad0202/academic-research-skills-codex
+分析版本：main，52228e8280dd1770e18ecfc3b1fdf16b13b58104，包版本 3.23.0。
+
+成熟参考：https://github.com/Yuan1z0825/nature-skills
+分析版本：main，84880815fb37317b3766bff2c2abba395b8993c3。
+
+项目成果与案例：https://github.com/zyanzhi90-dot/e2e
+分析版本：scientific-core，8fff5f3cbb1d47405f54888c0e92c61d08e31ced。
+
+这些 SHA 是此前判断的固定来源。新对话先核对最新分支和提交，再判断变化影响。固定原文链接的形式为：
+https://github.com/OWNER/REPO/blob/COMMIT/RELATIVE_PATH
+
+4.4 Harness：当前入口、科研规则与真实执行路径
+以下路径相对于 zyanzhi90-dot/harness。
+
+入口与模块职责：
+- ARIS/AGENTS.md
+- ARIS/skills/idea-discovery/SKILL.md
+- ARIS/skills/idea-creator/SKILL.md
+- ARIS/skills/research-lit/SKILL.md
+- ARIS/skills/research-refine/SKILL.md
+- ARIS/skills/novelty-check/SKILL.md
+用途：确定实际科研流程、调研保留范围及后半段的执行职责。
+
+科研与流程契约：
+- ARIS/skills/shared-references/problem-discovery-contract.md
+- ARIS/skills/shared-references/problem-necessity-contract.md
+- ARIS/skills/shared-references/root-cause-analysis-contract.md
+- ARIS/skills/shared-references/method-design-contract.md
+- ARIS/skills/shared-references/method-refinement-protocol.md
+- ARIS/skills/shared-references/idea-workflow.yaml
+- ARIS/skills/shared-references/source-admission-policy.md
+用途：对照核心思路，检查强 prior 的处置、研究问题保持、方法迁移、方法形成、精炼与验证，以及相关调研规则。
+共享文件同时包含调研和后半段规则，保留调研时按实际功能确定具体条款归属。
+
+真实执行与评审实现：
+- ARIS/arisctl/workflow.py
+- ARIS/arisctl/controller.py
+- ARIS/arisctl/validators.py
+- ARIS/arisctl/reviews.py
+用途：沿实际调用追踪相关状态、交接产物、评审规则和执行约束，判断科研规则怎样落实到正常运行。读取与本轮判断有关的函数、测试及依赖即可。
+
+当前适配入口：
+- ARIS/skills/skills-codex/README.md
+- ARIS/skills/skills-codex/ 下对应入口与 shared-references 镜像
+用途：确认实际加载哪份规则，以及需要联动的适配范围。
+
+历史资料入口：
+- harness-design-notes/README.md
+该目录说明将设计资料与历史记录同 ARIS 中的当前可执行规则区分。根据分析中具体问题再读取相应设计材料。
+
+4.5 ARS-Codex：问题追问、质疑与跨域寻找
+以下路径相对于 Imbad0202/academic-research-skills-codex。
+
+- README.md
+- skills/academic-research-suite/SKILL.md
+- skills/academic-research-suite/ars/deep-research/WORKFLOW.md
+- skills/academic-research-suite/ars/deep-research/agents/research_question_agent.md
+- skills/academic-research-suite/ars/deep-research/agents/socratic_mentor_agent.md
+- skills/academic-research-suite/ars/deep-research/agents/devils_advocate_agent.md
+- skills/academic-research-suite/ars/deep-research/agents/research_architect_agent.md
+- skills/academic-research-suite/ars/deep-research/references/interdisciplinary_bridges.md
+用途：分析可复用的追问、反例、替代解释、问题价值、范围保持和跨域寻找能力，以及适应当前目标所需的调整。
+
+4.6 Nature Skills：方法逆向分析与工程验证
+以下路径相对于 Yuan1z0825/nature-skills。
+
+- skills/nature-paper-card/SKILL.md
+- skills/nature-paper-card/static/core/workflow.md
+- skills/nature-paper-card/references/research-idea-gates.md
+- skills/nature-reviewer/references/domain-specific-review-gates.md，重点 Engineering
+- skills/nature-literature-pipeline/references/gap-analysis.md
+用途：分析论文洞见怎样形成设计、组件作用、假设与证据，以及工程评审能力。gap-analysis 用于核对其空白判断是否适合当前流程。
+
+4.7 项目状态与案例：核对进度或复测时读取
+以下路径相对于 zyanzhi90-dot/e2e。
+
+状态：
+- .aris/runs/impedance-control-landscape-e2e.json
+
+调研与来源：
+- idea-stage/ACTIVE_FIELD_MAP.md
+- idea-stage/EVIDENCE_REGISTRY.jsonl
+- idea-stage/LITERATURE_CORPUS.jsonl
+- idea-stage/SEARCH_LEDGER.jsonl
+
+问题与旧流程判断：
+- idea-stage/RESEARCH_CONTRACT.md
+- idea-stage/PROBLEM_EVIDENCE_CAPSULE.md
+- idea-stage/NECESSITY_CLOSURE.json
+- idea-stage/NECESSITY_VERDICT.json
+- idea-stage/ROOT_CAUSE_ANALYSIS.json
+- idea-stage/ROOT_CAUSE_ANALYSIS.md
+- idea-stage/ROOT_CAUSE_VERDICT.json
+
+方法与未完成案例：
+- idea-stage/METHOD_DESIGN_PACKET.json
+- idea-stage/METHOD_DESIGN.md
+- idea-stage/METHOD_SELECTION_JUSTIFICATION_R15.md
+- idea-stage/METHOD_SYNTHESIS_COMPLETE_R15.md
+- idea-stage/METHOD_NOVELTY_AUDIT_R15.md
+- R15_STRONGEST_PRIOR_FINAL_AUDIT_2026-09-07.txt
+进一步分析失败演变时，根据实际人工反馈定位有关稿件。
+
+4.8 更早资料：按需定位与筛选
+以下材料提供历史事实、来源导航和候选经验。是否采用其中的主张，由当前核心思路与实际需要决定；拟新增为要求的内容交给用户确认。
+
+资料库导航：
+- /科研Harness_项目内容与修订总梳理.md：此前项目内容、设计材料来源、要求修订和运行状态梳理。
+- /科研Harness_全部文件索引_20261003.md：定位文件和当时盘点边界。
+- /科研Harness_有效经验与要求_合并稿.md：追溯早期合并与来源时回查。
+- /科研Harness_仓库梳理_20261003.md：追溯旧盘点时回查。
+
+资料库原始经验：
+- /研究现状&找问题&创新方法设计经验.txt
+- /科研问题发现与创新方法设计方法论.txt
+- /科研ai harness修改/真实科研流程.txt
+- /顶会顶刊_Method_经验标尺_Reference_Distribution_v1_1_Audited(3).txt
+最后一份适用连续物理接触、软接触、力／阻抗控制等近领域。需要该领域经验参照时，再分析其内容和适用范围。
+
+同名文件定位注意：
+/真实科研流程.txt 是另一份短文件，与 /科研ai harness修改/真实科研流程.txt 内容不同；仓库中的同名文件也应分别核对。
+经验标尺的 (1)、(2)、(3) 三份此前核对为同一内容；无编号版本的开头有差异。使用时记录实际版本。
+
+仓库中的原始资料入口：
+- harness-design-notes/研究现状&找问题&创新方法设计经验.txt
+- harness-design-notes/科研问题发现与创新方法设计方法论.txt
+- harness-design-notes/真实科研流程.txt
+- harness-design-notes/方法设计模块重构/！重要文件被整合到本文件夹了/
+- harness-design-notes/方法设计模块重构/逆向分析结果/
+- harness-design-notes/方法设计模块重构/测试这套科研标准和流程能否设计出顶会顶刊方法.txt
+优先使用上面的总梳理、索引和目录说明定位与当前问题相关的原文。
+
+五、最少但必要的项目状态
+
+5.1 已完成的工作
+此前已做 harness 与 e2e 的文件盘点、项目内容及修订梳理，并形成第四部分所列报告。
+本对话又核对三套系统的相关规则与实现，形成最新基座与复用建议及详细方案。尚未按该方案实施仓库改造、安装 Skill 或运行三系统科研效果对照。
+当前基座建议有规则与实现依据，其改造效果仍待实际运行验收。
+
+5.2 既有科研案例
+此前记录显示，调研为 LANDSCAPE_ACCEPTED / SUFFICIENT，问题 v2 有人工接受记录，Necessity 与 RCA 有旧流程接受记录。
+方法设计多次退回；e2e 中有 R15 方法稿，运行停在 method_design / running，后续路线选择、测试收敛和最终方法接受未记录完成。
+这是此前总梳理及其引用材料中的状态，新对话回到当前运行记录核对。案例属于软接触扫描中的在线法／切向阻抗选择，用于诊断与验收 Harness 能力；实际案例路线由当前科学判断决定。
+
+5.3 重要定位与版本问题
+- R15 审计引用的 R15_Final_Method_FINAL_Frozen.txt 与 R15_Strongest_Prior_Research_Package_2026-09-07.txt，此前未在核对仓库中找到。需取得相应原文才能核对与仓库稿件的关系；审计结论为 INDETERMINATE — STAGE NOT COMPLETE。
+- ARIS/AGENTS.md 有旧 research-harness 地址，实际工作目标为用户指定的 zyanzhi90-dot/harness；接手时核对 remote。
+- reference-paper-analysis 中 12 个文件是六篇论文的两种文本导出；方法形成经验另外定位逆向分析材料。
+
+六、判断、沟通与持续接力方式
+
+6.1 依据与决策
+用户当前明确指令优先。第一部分是当前核心科研依据，第二部分是最新规划建议。科研要求、AI 建议、历史事实及待用户决定的补充分清标注。
+依据当前核心思路分析材料与实现的价值。更早内容在需要时筛选，有用的新增要求由用户确认后纳入；既有报告用于定位，结论回查实际来源。
+
+6.2 沟通与提示词
+中文优先，准确、简洁、清晰、朴素、专业。先给判断，再给必要依据；用条列清楚呈现需要用户决定的事项，解释必要时给简短例子。
+给 Codex 的提示词准确、完整表达当前任务，说明核心目标、必要内容、准则和约束。颗粒度对齐；具体执行细节由 AI 根据实际材料可靠拆解，以最短充分为准。
+
+6.3 持续记录
+保持当前有效要求、仓库版本与实际状态、用户决定、已验收工作、未解决问题和下一步。详细历史通过来源定位，记录随实际结果更新。
+
+新对话启动提示词
+
+请完整阅读这份接力文件，以第一部分确认的科研思路和第二部分最新建议为起点，阅读详细方案并对照 GitHub 当前仓库，重新分析 Harness 的已有能力、实际差距、基座和复用方式，规划怎样尽快达到目标。你是主力负责人，负责长期规划、给 Codex 提示词和验收。更早资料根据实际分析需要回查，有用的新增要求说明依据后交给我决定，再纳入有效要求。本轮先完成只读梳理与规划，并给出下一步实施提示词。

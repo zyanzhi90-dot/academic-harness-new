@@ -1,74 +1,49 @@
-# 第一步迁移前核对（2026-10-04）
+# 基座迁移依据与范围
 
-本文件记录已完成的只读核对。工程基座及调研迁移尚未完成，不能据此宣布第一步通过验收。
+两份 `20261004` 规划文件已完整读取并保留在项目根目录。以用户确认的科研思路和本轮明确指令为准：交付工程基座与可用调研入口，本轮不执行完整后半段改造或真实案例。
 
-## 已有工作与目标仓库
+## 仓库与实际来源
 
-- 新项目已有提交 `aa518efe7c67f728c7a3ae3690bcf564d7c4b271`。
-- 本地 `main` 与实际 remote 的 `refs/heads/main` 一致，核对时工作区干净。
-- 实际 remote：`git@github.com:zyanzhi90-dot/academic-harness-new.git`，对应用户指定的 GitHub 仓库。
-- 保留现有 `AGENTS.md`、Git 提交后自动推送 hook、换行规则和忽略规则。
+- 新仓库实际 remote：`git@github.com:zyanzhi90-dot/academic-harness-new.git`。
+- 开始时本地 `main` 与 remote 一致；保留 `aa518ef` 的自动提交／推送配置及 `67d08eb` 的有效依赖核对发现。
+- 旧项目：`D:\桌面\科研Agent Harness设计\ARIS`，分支 `scientific-core`，提交 `4212c84da80fac41a3433cf01859d955617888dc`。
+- 旧 remote：`git@github.com:zyanzhi90-dot/research-harness.git`；声明包 `aris-harness-controller` 版本 `0.2.0`。
+- 规划中的 Harness `5faa38b` 是历史分析版本，本轮按指定本地目录的实际代码复用。
+- 来源工作区有八个未提交文件，涉及 Controller、Validator、run_state、workflow、method contract 镜像及 Controller 测试。选用实际本地文件，保留已有有效实现；逐文件原始哈希及本地修改标记见 `REUSE_MANIFEST.json`，不将其冒称为纯提交内容。
 
-## 尚缺的必读依据
+旧项目仅作只读来源，未提交、推送或改写旧代码。旧科研案例及已接受成果保留在原目录；本轮未复制案例状态、运行案例或重新调研。
 
-用户要求先阅读以下两份文件，以用户确认的科研思路为准：
+## 实际依赖与组织
 
-- `科研Harness_新对话接力与长期规划依据_20261004.txt`
-- `科研Harness_基座与复用方案_20261004.md`
+运行时位于 `vendor/aris`，保持原 import 与资源相对位置。新入口 `python -m harness` 显式加载这份运行时及 `literature-workflow.yaml`。使用新源码的 editable 安装，可从独立研究目录调用，不依赖旧项目或旧 ARIS 安装。
 
-在新旧项目、桌面、用户文档和下载目录，以及扩展的可读文件路径检索中均未找到。部分系统目录无法访问。需要用户提供两份文件的实际完整路径或正文，才能核定迁移组织方式及两类问题发现路径的确切要求。
+| 保留范围 | 实际依赖与用途 |
+| --- | --- |
+| 全部 `arisctl` Python 模块 | CLI、Controller、状态、工作流、Validator、检索／全文 Gateway、Scholar／IEEE 浏览器适配、reviews、transcript attestation、recovery 的 import 闭包 |
+| 三个 `tools` 文件 | `run_state.py`、`provenance.py`、`literature_coverage_audit.py`；状态锁、来源、领域地图交接审计等共享依赖 |
+| `.codex` 运行层 | `project_setup.MANAGED_FILES` 对应配置、角色、hook 和规则；实际初始化需要复制 |
+| 调研 Skill 及引用闭包 | 原版与 Codex 镜像的 research-lit、来源策略及其引用契约；保持本地 Markdown 引用完整 |
+| 相关旧 Skill 资料 | idea-discovery 中的调研人类审计视图、research-refine 及引用文件，供现有回归和后续分析；旧后半段不作为当前执行要求 |
+| workflow 与模板 | 旧 workflow 两份镜像用于 kernel 回归；来源策略和方法模板保持链接完整；新 profile 只有 landscape |
+| 相关既有测试 | Controller、Gateway、浏览器、领域地图审计视图、项目配置、CLI、恢复、attestation、provenance、run_state，及 fixture import 闭包 |
+| 许可和元数据 | 原 MIT `LICENSE`、版权文本及 `pyproject.toml` 随复用代码保留 |
 
-## 旧项目的实际基线
+Controller 与 Validator 同时包含调研和旧后半段，拆函数会扩大改动并遗漏共享依赖，因此保留完整 kernel，在默认入口和工作流层切开。外部写作、图像、实验队列、通知、MCP 服务和全量旧 Skill 安装系统不属于本次调研运行闭包，未引入。
 
-- 来源目录：`D:\桌面\科研Agent Harness设计\ARIS`。
-- 来源分支：`scientific-core`。
-- 来源提交：`4212c84da80fac41a3433cf01859d955617888dc`。
-- 来源 remote：`git@github.com:zyanzhi90-dot/research-harness.git`。
-- 项目声明：`aris-harness-controller`，版本 `0.2.0`，Python `>=3.10`，直接依赖 `PyYAML>=6`。
-- 授权文件：旧项目 `LICENSE` 为 MIT，复用时须保留版权与许可文本。
+## 必要适配
 
-来源工作区存在未提交修改，不能将实际文件等同于上述提交：
+1. 新增 literature-only profile，复用原调研阶段、动作、角色、产物及预算；Loader、Controller 接受该内置 profile，原 profile 用于 kernel 回归。
+2. 新入口提供调研命令、按缺口更新及交接；覆盖接受后停在 LANDSCAPE_ACCEPTED，不启动旧后半段。保留的 scientific-core 状态字段标为 NOT_IMPLEMENTED。
+3. 同一 run 记录具体缺口、请求来源及可选上下文，复用查询、筛选、阅读、地图修订及覆盖复核。原 phase-scoped 增量代码也保留供后续适配；当前入口不要求旧 RCA／Principle anchors。
+4. CLI 可显式调用内置 profile。项目生成说明引用新 checkout 及有效要求，去除旧绝对目录依赖。迁移模块自带机制保留，没有额外建设安全架构。
+5. 安装到研究目录的 attestation hook 从已有运行层 manifest 找到新 vendor checkout，避免依赖旧 editable 安装；用隔离进程验证。
+6. 当前 `skills/research-lit/SKILL.md` 从旧 Codex 调研 Skill 派生，只改入口、profile、引用和当前科研边界，保留科学调研内容。
+7. 修复旧 Codex research-refine 镜像中已有的一个方法模板相对链接，并复制实际模板，以保证复用资料链接完整。
 
-```text
-arisctl/controller.py
-arisctl/validators.py
-skills/shared-references/idea-workflow.yaml
-skills/shared-references/method-design-contract.md
-skills/skills-codex/shared-references/idea-workflow.yaml
-skills/skills-codex/shared-references/method-design-contract.md
-tests/test_aris_controller.py
-tools/run_state.py
-```
+新有效要求明确两类问题路径、人工选择、强 prior 后持续追问、核心问题保持、具体技术主线与成熟方法复用，见 `SCIENTIFIC_REQUIREMENTS.md`。规则已写入当前入口及 AGENTS.md；完整问题／方法模块尚未实现。
 
-本轮截至此核对记录仅对旧项目执行只读操作。正式迁移时须记录实际选用文件的内容哈希，并注明是否包含上述本地修改。
+## 保留能力与验证边界
 
-## 已确认的依赖关系
+保留领域全景、方法族、假设／有效／失败矩阵、证据支持的发展脉络、未解决线索，以及 Corpus、Search Ledger、Evidence Registry、可回查阅读内容和主张定位。综述带动 Initial Map、正式 Primary 阅读、来源筛选、元数据核验、引文扩展、访问失败回退、覆盖补缺、地图历史及断点恢复沿原实现运行。
 
-| 能力或入口 | 实际依赖 | 对迁移的影响 |
-| --- | --- | --- |
-| `python -m arisctl` | `__main__`、Controller、工作流、状态、校验器、reviews、recovery、transcript_attestation、gateways | 仅复制 Skill 无法运行入口 |
-| 状态推进与断点继续 | `arisctl/state.py`、`tools/run_state.py`、`tools/provenance.py` | Controller 与通用状态工具须一起复用 |
-| 检索、元数据核验、全文访问 | `arisctl/gateways.py`、`browser_scholar.py`、`browser_ieee.py` | 浏览器适配为运行时依赖；外部服务与浏览器可用性须另行确认 |
-| 文献证据及来源追踪 | Gateway 事件记录、Corpus、Search Ledger、Evidence Registry、Evidence Card 校验 | 保留证据内容与事件之间的关联，不能只保留领域地图文本 |
-| 领域地图和覆盖判断 | `tools/literature_coverage_audit.py`、`arisctl/validators.py`、`coverage_reviewer` 配置 | 包含方法族、发展脉络、瓶颈、边界和未解决问题线索 |
-| 按需增量调研 | Controller 的 `incremental_literature_active`、阶段证据绑定、共享 Gateway 与 Registry | 旧入口依赖 scientific-core 阶段，不可遗漏；新入口适配须独立验证 |
-| 项目本地运行层 | `arisctl/project_setup.py` 中的 `MANAGED_FILES`、`.codex` 配置、角色、hook、规则 | 初始化会复制这些文件，均是隐含资源依赖 |
-| 调研科学规则 | 两份 `research-lit/SKILL.md` 与它们链接的 `source-admission-policy.md`、`problem-discovery-contract.md`、`fan-out-pattern.md` | 必须追踪相对链接及其后续引用，不能只复制主文档 |
-| 默认工作流 | `skills/shared-references/idea-workflow.yaml`、镜像文件、`arisctl/workflow.py` | 加载器强制要求完整 scientific-core 声明 |
-
-上述来自 Python import 和资源访问检查，尚未构成迁移后完整性验证。
-
-## 已确认需要处理的适配点
-
-1. Controller 构造函数只接受 checked-in canonical workflow；加载器要求完整 scientific-core 声明。新项目入口须保留调研功能，同时避免将旧后半段作为新科研设计的必经流程。
-2. `project_setup.py` 生成的项目说明硬编码旧 Harness 路径。复用后的运行不得继续依赖旧目录。
-3. 正式增量调研目前依赖旧 scientific-core 的 phase 与 upstream bindings。需依据新规划确定本轮可用的按需入口，以及后续问题发现／方法设计的接入契约。
-4. 现有代码混有调研与旧后半段逻辑。可保留复用模块自带机制；用户未要求额外建设旧式安全机制，也未要求清理所有旧机制。
-
-## 后续检查依据
-
-旧项目已有相关检查可用于迁移后验证：`test_aris_controller.py` 中的调研生命周期、来源策略、检索回退、全文读取、Evidence、覆盖与增量调研用例，以及 `test_research_lit_gateways.py`、`test_browser_scholar.py`、`test_browser_ieee.py`、`test_field_map_audit_view.py`、`test_project_setup.py`、`test_aris_cli_output.py`、`test_recovery_snapshot.py`。
-
-本轮尚未运行迁移后的测试，没有执行新的文献调研或科研案例。外部检索服务、浏览器访问、实际 reader/reviewer 运行及科研质量不能用只读依赖分析替代验证。
-
-收到两份规划文件后继续：核定有效科研要求 → 确定完整复用闭包 → 迁移及必要适配 → 验证入口、依赖、调研生命周期与增量入口 → 交付使用说明、迁移清单、检查结果和下一步接口需求 → 提交同步并停止验收。
+检查结果见 `CHECK_RESULTS.md`。本轮 fixture／mock 测试验证工程链路与迁移完整性；真实外部服务、Codex native reader／reviewer 生命周期、实际领域地图质量和后半段科研效果仍需实际运行确认，不能据此宣称已稳定产出顶会顶刊方法。

@@ -10,6 +10,12 @@ __pycache__/
 *.py[cod]
 .venv/
 .pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Research-project runtime (kept with its own research project)
+.aris/
 
 # Windows metadata
 Thumbs.db

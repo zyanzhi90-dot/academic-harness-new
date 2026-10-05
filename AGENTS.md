@@ -23,10 +23,10 @@
 ## 修改范围
 
 - 当前科研要求见 `docs/SCIENTIFIC_REQUIREMENTS.md`，源自根目录两份 `20261004` 规划文件与用户当前指令。
-- 实际科研入口为 `python -m harness`；当前只实现领域调研、按缺口更新和调研交接，在 `LANDSCAPE_ACCEPTED` 停止。
+- 实际科研入口为 `python -m harness`；`lit` 保留完整调研并在 `LANDSCAPE_ACCEPTED` 停止，`science begin` 接入同一 run 的问题／方法科学循环。实际安装 Skill 位于研究目录 `.agents/skills`。
 - 研究现状、问题发现与方法设计需反复迭代；贡献检查与验证贯穿方法设计。两类问题路径、人工选择、强 prior 后追问、核心问题保持及成熟方法复用以有效要求为准。
-- `vendor/aris` 的旧后半段规则是复用材料，不是新设计的必经流程；新问题／方法模块尚未实现。
-- ARS-Codex 与 Nature Skills 后续选择性接入统一流程。本轮不运行科研案例或新的文献调研。
+- `vendor/aris` 的旧后半段规则是复用材料，不是新设计的必经流程；新的科学核心通过 `research-workflow.yaml`、ScientificController、Validator 和 scientific_reviewer 执行，无强制 Principle 前置链。
+- ARS-Codex 与 Nature Skills 已选择性接入统一契约与 Skill，来源及适配见 `docs/CAPABILITY_REUSE.json`。人工选择／确认只能记录人明确决定。本轮不运行科研案例或新的文献调研。
 
 - 按用户明确指定的步骤执行，保持修改最小且完整。
 - 旧 Harness 用于参考；对新项目的操作只在新目录中执行。

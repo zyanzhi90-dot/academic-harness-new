@@ -14,6 +14,7 @@ MANAGED_FILES = (
     (".codex/hooks.json", "hooks.json"),
     (".codex/agents/paper_reader.toml", "agents/paper_reader.toml"),
     (".codex/agents/coverage_reviewer.toml", "agents/coverage_reviewer.toml"),
+    (".codex/agents/scientific_reviewer.toml", "agents/scientific_reviewer.toml"),
     (
         ".codex/agents/independent_problem_reviewer.toml",
         "agents/independent_problem_reviewer.toml",
@@ -49,6 +50,26 @@ REQUIRED_PROJECT_HOOK_TRUST = (
     ("SubagentStop", "Recording ARIS subagent provenance"),
     ("Stop", "Recording ARIS subagent provenance"),
 )
+
+
+def _skill_files():
+    checkout = Path(__file__).resolve().parents[3]
+    for name in ("research-lit", "research-cycle"):
+        directory = checkout / "skills" / name
+        for source in sorted(directory.rglob("*.md")):
+            yield source, Path(".agents/skills") / name / source.relative_to(directory)
+
+
+def _skill_bytes(source: Path) -> bytes:
+    # Internal references are copied with the Skill; checkout references remain
+    # anchored to their actual source rather than the research directory.
+    content = source.read_text(encoding="utf-8")
+    def link(match):
+        target = match.group(1)
+        if target.startswith("../../"):
+            return "](" + (source.parent / target).resolve().as_posix() + ")"
+        return match.group(0)
+    return re.sub(r"\]\(([^)]+)\)", link, content).encode("utf-8")
 
 
 def _hook_trust_instruction() -> str:
@@ -127,6 +148,13 @@ def verify_formal_native_subagent_runtime(
                 f"formal project managed .codex layer is missing or stale: {target_key}"
             )
 
+    skill_records = {item["path"]: item["sha256"] for item in manifest.get("managed_skills", [])}
+    for source, relative in _skill_files():
+        expected = hashlib.sha256(_skill_bytes(source)).hexdigest()
+        target = project / relative
+        if skill_records.get(relative.as_posix()) != expected or not target.is_file() or _sha256(target) != expected:
+            raise ProjectRuntimeError(f"formal project managed Skill is missing or stale: {relative}")
+
     try:
         hooks = json.loads((layer / "hooks.json").read_text(encoding="utf-8"))
         config = (layer / "config.toml").read_text(encoding="utf-8")
@@ -174,6 +202,11 @@ def install_project_codex_layer(root: str | Path, *, literature_only: bool = Fal
             "Controller layer explicitly instead of overwriting user configuration"
         )
     records = []
+    skills = list(_skill_files())
+    if not manifest.exists():
+        for _, relative in skills:
+            if (project / relative).exists():
+                raise ValueError(f"project already has an unmanaged Skill: {relative}")
     for source_relative, target_relative in MANAGED_FILES:
         source = repo / source_relative
         target = target_layer / target_relative
@@ -183,12 +216,19 @@ def install_project_codex_layer(root: str | Path, *, literature_only: bool = Fal
         records.append(
             {"path": str(Path(".codex") / target_relative), "sha256": digest}
         )
+    skill_records = []
+    for source, relative in skills:
+        target = project / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(_skill_bytes(source))
+        skill_records.append({"path": relative.as_posix(), "sha256": _sha256(target), "source": str(source)})
     manifest.write_text(
         json.dumps(
             {
                 "schema_version": 1,
                 "source_repo": str(repo),
                 "managed_files": records,
+                "managed_skills": skill_records,
             },
             ensure_ascii=False,
             indent=2,
@@ -203,9 +243,17 @@ def install_project_codex_layer(root: str | Path, *, literature_only: bool = Fal
                 "- Use `python -m harness lit` for the literature lifecycle.\n"
                 "- Follow the current scientific requirements in the source checkout's "
                 f"`docs/SCIENTIFIC_REQUIREMENTS.md`: {repo.parents[1]}.\n"
-                "- The only implemented phase is landscape; stop at LANDSCAPE_ACCEPTED.\n"
-                "- Problem discovery and method design are not implemented yet. "
-                "Do not advance the archived RCA/Principle workflow.\n"
+                "- Load `.agents/skills/research-lit/SKILL.md` for literature work. "
+                "Standalone literature stops at LANDSCAPE_ACCEPTED. To continue, load "
+                "`.agents/skills/research-cycle/SKILL.md` and use `python -m harness science begin`. "
+                "The unified cycle does not require the archived RCA/Principle chain.\n"
+                "- Prefer fresh configured scientific_reviewer with the live science review-handoff. "
+                "When configured roles are unavailable, use its native_generic_compat task unchanged "
+                "in a fresh native child (fork_turns=none); require the natural completion Hook, "
+                "complete original snapshots and no child tools. Main cannot author a verdict. "
+                "Problem selection and method confirmation require explicit human decisions through "
+                "`python -m harness science human-select-problem` and "
+                "`python -m harness science human-confirm-method`, from this directory without --root.\n"
                 "- Main plans queries and synthesizes the map. Use paper_reader and "
                 "coverage_reviewer only when authorized by the Controller.\n"
                 "- Reuse the same map, corpus, ledger and Evidence Registry for updates.\n"

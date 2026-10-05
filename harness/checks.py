@@ -10,7 +10,7 @@ import re
 
 from . import REPOSITORY_ROOT, VENDOR_ROOT
 from arisctl.project_setup import MANAGED_FILES
-from arisctl.workflow import load_workflow, literature_workflow_path
+from arisctl.workflow import load_workflow, literature_workflow_path, research_workflow_path
 
 
 def check_foundation() -> dict:
@@ -19,6 +19,8 @@ def check_foundation() -> dict:
     records = list(manifest["files"])
     records.extend({"destination": item["path"], "destination_sha256": item["sha256"]}
                    for item in manifest["generated_profiles"])
+    records.extend({"destination": item["path"], "destination_sha256": item["sha256"]}
+                   for item in manifest.get("generated_scientific_files", []))
     records.extend({"destination": path, "destination_sha256": digest}
                    for path, digest in manifest["basis_sha256"].items())
     for record in records:
@@ -38,6 +40,7 @@ def check_foundation() -> dict:
             errors.append(f"missing project runtime resource: {source}")
     markdown = [VENDOR_ROOT / item["source"] for item in manifest["files"] if item["destination"].startswith("vendor/") and item["source"].endswith(".md")]
     markdown.append(REPOSITORY_ROOT / "skills/research-lit/SKILL.md")
+    markdown.extend((REPOSITORY_ROOT / "skills/research-cycle").rglob("*.md"))
     for path in markdown:
         for link in re.findall(r"\]\(([^)]+)\)", path.read_text(encoding="utf-8")):
             if re.match(r"^(?:https?://|#|mailto:|app:|sandbox:)", link):
@@ -49,11 +52,15 @@ def check_foundation() -> dict:
     mirror = VENDOR_ROOT / "skills/skills-codex/shared-references/literature-workflow.yaml"
     if mirror.read_bytes() != literature_workflow_path().read_bytes():
         errors.append("literature workflow mirror differs")
+    research = load_workflow(research_workflow_path())
+    if (VENDOR_ROOT / "skills/skills-codex/shared-references/research-workflow.yaml").read_bytes() != research_workflow_path().read_bytes():
+        errors.append("research workflow mirror differs")
     return {
         "ok": not errors,
         "reused_files": len(manifest["files"]),
         "runtime_modules": len(modules),
         "workflow_id": workflow["workflow_id"],
+        "research_workflow_id": research["workflow_id"],
         "phases": [phase["phase"] for phase in workflow["phases"]],
         "errors": errors,
         "scope": "offline source, import and resource checks; no live research executed",

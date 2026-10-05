@@ -395,13 +395,14 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def main(argv: list[str] | None = None, *, workflow_path: str | Path | None = None) -> int:
+def main(argv: list[str] | None = None, *, workflow_path: str | Path | None = None,
+         controller_type=ARISController) -> int:
     parser = build_parser()
     parser.set_defaults(workflow_path=workflow_path)
     args = parser.parse_args(argv)
     try:
         if args.command == "start":
-            controller = ARISController.start(
+            controller = controller_type.start(
                 args.root,
                 args.run_id,
                 workflow_path=workflow_path,
@@ -418,7 +419,7 @@ def main(argv: list[str] | None = None, *, workflow_path: str | Path | None = No
             )
             result = controller.status()
         else:
-            controller = _controller(args)
+            controller = controller_type(args.root, args.run_id, workflow_path=workflow_path)
             if args.command == "migrate-workflow":
                 result = controller.migrate_workflow_if_compatible()
             elif args.command == "status":

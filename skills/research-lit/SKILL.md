@@ -8,9 +8,10 @@ allowed-tools: Read, Agent
 
 Research topic: $ARGUMENTS
 
-This entry implements literature cognition only. Stop at `LANDSCAPE_ACCEPTED`.
+This entry implements literature cognition. Standalone runs stop at `LANDSCAPE_ACCEPTED`;
+in a unified research cycle coverage acceptance returns to the saved scientific work.
 Use `python -m harness update-literature` for new, concrete knowledge gaps.
-Problem discovery and method design will use the current scientific requirements;
+Use the installed `research-cycle` Skill for problem discovery and method design;
 the archived RCA/Principle workflow is not their required path.
 
 ## Execution boundary

@@ -1,6 +1,6 @@
 # 基座迁移依据与范围
 
-两份 `20261004` 规划文件已完整读取并保留在项目根目录。以用户确认的科研思路和本轮明确指令为准：交付工程基座与可用调研入口，本轮不执行完整后半段改造或真实案例。
+两份 `20261004` 规划文件已完整读取并保留在项目根目录。下文先保留初次基座迁移与 14d7bac 入口验收记录；本轮科学核心接通范围见文末专节及 `SCIENTIFIC_CORE.md`，仍不运行真实案例。
 
 ## 仓库与实际来源
 
@@ -56,3 +56,15 @@ Controller 与 Validator 同时包含调研和旧后半段，拆函数会扩大�
 保留领域全景、方法族、假设／有效／失败矩阵、证据支持的发展脉络、未解决线索，以及 Corpus、Search Ledger、Evidence Registry、可回查阅读内容和主张定位。综述带动 Initial Map、正式 Primary 阅读、来源筛选、元数据核验、引文扩展、访问失败回退、覆盖补缺、地图历史及断点恢复沿原实现运行。
 
 检查结果见 `CHECK_RESULTS.md`。本轮 fixture／mock 测试验证工程链路与迁移完整性；真实外部服务、Codex native reader／reviewer 生命周期、实际领域地图质量和后半段科研效果仍需实际运行确认，不能据此宣称已稳定产出顶会顶刊方法。
+
+## 14d7bac 基线后的科学核心接通（2026-10-05）
+
+以上保留初次迁移与入口修复记录；当前科学模块已实现，现行边界见 `SCIENTIFIC_REQUIREMENTS.md`、`SCIENTIFIC_CORE.md` 和 `NEXT_INTERFACES.md`。本次没有重新迁移旧项目或复制科研案例。
+
+保留完整调研 profile、Gateway、阅读与地图契约；在同一 `_StateStore` 的 scientific_core 字段实现新 ScientificController。新 research-workflow 复用整个 landscape 声明，科学阶段另行声明，不调用旧后半段 mandatory Principle 链。已有 accepted standalone run 可原地采用新 profile，记录前后 workflow hash；地图、Registry、Ledger、Corpus、Evidence 和原覆盖判断保持。请求补充调研仍沿原查询／筛选／阅读／覆盖链执行，新增回调只保存和恢复问题／路线绑定。
+
+最小完整范围包含统一科研 Skill 与共享契约、具体科学产物 Validator、独立 scientific_reviewer、公开 science CLI、研究目录 Skill 安装、既有 Hook／prompt 规则适配、版本与反馈消费、交接及恢复入口。旧 idea-discovery／idea-creator／research-refine／novelty-check 及其旧模板保留为复用资料；新科学工作统一在 research-cycle 中承担这些职责，不把旧 Skill 安装成新主流程。
+
+ARS 与 Nature 按基座方案第五节固定原文版本、记录文件 SHA256，选择性适配追问、质疑、跨域资源寻找、逆向机制、组件／假设与工程验证；详见 `CAPABILITY_REUSE.json`。不照搬教学限制、固定轮次、评分、必须改造或零命中确认空白，也不安装两套完整 workflow。生成的科学文件与 profile 记录在 `REUSE_MANIFEST.json`，旧来源哈希保持，新增目的文件哈希区分记录。
+
+本轮使用临时合成研究目录，通过公开命令、实际安装的 Hook 和 Codex 原生命令规则解析验证循环；真实模型判断、UI 人工决定、实际科研案例与方法质量均未验证。完成检查、提交上传后停止等待负责人验收。

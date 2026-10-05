@@ -1,6 +1,6 @@
 # Academic Harness
 
-当前交付是工程基座和完整研究现状调研入口。支持领域地图、文献证据、来源追踪、断点继续和按知识缺口更新；问题发现与方法设计模块在下一步实现。有效科研要求见 [SCIENTIFIC_REQUIREMENTS.md](docs/SCIENTIFIC_REQUIREMENTS.md)。
+当前交付包含完整调研基座和统一科学核心：两类问题发现、人工选择、具体方法设计、持续贡献检查及验证反馈、补充调研返回、交接和恢复。有效科研要求见 [SCIENTIFIC_REQUIREMENTS.md](docs/SCIENTIFIC_REQUIREMENTS.md)，科学入口说明见 [SCIENTIFIC_CORE.md](docs/SCIENTIFIC_CORE.md)。工程接通已用合成数据验证，科研效果等待实际案例验收。
 
 ## 安装与检查
 
@@ -33,7 +33,7 @@ python -m harness --root "<研究目录>" lit allowed-agents "<run-id>"
 2. 提交查询计划，执行分层检索，核验身份并筛选候选。保留综述、高引用骨干、近期前沿、定向补缺、分页及引文扩展。
 3. 选择初始阅读集合，读取全文并形成 Evidence Cards；建立 Initial Map，再依据地图选择正式 Primary 集合。
 4. 根据证据修订同一份领域地图，由独立 coverage reviewer 判断覆盖；缺口继续进入调研循环。
-5. 覆盖及机械检查通过后停在 `LANDSCAPE_ACCEPTED`，可交接地图与证据。当前不会自动进入问题发现或方法设计。
+5. 覆盖及机械检查通过后 standalone 调研停在 `LANDSCAPE_ACCEPTED`，可交接地图与证据。用 `science begin` 接入科学核心；已在科学循环中的补充调研会返回原问题或方法工作。
 
 调研 Skill 保留从现有地图和结构化 Evidence 派生 `ACTIVE_FIELD_MAP_AUDIT.md` 的人类审计说明；该视图便于核对支持论文，不参与状态推进。恢复快照通过 `lit save-recovery` 保存，新快照记录新入口的继续运行命令。
 

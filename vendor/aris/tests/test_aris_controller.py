@@ -9337,6 +9337,7 @@ def test_codex_configuration_registers_all_declared_subagents_and_ui_prompt_rule
     assert agents == {
         "paper_reader",
         "coverage_reviewer",
+        "scientific_reviewer",
         "independent_problem_reviewer",
         "independent_novelty_reviewer",
         "independent_root_cause_reviewer",

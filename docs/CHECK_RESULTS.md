@@ -1,6 +1,6 @@
 # 工程检查结果
 
-检查日期：2026-10-05。使用合成数据、mock Gateway 和测试用 reader/reviewer receipt；没有执行真实文献调研、科研案例或物理实验。
+检查日期：2026-10-05。使用合成数据、mock Gateway 和测试用 reader/reviewer receipt；没有执行真实文献调研、科研案例或物理实验。以下先保留工程基座及 14d7bac 入口修复的历史记录；最新科学核心结果见文末专节。
 
 | 检查 | 实际结果 | 可支持的判断 |
 | --- | --- | --- |
@@ -51,3 +51,26 @@
 | `python -m harness check`、`pip check`、`compileall`、`git diff --check` | 全部通过 | 88 条复用文件记录、15 个运行模块、单一 landscape 阶段；目标哈希／资源闭包完整，依赖无冲突，代码可编译，差异无空白错误 |
 
 以上验证 Hook 的命令放行、原生规则的 `prompt` 决定和实际 CLI／Controller 交互。测试中的人工决定由合成 fixture 模拟，不证明真实 UI 已显示或已获得人工同意；`python3`／`py` 验证了 Hook 和规则前缀，实际执行的两种路线是当前虚拟环境 Python 与其控制台程序。Codex 活动研究目录是否加载最新配置、Hook 信任及逐次 UI 确认、真实 native reader／reviewer、外部检索和地图科学质量仍未验证，留给负责人复验。本轮完成后停止。
+
+## 14d7bac 后的统一科学核心验收（2026-10-05）
+
+本轮完整读取两份根目录规划、SCIENTIFIC_REQUIREMENTS、NEXT_INTERFACES，对照实际 Skill、执行代码及规划第五节的固定 ARS／Nature 来源实施。以下全部是工程验收：临时合成研究目录、mock 搜索／阅读和测试 reviewer receipt，无真实科研案例、调研或实验。
+
+| 检查 | 实际结果 | 支持的判断 |
+| --- | --- | --- |
+| `python -m pytest -q --tb=short --junitxml=.aris/checks/scientific-core-final.xml` | **438 passed**，0 failed，0 error，0 skipped，484.35 秒 | 基线 405 项和新增 33 项科学核心检查通过；旧角色清单测试补入 scientific_reviewer，其余旧 kernel 科学要求保持 |
+| 完整公开科学循环 | 通过 | 已接受 standalone run 原地采用新 profile，原地图／Evidence 保持；问题提交→独立 attestation→人工选择→直接复用的具体方法→独立评审→人工确认→交接，无 RCA／Principle 前置链 |
+| 安装目录交互 | 通过 | 公开命令先经过 hooks.json 所指的实际 PreToolUse，再运行实际模块／控制台进程；研究目录安装两份 Skill、角色和命令规则，自定义 AGENTS 保持；资源被改写时正式调度拒绝并回滚提交 |
+| 原生 `codex execpolicy check` | **16/16 prompt**，实际 prefixRuleMatch；安装 Hook 全部放行 | Python／python3／py／控制台的两项调研人工决定与两项科学人工决定均兼容；未覆盖规则的全局 --root 人工写法仍拒绝；不证明 UI 已确认 |
+| 两类问题与核心保持 | 通过 | 公认难题可用单篇；主动 COMMON_FAILURE 需多篇、应用和 first-principles；未选问题无法提交方法，关键问题改变需新人工选择和显式 scope flag |
+| prior 与返回 | 通过 | 外域 substantial 方法可直接复用，本领域 partial 不自动退缩；候选、方法、prior 独立记录及评审中的 in-field substantial 自动请求地图更新并回到问题发现，保持核心应用且重新人工选择 |
+| 理论／实验与反馈 | 通过 | 真正提交的合成结果绑定确切计划、路线、问题、主张和实际文件；理论结果支持对应推导；设计试验不能建立独立经验贡献，独立验证不能复用声明的评估单位／结果字节；改主张、机制、条件或结果文件不能沿用验证；结果及评审反馈必须被下一修订消费 |
+| 独立科学评审 | 通过 | 新配置角色的原始 payload／请求／输入哈希及一次性 receipt 接通；Main 改写 verdict 不接受。兼容路径复用原生 generic 机制及同一角色契约，完整原文快照校验；合成 child transcript、父会话伪装和不允许的工具分支覆盖。并未派遣真实模型 |
+| 补充调研、交接和恢复 | 通过 | 两轮问题补充及方法补充共用原地图和 Registry；补充结束返回绑定工作并消费反馈；暂停期间科学交接明确地图未重新接受；恢复保存科学阶段、问题／路线版本及新公开入口，参数顺序不会切回 standalone profile |
+| Skill quick_validate | 两份源码 Skill 及两份安装 Skill 通过 | frontmatter 和基础 Skill 格式有效；不替代实际模型加载／理解效果 |
+| `harness check`、`pip check`、compileall、`git diff --check` | 通过 | 两份 profile 镜像、来源／目的哈希、引用与资源闭包完整，依赖无冲突，可编译，无差异空白错误 |
+| 旧来源哈希与复用来源 | **88/88 原来源文件哈希保持**；固定 ARS／Nature **7 份原文**已回查和记录 SHA256 | 未修改旧项目；新规则为选择性适配，未执行两套完整 workflow。来源／理由及生成目的文件与原来源哈希分开记录 |
+
+机器摘要见 `SCIENTIFIC_VERIFICATION.json`，使用说明见 `SCIENTIFIC_CORE.md`，来源与适配见 `CAPABILITY_REUSE.json`。最终 console 专项补测在完整回归后把原模块确认步骤加强为实际 `academic-harness science human-confirm-method`，运行结果另记机器摘要；执行源码与完整回归时一致。
+
+尚未验证：真实 Codex 会话自动发现／加载项目 Skill 与角色配置、Hook 信任和逐次人工 UI 确认、真实 native child 生命周期及 generic 任务的实际上下文容量；真实外部来源可用性；已接受旧科研案例状态映射；真实问题价值、强 prior 分类与持续追问效果、机制／推导正确性、实际独立验证和稳定顶会顶刊方法产出。本轮 schema、hash、状态和 synthetic receipt 的通过不证明这些科研能力。未重做调研、未运行新案例、不修改旧项目。提交上传后停止等待负责人复验。

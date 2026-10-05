@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-05",
+  "baseline": "14d7bac85853c4b7fa278c562918779f6e733dec",
+  "scope": "Synthetic installed-project command/Hook interactions and offline checks; no live research, human UI or native model dispatch",
+  "full_pytest_command": "python -m pytest -q --tb=short --junitxml=.aris/checks/scientific-core-final.xml",
+  "full_pytest": {
+    "tests": "438",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "477.409"
+  },
+  "console_followup_command": "python -m pytest checks/test_scientific_cycle.py -k complete_public -q --tb=short --junitxml=.aris/checks/science-console-final.xml",
+  "console_followup": {
+    "tests": "1",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "9.757"
+  },
+  "native_execpolicy": [
+    {
+      "argv": [
+        "python",
+        "-m",
+        "harness",
+        "lit",
+        "human-approve",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "python",
+        "-m",
+        "harness",
+        "lit",
+        "request-source-policy-revision",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "python",
+        "-m",
+        "harness",
+        "science",
+        "human-select-problem",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "python",
+        "-m",
+        "harness",
+        "science",
+        "human-confirm-method",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "harness",
+        "lit",
+        "human-approve",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "harness",
+        "lit",
+        "request-source-policy-revision",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "harness",
+        "science",
+        "human-select-problem",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "harness",
+        "science",
+        "human-confirm-method",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "py",
+        "-m",
+        "harness",
+        "lit",
+        "human-approve",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "py",
+        "-m",
+        "harness",
+        "lit",
+        "request-source-policy-revision",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "py",
+        "-m",
+        "harness",
+        "science",
+        "human-select-problem",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "py",
+        "-m",
+        "harness",
+        "science",
+        "human-confirm-method",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "academic-harness",
+        "lit",
+        "human-approve",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "academic-harness",
+        "lit",
+        "request-source-policy-revision",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "academic-harness",
+        "science",
+        "human-select-problem",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    },
+    {
+      "argv": [
+        "academic-harness",
+        "science",
+        "human-confirm-method",
+        "synthetic-run"
+      ],
+      "installed_hook": "pass",
+      "decision": "prompt",
+      "matched_rules": true
+    }
+  ],
+  "skill_validation": {
+    "source_skills": 2,
+    "installed_skills": 2,
+    "result": "PASS"
+  },
+  "old_source_integrity": {
+    "files": 88,
+    "hash_mismatches": []
+  },
+  "scientific_sources": [
+    {
+      "path": "harness/scientific_cli.py",
+      "sha256": "2bcb858534553d8831bdc99e5a1950ae324aa4f7c67492a44f7f45834f8e8054",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "harness/scientific_controller.py",
+      "sha256": "9c792946f8d44a3df1402d563719ba186eff49490b6a4ab77f82b93076ce6f81",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "harness/scientific_validators.py",
+      "sha256": "914238897426c6b6604a16c69f711fe8e916c5a864c516276807049751c6bdd5",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "vendor/aris/.codex/agents/scientific_reviewer.toml",
+      "sha256": "4e46d07492b8a0e6c026343cb6a9542521f1087cc3caa0d351796fa82a91369a",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "skills/research-cycle/SKILL.md",
+      "sha256": "3cf30caf6476504aabccc92ba534d4f062001a443b8362b7896f36c40df26929",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "skills/research-cycle/references/capabilities.md",
+      "sha256": "faaa6d9a3daa5588a59da7ebfdc5d5f226e16f45ac3d29b3ed199aefc47e8fec",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "skills/research-cycle/references/research-contract.md",
+      "sha256": "cd6fec3fcb9c220edd324f3e0dfd67a0cabe273ccd2211d46871268b480efa89",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "skills/research-cycle/references/schemas.md",
+      "sha256": "c2a10719bceb6116b9d2a276bc5e58bda3d1ad57f8e400e93cccd899e5bef9c1",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    }
+  ],
+  "unverified": [
+    "real Codex Skill/config discovery and Hook trust",
+    "actual UI human approval",
+    "real native role and generic child lifecycle/context capacity",
+    "external source access",
+    "old case-state mapping",
+    "scientific prior judgment and important-pain discovery",
+    "actual mechanism/proof and independent experiments",
+    "stable top-conference/journal method effectiveness"
+  ]
+}

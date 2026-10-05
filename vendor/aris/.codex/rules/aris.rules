@@ -4,6 +4,26 @@
 # CLI never substitutes for Controller authorization or Hook provenance.
 
 # Human Gate commands must run outside the workspace sandbox and prompt every time.
+prefix_rule(
+    pattern = [["python", "python3", "py"], "-m", "harness", "science", "human-select-problem"],
+    decision = "prompt",
+    justification = "Confirm the human's reviewed problem choice and any material scope change.",
+)
+prefix_rule(
+    pattern = [["python", "python3", "py"], "-m", "harness", "science", "human-confirm-method"],
+    decision = "prompt",
+    justification = "Confirm the human's decision on this bounded method version.",
+)
+prefix_rule(
+    pattern = ["academic-harness", "science", "human-select-problem"],
+    decision = "prompt",
+    justification = "Confirm the human's reviewed problem choice and any material scope change.",
+)
+prefix_rule(
+    pattern = ["academic-harness", "science", "human-confirm-method"],
+    decision = "prompt",
+    justification = "Confirm the human's decision on this bounded method version.",
+)
 # Public literature entry: run from the active research directory. Keep global
 # --root options out of these commands so the exact prompt prefix applies.
 prefix_rule(

@@ -98,11 +98,13 @@ def save_recovery_snapshot(
             "note": "The copied .aris/runs State already exists; start loads it and does not create a new run.",
         },
     }
-    if (state.get("workflow") or {}).get("mode") == "literature_only":
+    if (state.get("workflow") or {}).get("mode") in {"literature_only", "research_cycle"}:
         manifest["resume"]["status_command"] = f"python -m harness lit status {run_id}"
         manifest["resume"]["start_command"] = (
             f"python -m harness lit start {run_id} --executor <current-executor>"
         )
+        if state["workflow"]["mode"] == "research_cycle":
+            manifest["resume"]["science_status_command"] = f"python -m harness science status {run_id}"
     (target / RECOVERY_MANIFEST).write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",

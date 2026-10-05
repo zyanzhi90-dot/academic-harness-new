@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "basis": "20261004 base plan section 5",
+  "reuse_kind": "selective reasoning adaptation; full original workflows not installed",
+  "sources": [
+    {
+      "source": "https://github.com/Imbad0202/academic-research-skills-codex/blob/52228e8280dd1770e18ecfc3b1fdf16b13b58104/skills/academic-research-suite/ars/deep-research/agents/research_question_agent.md",
+      "sha256": "c6b78bd8ba893975b3f8b134bc4793a5aab7249c3bd46d68cbfc1b45573daaf4",
+      "bytes": 10136,
+      "capability": "question premises and inherited scope",
+      "adaptation_reason": "Allow AI to propose candidates; omit FINER gates and classroom restrictions",
+      "destinations": [
+        "skills/research-cycle/references/research-contract.md",
+        "skills/research-cycle/references/capabilities.md",
+        "harness/scientific_validators.py",
+        "vendor/aris/.codex/agents/scientific_reviewer.toml"
+      ]
+    },
+    {
+      "source": "https://github.com/Imbad0202/academic-research-skills-codex/blob/52228e8280dd1770e18ecfc3b1fdf16b13b58104/skills/academic-research-suite/ars/deep-research/agents/socratic_mentor_agent.md",
+      "sha256": "7c841fe486dfb47ee19ba4d3a3a95c929929c1a96b7e0ff8b998e3f774fa66d2",
+      "bytes": 53607,
+      "capability": "premises, counterexamples, alternative explanations",
+      "adaptation_reason": "Use interrogation within candidates, not a separate teaching workflow",
+      "destinations": [
+        "skills/research-cycle/references/research-contract.md",
+        "skills/research-cycle/references/capabilities.md",
+        "harness/scientific_validators.py",
+        "vendor/aris/.codex/agents/scientific_reviewer.toml"
+      ]
+    },
+    {
+      "source": "https://github.com/Imbad0202/academic-research-skills-codex/blob/52228e8280dd1770e18ecfc3b1fdf16b13b58104/skills/academic-research-suite/ars/deep-research/agents/devils_advocate_agent.md",
+      "sha256": "568a72b6f2bf28ec9af156eb8f7c78c1bd061d837dd1251f50883d309d56e3c3",
+      "bytes": 11210,
+      "capability": "steelman and constructive skepticism",
+      "adaptation_reason": "Fresh scientific review and actionable feedback, no fixed rounds",
+      "destinations": [
+        "skills/research-cycle/references/research-contract.md",
+        "skills/research-cycle/references/capabilities.md",
+        "harness/scientific_validators.py",
+        "vendor/aris/.codex/agents/scientific_reviewer.toml"
+      ]
+    },
+    {
+      "source": "https://github.com/Imbad0202/academic-research-skills-codex/blob/52228e8280dd1770e18ecfc3b1fdf16b13b58104/skills/academic-research-suite/ars/deep-research/references/interdisciplinary_bridges.md",
+      "sha256": "a55b5a88f84504591828a8afc4c87214d43e4529a7d8201d88103a3c8735086f",
+      "bytes": 21430,
+      "capability": "cross-domain terminology and mechanism resources",
+      "adaptation_reason": "Allow direct reuse; judge mechanism/task fit rather than modification volume",
+      "destinations": [
+        "skills/research-cycle/references/research-contract.md",
+        "skills/research-cycle/references/capabilities.md",
+        "harness/scientific_validators.py",
+        "vendor/aris/.codex/agents/scientific_reviewer.toml"
+      ]
+    },
+    {
+      "source": "https://github.com/Yuan1z0825/nature-skills/blob/84880815fb37317b3766bff2c2abba395b8993c3/skills/nature-paper-card/static/core/workflow.md",
+      "sha256": "af48c36220f35cd6d9c49e1c748a0f7c696454feef10f1b5b87608301615a5dd",
+      "bytes": 5636,
+      "capability": "reverse mechanism and component analysis",
+      "adaptation_reason": "Bind complete method packets to shared evidence; omit full Paper Card output",
+      "destinations": [
+        "skills/research-cycle/references/research-contract.md",
+        "skills/research-cycle/references/capabilities.md",
+        "harness/scientific_validators.py",
+        "vendor/aris/.codex/agents/scientific_reviewer.toml"
+      ]
+    },
+    {
+      "source": "https://github.com/Yuan1z0825/nature-skills/blob/84880815fb37317b3766bff2c2abba395b8993c3/skills/nature-paper-card/references/research-idea-gates.md",
+      "sha256": "7eed78f2e65d1408d6e2902448cd05928f7d10e3a78799be2ebc1d81ac3849fd",
+      "bytes": 1204,
+      "capability": "falsifiable claim, comparison, change, failure boundary",
+      "adaptation_reason": "Use one science contract without importing six approval gates",
+      "destinations": [
+        "skills/research-cycle/references/research-contract.md",
+        "skills/research-cycle/references/capabilities.md",
+        "harness/scientific_validators.py",
+        "vendor/aris/.codex/agents/scientific_reviewer.toml"
+      ]
+    },
+    {
+      "source": "https://github.com/Yuan1z0825/nature-skills/blob/84880815fb37317b3766bff2c2abba395b8993c3/skills/nature-reviewer/references/domain-specific-review-gates.md",
+      "sha256": "394caa5c36b64bf32ba4059fd9bae926e280c4cf2d915705459d858a946c67a4",
+      "bytes": 10432,
+      "capability": "Engineering review checks",
+      "adaptation_reason": "Task-specific baselines, budgets, applicability and independent checks; omit editorial preferences",
+      "destinations": [
+        "skills/research-cycle/references/research-contract.md",
+        "skills/research-cycle/references/capabilities.md",
+        "harness/scientific_validators.py",
+        "vendor/aris/.codex/agents/scientific_reviewer.toml"
+      ]
+    }
+  ],
+  "excluded": [
+    "teaching-only non-generation rules",
+    "fixed rounds or score gates",
+    "mandatory alteration",
+    "zero-hit proves gap",
+    "parallel approval/evidence systems"
+  ]
+}

@@ -35,8 +35,8 @@ RCA、原理搜索和机制竞争按适用性作为工具使用。具体方法�
 
 ## 能力复用与当前实现边界
 
-ARS-Codex 后续选择性提供前提追问、建设性质疑、跨域术语寻找与范围继承。Nature Skills 后续选择性提供方法逆向分析、组件与假设分析、贡献和工程验证检查。将能力接入统一流程，不平行启动两套完整 workflow，不建立重复证据或批准状态。
+ARS-Codex 选择性提供前提追问、建设性质疑、跨域术语寻找与范围继承。Nature Skills 选择性提供方法逆向分析、组件与假设分析、贡献和工程验证检查。能力已接入统一科研 Skill、产物契约和独立评审要求，来源与适配理由见 `CAPABILITY_REUSE.json`；不平行启动两套完整 workflow，不建立重复证据或批准状态。
 
-本轮实现工程基座、完整调研入口、按缺口更新和调研交接。问题发现与方法设计的完整模块尚未实现。旧后半段代码和规则保存在 `vendor/aris`，用于依赖兼容、回归检查与后续分析；默认科研入口加载 `literature-workflow.yaml`，只含 `landscape`。
+基线 14d7bac 的工程基座、完整调研入口、按缺口更新和调研交接保留。本轮新增可执行的两类问题发现、人工选择与问题版本、具体方法与路线版本、贡献检查、理论／实验结果反馈、独立评审和补充调研返回。`python -m harness science` 使用 `research-workflow.yaml`，同一 run 共用原地图、Corpus、Ledger、Registry 和恢复机制。Standalone `lit` 仍使用 `literature-workflow.yaml` 并停在 `LANDSCAPE_ACCEPTED`；已有 accepted run 可通过 `science begin` 接入，原调研无需重做。旧后半段只作依赖兼容和回归资料，新循环不要求强制 RCA／Principle 前置链。
 
 复用模块自带机制可保留。本轮只做运行所需适配，不额外建设旧式安全机制，不修改旧项目、不重做调研、不运行新科研案例。交付后停止并交负责人验收。

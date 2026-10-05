@@ -37,3 +37,7 @@ config_file = "agents/independent_method_reviewer.toml"
 [agents.result_to_claim_reviewer]
 description = "Independently own the existing Controller-issued result-to-claim judgment."
 config_file = "agents/result_to_claim_reviewer.toml"
+
+[agents.scientific_reviewer]
+description = "Independently assess Controller-bound problem candidates or concrete method design in the current research cycle."
+config_file = "agents/scientific_reviewer.toml"

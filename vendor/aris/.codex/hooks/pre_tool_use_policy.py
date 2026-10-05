@@ -39,6 +39,7 @@ PROTECTED = (
     ".codex/agents/",
     ".codex/rules/",
     ".codex/hooks",
+    ".agents/skills/",
 )
 
 MUTATING_TOOLS = {"apply_patch", "edit", "write"}
@@ -55,7 +56,7 @@ PATCH_TARGET = re.compile(
 # Keep only direct calls that expose the Controller's write primitives outside
 # its public CLI/API boundary.  Protected-path writes below cover their files.
 CONTROL_BYPASS = re.compile(
-    r"(?i)(\bariscontroller\b|\barisctl\.controller\b|"
+    r"(?i)(\bariscontroller\b|\barisctl\.controller\b|\bscientificcontroller\b|\bharness\.scientific_controller\b|"
     r"run_state\.(?:set_status|accept|approve_human|mark_provisional)|"
     r"run_state\._save|_store\.mutate|"
     r"append_jsonl\s*\()"
@@ -110,7 +111,8 @@ def main() -> int:
     normalized = serialized_input.replace("\\", "/").lower()
     if re.match(
         r"^\s*(?:(?:python(?:3)?|py)\s+-m\s+harness|academic-harness)"
-        r"\s+lit\s+(?:human-approve|request-source-policy-revision)(?=\s|$)",
+        r"\s+(?:lit\s+(?:human-approve|request-source-policy-revision)|"
+        r"science\s+(?:human-select-problem|human-confirm-method))(?=\s|$)",
         command,
     ):
         # Match the installed prompt-rule prefixes. Human decisions run from
@@ -129,12 +131,15 @@ def main() -> int:
         "request-source-policy-revision", "request_source_policy_revision",
         "revise-problem", "revise_problem",
         "request-problem-revision", "request_problem_revision",
+        "human-select-problem", "human_select_problem",
+        "human-confirm-method", "human_confirm_method",
     )):
         return deny(
             "Human decisions must use the UI-reviewed CLI prefix: "
             "python -m harness lit human-approve or request-source-policy-revision "
-            "(or academic-harness lit), from the active research directory without "
-            "--root before lit. The legacy arisctl route remains supported."
+            "or science human-select-problem / human-confirm-method "
+            "(or academic-harness), from the active research directory without "
+            "--root before lit/science. The legacy arisctl route remains supported."
         )
     if CONTROL_BYPASS.search(serialized_input):
         return deny("Controller internals cannot be imported or scripted through agent tools.")

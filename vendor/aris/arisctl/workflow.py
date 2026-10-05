@@ -24,6 +24,10 @@ def literature_workflow_path() -> Path:
     return CANONICAL_WORKFLOW_PATH.with_name("literature-workflow.yaml").resolve()
 
 
+def research_workflow_path() -> Path:
+    return CANONICAL_WORKFLOW_PATH.with_name("research-workflow.yaml").resolve()
+
+
 REQUIRED_RESEARCH_STAGES = (
     "SOURCE_POLICY_DRAFTING",
     "WAITING_FOR_HUMAN",
@@ -55,11 +59,19 @@ def load_workflow(path: str | Path) -> dict[str, Any]:
         raise ValueError("research_lit.allowed_agents must cover every controller stage")
     if any(not isinstance(agents[stage], list) for stage in stages):
         raise ValueError("research_lit.allowed_agents values must be lists")
-    if workflow.get("mode") == "literature_only":
+    if workflow.get("mode") in {"literature_only", "research_cycle"}:
         if [item["phase"] for item in workflow["phases"]] != ["landscape"]:
             raise ValueError("literature-only workflow must contain only landscape")
         if "scientific_core" in workflow:
             raise ValueError("literature-only workflow cannot declare scientific_core")
+        if workflow.get("mode") == "research_cycle":
+            cycle = workflow.get("research_cycle") or {}
+            stages = cycle.get("allowed_actions") or {}
+            if set(stages) != {"NOT_STARTED", "PROBLEM_DISCOVERY", "PROBLEM_REVIEW", "PROBLEM_SELECTION",
+                               "METHOD_DESIGN", "METHOD_REVIEW", "METHOD_READY", "LITERATURE_UPDATE", "METHOD_CONFIRMED"}:
+                raise ValueError("research_cycle must declare all scientific stages")
+            if cycle.get("reviewer_role") != "scientific_reviewer" or cycle.get("problem_selection") != "explicit_human_command":
+                raise ValueError("research_cycle requires independent review and explicit human selection")
         budget = workflow.get("research_effort_budget") or {}
         if any(
             not isinstance(budget.get(key), int) or budget[key] <= 0

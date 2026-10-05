@@ -71,25 +71,25 @@
       "source": ".codex/config.toml",
       "destination": "vendor/aris/.codex/config.toml",
       "source_sha256": "efd250b68855b413c02e055caae392e908fbb1b4ab5bda84da27ad1c22f9228b",
-      "destination_sha256": "efd250b68855b413c02e055caae392e908fbb1b4ab5bda84da27ad1c22f9228b",
+      "destination_sha256": "ea4882cf7576e77bfb5c01e3fd360eeb6a5166fb4b26ac90b197ddedbf9da146",
       "source_local_modified": false,
-      "adaptation": "none; byte-preserved"
+      "adaptation": "none; byte-preserved 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": ".codex/hooks/pre_tool_use_policy.py",
       "destination": "vendor/aris/.codex/hooks/pre_tool_use_policy.py",
       "source_sha256": "88dceb2403611acd9b44d1dbf49b87a57e23eb9a54a0d580cda5fba95cfd2025",
-      "destination_sha256": "86a5e1251585cecd705d6a2349472788c5351e5292d0102a429c114ce765db29",
+      "destination_sha256": "0b2c4c0393fc47ffdf0f45f96f28ee4178583ec32dc8e3033d4d25f6e0fce5fc",
       "source_local_modified": false,
-      "adaptation": "Adapt installed PreToolUse to exact public literature human-command prompt prefixes; retain legacy routes and human semantics."
+      "adaptation": "Adapt installed PreToolUse to exact public literature human-command prompt prefixes; retain legacy routes and human semantics. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": ".codex/hooks/subagent_attestation.py",
       "destination": "vendor/aris/.codex/hooks/subagent_attestation.py",
       "source_sha256": "cbfdb89eba9275f8dc8225431818f3417136f28080f677694adc6c3b044651d3",
-      "destination_sha256": "09275bdb51196fda739153096752c2cf8bb2bd6ff3445cfe012b33950dd10667",
+      "destination_sha256": "c3632b1534236aadd4a2618d229c363bbcdb2ab88aad266d75745eb4b9f6b510",
       "source_local_modified": false,
-      "adaptation": "Resolve migrated runtime from installed project-layer manifest."
+      "adaptation": "Resolve migrated runtime from installed project-layer manifest. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": ".codex/hooks.json",
@@ -103,9 +103,9 @@
       "source": ".codex/rules/aris.rules",
       "destination": "vendor/aris/.codex/rules/aris.rules",
       "source_sha256": "e838e26b8156267c55ea0e2bed8f0be08b5ef5addb0cb71bd474716b89d6f8df",
-      "destination_sha256": "a10774831c7716a626568e10a85ea51b82b0ef76c725ca0d713b0b7b74768514",
+      "destination_sha256": "7d738101798413c06e460178398fa9f70a2f474bdcf5b09ea6182dda88aba7f7",
       "source_local_modified": false,
-      "adaptation": "Add per-command prompt rules for public module and console literature approval/revision prefixes; retain legacy rules."
+      "adaptation": "Add per-command prompt rules for public module and console literature approval/revision prefixes; retain legacy rules. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": "arisctl/__init__.py",
@@ -119,9 +119,9 @@
       "source": "arisctl/__main__.py",
       "destination": "vendor/aris/arisctl/__main__.py",
       "source_sha256": "c5e609f23734e34c05e98ba25a01d8ca4cf75a224795752421a1dba3f42d7eb4",
-      "destination_sha256": "1e28fe8cb1c100c180ed1c9d9cdc6db3f898dcb5938842d097bf1500f9e7fdfb",
+      "destination_sha256": "351f74029203e601b604e16ebf7cb55e102eb593da1e551986cdf260fe1bc181",
       "source_local_modified": false,
-      "adaptation": "Accept argv and selected built-in workflow from the new entry."
+      "adaptation": "Accept argv and selected built-in workflow from the new entry. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": "arisctl/browser_ieee.py",
@@ -143,9 +143,9 @@
       "source": "arisctl/controller.py",
       "destination": "vendor/aris/arisctl/controller.py",
       "source_sha256": "d923bbae218e6d17760d8a8e68719d77a5553339be78301f56e3e97ed7eb136b",
-      "destination_sha256": "2dd1dcb1705b8125d38321b9de0316f1ba2dff852757b14cf314a55895a9f861",
+      "destination_sha256": "ab948963465b85c99e5053f9ab09d08f99d1014f2ef0cc498174228c60855cf8",
       "source_local_modified": true,
-      "adaptation": "Allow built-in literature-only profile; stop at accepted landscape; reopen by concrete knowledge gaps."
+      "adaptation": "Allow built-in literature-only profile; stop at accepted landscape; reopen by concrete knowledge gaps. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": "arisctl/gateways.py",
@@ -159,17 +159,17 @@
       "source": "arisctl/project_setup.py",
       "destination": "vendor/aris/arisctl/project_setup.py",
       "source_sha256": "34ce95774e7c35b2492f0b3949db482256bddbf3b5acd678960afc5a2e3afd29",
-      "destination_sha256": "659c16cc921017bcb32196339adb665651f0dc6adde18f5c91656685c8f47e54",
+      "destination_sha256": "4f2ceb609614985df5d6176dc12f18bc9a97127826061ad4e3f87e27c8aac64f",
       "source_local_modified": false,
-      "adaptation": "Generate current standalone instructions and remove old absolute path dependency; document public human-command prefixes and explicit human confirmation."
+      "adaptation": "Generate current standalone instructions and remove old absolute path dependency; document public human-command prefixes and explicit human confirmation. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": "arisctl/recovery.py",
       "destination": "vendor/aris/arisctl/recovery.py",
       "source_sha256": "ef8e06df6727711ba55ff59c438e40982eddb92b139e6437312746d913e5dfcb",
-      "destination_sha256": "22626b677037c26c35753308a240d9b76f6d71ac14949d0603faae351454b8e3",
+      "destination_sha256": "65d175a0f021a259843d4c555c86d084370ef65b8829e6a1860553505787496a",
       "source_local_modified": false,
-      "adaptation": "Use the new public entry in standalone snapshot resume commands."
+      "adaptation": "Use the new public entry in standalone snapshot resume commands. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": "arisctl/reviews.py",
@@ -207,9 +207,9 @@
       "source": "arisctl/workflow.py",
       "destination": "vendor/aris/arisctl/workflow.py",
       "source_sha256": "f24fa6322f02b8cd99c9b45d79ecbd5f9d1d56e2e9510990cdc1f92cd274fc8b",
-      "destination_sha256": "ba437e516d4645f4c99ffad295f91ee6854183a3860189848eb683fb581934b4",
+      "destination_sha256": "86f5a6593884567719985bd117e810c9db96b407173a40acc1b44bc1e62ae925",
       "source_local_modified": false,
-      "adaptation": "Load the literature-only profile without the old scientific-core declaration."
+      "adaptation": "Load the literature-only profile without the old scientific-core declaration. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": "LICENSE",
@@ -591,9 +591,9 @@
       "source": "tests/test_aris_controller.py",
       "destination": "vendor/aris/tests/test_aris_controller.py",
       "source_sha256": "d32873200dfbc7b797dff0850533edf8bff27c1d43914276613e51c806de4e16",
-      "destination_sha256": "d32873200dfbc7b797dff0850533edf8bff27c1d43914276613e51c806de4e16",
+      "destination_sha256": "8bfe6c7a74d607320ee55f7250efc3b2c71658879587622e920428bda264c06b",
       "source_local_modified": true,
-      "adaptation": "none; byte-preserved"
+      "adaptation": "none; byte-preserved 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained."
     },
     {
       "source": "tests/test_batch4_final_method.py",
@@ -711,9 +711,9 @@
       "source": "skills/skills-codex/research-lit/SKILL.md",
       "destination": "skills/research-lit/SKILL.md",
       "source_sha256": "763facbf8021defce954184dd543968ac2c8753ad3e147d99a09c442599d3eff",
-      "destination_sha256": "3cab480425a4e11358399056738ba4335ceaa7ec1aaccbe396cc8070b9886bde",
+      "destination_sha256": "9520aa14007a6177dfccc142bd436f80b0918fdb9dbe427404e7de57190dcfa4",
       "source_local_modified": false,
-      "adaptation": "Retain native literature scientific text; change entry/profile/references and inherit the field-map human audit view; document explicit human approval/revision commands and confirmation.",
+      "adaptation": "Retain native literature scientific text; change entry/profile/references and inherit the field-map human audit view; document explicit human approval/revision commands and confirmation. 2026-10-05: shared scientific cycle, installed Skills/reviewer and public command compatibility; original source hash retained.",
       "additional_source": {
         "path": "skills/skills-codex/idea-discovery/SKILL.md",
         "sha256": "03d5e474bdb2346fd166691b541b55e0ad4237d4dee0b8bbf7e2519130d09a33"
@@ -734,6 +734,59 @@
     {
       "path": "vendor/aris/skills/skills-codex/shared-references/literature-workflow.yaml",
       "sha256": "1eb7a7079e5ad2ca009411509c030c60595178db9cf03e346618d8fae5ee8f1e"
+    },
+    {
+      "path": "vendor/aris/skills/shared-references/research-workflow.yaml",
+      "sha256": "69636eb6226fa6cf8e64f6928c70e1bb7336179fff54237f64e49649554b69e5",
+      "basis": "retained literature profile plus unified scientific cycle"
+    },
+    {
+      "path": "vendor/aris/skills/skills-codex/shared-references/research-workflow.yaml",
+      "sha256": "69636eb6226fa6cf8e64f6928c70e1bb7336179fff54237f64e49649554b69e5",
+      "basis": "retained literature profile plus unified scientific cycle"
     }
-  ]
+  ],
+  "generated_scientific_files": [
+    {
+      "path": "harness/scientific_cli.py",
+      "sha256": "2bcb858534553d8831bdc99e5a1950ae324aa4f7c67492a44f7f45834f8e8054",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "harness/scientific_controller.py",
+      "sha256": "9c792946f8d44a3df1402d563719ba186eff49490b6a4ab77f82b93076ce6f81",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "harness/scientific_validators.py",
+      "sha256": "914238897426c6b6604a16c69f711fe8e916c5a864c516276807049751c6bdd5",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "vendor/aris/.codex/agents/scientific_reviewer.toml",
+      "sha256": "4e46d07492b8a0e6c026343cb6a9542521f1087cc3caa0d351796fa82a91369a",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "skills/research-cycle/SKILL.md",
+      "sha256": "3cf30caf6476504aabccc92ba534d4f062001a443b8362b7896f36c40df26929",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "skills/research-cycle/references/capabilities.md",
+      "sha256": "faaa6d9a3daa5588a59da7ebfdc5d5f226e16f45ac3d29b3ed199aefc47e8fec",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "skills/research-cycle/references/research-contract.md",
+      "sha256": "cd6fec3fcb9c220edd324f3e0dfd67a0cabe273ccd2211d46871268b480efa89",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    },
+    {
+      "path": "skills/research-cycle/references/schemas.md",
+      "sha256": "c2a10719bceb6116b9d2a276bc5e58bda3d1ad57f8e400e93cccd899e5bef9c1",
+      "basis": "20261004 plans section 5 and current task; adaptations cited in docs/CAPABILITY_REUSE.json"
+    }
+  ],
+  "scientific_baseline": "14d7bac85853c4b7fa278c562918779f6e733dec"
 }

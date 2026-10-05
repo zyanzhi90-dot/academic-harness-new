@@ -61,7 +61,7 @@ from .validators import (
     validate_markdown_review_verdict_artifact,
     validate_source_admission_policy,
 )
-from .workflow import canonical_workflow_path, literature_workflow_path, load_workflow
+from .workflow import canonical_workflow_path, literature_workflow_path, research_workflow_path, load_workflow
 
 
 class ControllerError(RuntimeError):
@@ -204,7 +204,7 @@ class ARISController:
         self.run_id = run_id
         canonical = canonical_workflow_path()
         requested = Path(workflow_path).resolve() if workflow_path is not None else canonical
-        if requested not in {canonical, literature_workflow_path()}:
+        if requested not in {canonical, literature_workflow_path(), research_workflow_path()}:
             raise ControllerError(
                 "formal runs must use the checked-in canonical idea-workflow.yaml"
             )
@@ -231,7 +231,7 @@ class ARISController:
         try:
             install_project_codex_layer(
                 controller.root,
-                literature_only=controller.workflow.get("mode") == "literature_only",
+                literature_only=controller.workflow.get("mode") in {"literature_only", "research_cycle"},
             )
         except ValueError as exc:
             raise ControllerError(str(exc)) from exc
@@ -812,7 +812,7 @@ class ARISController:
         self, gaps: list[str], *, requested_by: str, context: dict[str, Any] | None = None
     ) -> dict[str, Any]:
         """Reopen this landscape for concrete gaps without entering the old core."""
-        if self.workflow.get("mode") != "literature_only":
+        if self.workflow.get("mode") not in {"literature_only", "research_cycle"}:
             raise ControllerError("standalone literature update requires literature-only workflow")
         if requested_by not in {"field_cognition", "problem_discovery", "method_design"}:
             raise ControllerError("unknown literature update requester")
@@ -822,28 +822,36 @@ class ARISController:
         if not gaps or (context is not None and not isinstance(context, dict)):
             raise ControllerError("literature update requires non-empty gaps and an object context")
         with self._store.mutate() as state:
-            research = self._require_stage(state, "LANDSCAPE_ACCEPTED")
-            for name in ("source_admission_policy", "active_field_map", "coverage_review"):
-                self._assert_artifact_current(research, name)
-            research.setdefault("literature_update_requests", []).append({
-                "request_id": uuid.uuid4().hex,
-                "requested_at": now(),
-                "requested_by": requested_by,
-                "gaps": gaps,
-                "context": deepcopy(context or {}),
-                "field_map_sha256": research["accepted_artifacts"]["active_field_map"]["sha256"],
-            })
-            research["required_coverage_gaps"] = gaps
-            research["current_stage"] = "QUERY_PLANNING"
-            research["waiting_for"] = None
-            research["approval_request"] = None
-            research["coverage_review_request"] = None
-            research["last_coverage_review_decision"] = None
-            research["active_reading_session"] = None
-            landscape = run_state._find_phase(state, "landscape")
-            landscape["status"] = "running"
-            landscape["acceptance_status"] = "pending"
+            self._apply_literature_update(state, gaps, requested_by, context)
             return state
+
+    def _apply_literature_update(self, state, gaps, requested_by, context):
+        """Shared update operation, also used by scientific return transactions."""
+        research = self._require_stage(state, "LANDSCAPE_ACCEPTED")
+        for name in ("source_admission_policy", "active_field_map", "coverage_review"):
+            self._assert_artifact_current(research, name)
+        context = self._on_literature_update(state, gaps, requested_by, context)
+        research.setdefault("literature_update_requests", []).append({
+            "request_id": uuid.uuid4().hex, "requested_at": now(), "requested_by": requested_by,
+            "gaps": gaps, "context": deepcopy(context or {}),
+            "field_map_sha256": research["accepted_artifacts"]["active_field_map"]["sha256"],
+        })
+        research["required_coverage_gaps"] = gaps
+        research["current_stage"] = "QUERY_PLANNING"
+        research["waiting_for"] = None
+        research["approval_request"] = None
+        research["coverage_review_request"] = None
+        research["last_coverage_review_decision"] = None
+        research["active_reading_session"] = None
+        landscape = run_state._find_phase(state, "landscape")
+        landscape["status"] = "running"
+        landscape["acceptance_status"] = "pending"
+
+    def _on_literature_update(self, state, gaps, requested_by, context):
+        return context
+
+    def _on_landscape_accepted(self, state):
+        """Extension point inside the existing coverage acceptance transaction."""
 
     def _build_validation_handoff(self, state: dict[str, Any]) -> dict[str, Any]:
         """Build the stable, current artifact binding for a user validation."""
@@ -10337,12 +10345,13 @@ class ARISController:
                     "updated": now(),
                 }
             )
-            if self.workflow.get("mode") == "literature_only":
+            if self.workflow.get("mode") in {"literature_only", "research_cycle"}:
                 research["current_stage"] = "LANDSCAPE_ACCEPTED"
                 research["waiting_for"] = None
                 research["coverage_review_request"] = None
                 research["approval_request"] = None
                 self._record_validation(research, "landscape", "PASS")
+                self._on_landscape_accepted(state)
                 return state
             research["current_stage"] = "WAITING_FOR_HUMAN"
             research["waiting_for"] = "scope_human_approval"

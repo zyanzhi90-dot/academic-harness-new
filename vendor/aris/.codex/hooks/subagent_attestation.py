@@ -28,6 +28,7 @@ ROLE_KEYS = {
 }
 
 REVIEWER_ROLES = {
+    "scientific_reviewer",
     "coverage_reviewer",
     "independent_problem_reviewer",
     "independent_novelty_reviewer",
@@ -36,7 +37,7 @@ REVIEWER_ROLES = {
     "result_to_claim_reviewer",
 }
 
-COMPATIBILITY_ROLES = {"paper_reader", "coverage_reviewer"}
+COMPATIBILITY_ROLES = {"paper_reader", "coverage_reviewer", "scientific_reviewer"}
 COMPATIBILITY_MARKER = "ARIS_NATIVE_GENERIC_COMPAT:"
 TOOL_EVENT_TYPES = {
     "function_call",
@@ -49,6 +50,7 @@ TOOL_EVENT_TYPES = {
 COMPATIBILITY_ALLOWED_TOOLS = {
     "paper_reader": set(),
     "coverage_reviewer": {"websearch", "web_search", "web.run", "web__run"},
+    "scientific_reviewer": set(),
 }
 
 
@@ -211,6 +213,15 @@ def _compatibility_context(event: dict, root: Path) -> tuple[str, object, dict[s
     task_text = "\n".join(text for record in records for text in _text_fragments(record))
     if contract not in task_text:
         raise ValueError("native generic compatibility task does not reuse the configured role contract")
+    if role == "scientific_reviewer":
+        originals = binding.get("original_artifacts")
+        hashes = binding.get("reviewed_artifact_hashes")
+        if not isinstance(originals, dict) or not isinstance(hashes, dict) or set(originals) != set(hashes):
+            raise ValueError("scientific compatibility requires all bound original artifacts")
+        for relative, content in originals.items():
+            path = (root / relative).resolve()
+            if not isinstance(content, str) or not path.is_relative_to(root) or not path.is_file() or content.encode("utf-8") != path.read_bytes() or hashlib.sha256(path.read_bytes()).hexdigest() != hashes[relative]:
+                raise ValueError("scientific compatibility original artifact is changed or incomplete")
     allowed = COMPATIBILITY_ALLOWED_TOOLS[str(role)]
     unauthorized = tools - allowed
     if unauthorized:
@@ -419,6 +430,7 @@ def main() -> int:
             }
         )
         if role in {
+            "scientific_reviewer",
             "coverage_reviewer", "independent_problem_reviewer",
             "independent_novelty_reviewer", "independent_root_cause_reviewer",
             "independent_method_reviewer", "result_to_claim_reviewer",

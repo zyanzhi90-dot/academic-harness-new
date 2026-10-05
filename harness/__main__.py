@@ -1,4 +1,4 @@
-"""Public literature entry; scientific problem/method modules follow later."""
+"""Public entry for retained literature and the shared scientific cycle."""
 
 from __future__ import annotations
 
@@ -6,15 +6,16 @@ import argparse
 import json
 from pathlib import Path
 
-from arisctl.__main__ import main as literature_main, _emit_json, _emit
+from arisctl.__main__ import main as literature_main, build_parser as literature_parser, _emit_json, _emit
 from arisctl.controller import ARISController, ControllerError
 from arisctl.validators import sha256_file
 from arisctl.workflow import literature_workflow_path
 from tools.literature_coverage_audit import audit_landscape
+from .scientific_cli import add_science_parser, execute_science, existing_controller
 
 
 LITERATURE_COMMANDS = (
-    "start", "status", "allowed-actions", "allowed-agents", "save-recovery",
+    "start", "status", "resume", "allowed-actions", "allowed-agents", "save-recovery",
     "submit-source-policy", "request-source-policy-revision", "human-approve",
     "submit-query-plan", "query", "enrich-candidate", "enrich-candidates",
     "retry-candidate-enrichment", "recover-interrupted-query",
@@ -45,6 +46,7 @@ def build_parser() -> argparse.ArgumentParser:
     handoff = sub.add_parser("literature-handoff", help="current accepted map and evidence references")
     handoff.add_argument("run_id")
     sub.add_parser("check", help="check reuse hashes and local runtime dependencies")
+    add_science_parser(sub)
     return parser
 
 
@@ -79,7 +81,8 @@ def literature_handoff(controller: ARISController) -> dict:
             if key.startswith("evidence:")
         },
         "update_requests": research.get("literature_update_requests", []),
-        "next_modules": "problem discovery and method design: not implemented",
+        "next_modules": ("use science commands for the shared research cycle" if state["workflow"].get("mode") == "research_cycle"
+                         else "attach the scientific core with science begin; standalone literature stops here"),
     }
 
 
@@ -87,16 +90,23 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
         if args.entry == "lit":
+            arguments = ["--root", args.root, "status" if args.command == "resume" else args.command, *args.arguments]
+            parsed = literature_parser().parse_args(arguments)
+            controller = existing_controller(args.root, parsed.run_id)
             return literature_main(
-                ["--root", args.root, args.command, *args.arguments],
-                workflow_path=literature_workflow_path(),
+                arguments,
+                workflow_path=controller.workflow_path,
+                controller_type=type(controller),
             )
+        if args.entry == "science":
+            _emit_json(execute_science(args))
+            return 0
         if args.entry == "check":
             from .checks import check_foundation
             result = check_foundation()
             _emit_json(result)
             return 0 if result["ok"] else 1
-        controller = ARISController(args.root, args.run_id, literature_workflow_path())
+        controller = existing_controller(args.root, args.run_id)
         if args.entry == "update-literature":
             context = json.loads(Path(args.context).read_text(encoding="utf-8")) if args.context else None
             result = controller.request_literature_update(args.gap, requested_by=args.requested_by, context=context)
@@ -104,7 +114,7 @@ def main(argv: list[str] | None = None) -> int:
             result = literature_handoff(controller)
         _emit_json(result)
         return 0
-    except (ControllerError, OSError, ValueError) as exc:
+    except (ControllerError, OSError, ValueError, KeyError, TypeError) as exc:
         _emit(f"error: {exc}")
         return 1
 

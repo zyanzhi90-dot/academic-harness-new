@@ -1,0 +1,7 @@
+{
+  "stage": "LANDSCAPE_ACCEPTED",
+  "actions": [
+    "request_literature_update",
+    "literature_handoff"
+  ]
+}

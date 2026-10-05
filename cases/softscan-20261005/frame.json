@@ -1,0 +1,17 @@
+{
+  "core_application": "Continuous ultrasound-like robotic soft-contact scanning with online normal–tangential impedance selection",
+  "key_research_question": "How can a robot select time-varying normal–tangential impedance online during continuous soft-contact scanning to minimize a joint force-regulation, trajectory-tracking, and contact-loss or slip objective while respecting wrench and interaction-energy constraints across material, geometry, sliding-condition, and contact-history shifts absent from its calibration data?",
+  "target_domain": "Robotic impedance control for continuous finite-area soft-contact scanning",
+  "operating_envelope": "Rigid ultrasound-like probe on compliant finite-area surfaces; bounded normal/tangential stiffness and damping updated more slowly than the inner loop; held-out materials, relaxation, curvature/thickness, speed/direction, dwell/loading history, tangential resistance and bounded disturbances. Quantitative benchtop/phantom scope; no clinical efficacy or universal injury-safety claim.",
+  "success_criteria": [
+    "Demonstrate practically meaningful held-out improvement in joint force, trajectory and contact/slip performance against tuned, resource-matched strong feedback, fixed/scheduled impedance, constrained impedance planning and predefined-impedance contact-aware MPC; an equivalence/negative result is scientifically informative",
+    "Evaluate the actually rendered impedance, wrench/interaction energy, actuator limits and computation deadline; include unsuccessful runs, intervention, solver timeout and fallback in the outcome",
+    "Determine whether additional contact information changes executable impedance choices and outcomes; improved constitutive fit alone does not establish decision value"
+  ],
+  "constraints": [
+    "Preserve the accepted v2 application and key question; the old human selection is historical provenance and does not select a new candidate",
+    "Retain area, geometry, tangential force/moment and contact history as possible informative signals; do not preselect a history-only contrast, neural representation, MPC, HJB, critic, preview or passivity architecture",
+    "Use only genuine accepted source evidence; distinguish author findings, inference and hypotheses; disclose known missing strongest-prior methods",
+    "Stop before human selection and method design; do not perform physical experiments in this task"
+  ]
+}

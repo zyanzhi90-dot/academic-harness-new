@@ -1,0 +1,104 @@
+{
+  "candidates": [
+    {
+      "id": "SOFTSCAN-SHIFT-DECISION-01",
+      "core_application": "Continuous ultrasound-like robotic soft-contact scanning with online normal–tangential impedance selection",
+      "key_research_question": "How can a robot select time-varying normal–tangential impedance online during continuous soft-contact scanning to minimize a joint force-regulation, trajectory-tracking, and contact-loss or slip objective while respecting wrench and interaction-energy constraints across material, geometry, sliding-condition, and contact-history shifts absent from its calibration data?",
+      "pain_point": "Continuous scanning can cross a material/curvature/sliding-resistance change and revisit contact after dwell or unloading. An identified normal-contact optimum can then rank gains incorrectly; a fixed-gain predictive controller can correct force/motion without establishing that its impedance remains a good trade-off. The application needs useful force/path/contact performance through such changes, not simply a shift alarm, rejected scan or a better-fitting contact model. Kong explicitly leaves operation without prior identification and abrupt/time-varying parameters to future work; AuSoScan and deformable-contact MPC provide strong scanning/control results in calibrated regimes. Whether their boundaries cause a meaningful additional gain-selection problem in the retained scanning task is the research question, not an observed failure of this run.",
+      "significance": "Impedance directly trades tracking authority against compliance. Establishing when executable gain adaptation improves the joint task under held-out contact shifts would justify its sensing/learning/optimization cost; showing equivalence to strong model-agnostic feedback or predefined-gain MPC would prevent unnecessary complexity. Force error alone, a small constitutive error or a rare contrived counterexample is insufficient. The outcome must include trajectory quality, contact/slip and failure/intervention costs under matched hardware and budgets.",
+      "current_solution_extent": "Already solved capabilities include identified-contact scalar optimal impedance (Kong), online constrained Cartesian stiffness/damping planning, calibrated finite-area ultrasound MPC, deformable-contact constrained MPC, practical model-agnostic six-dimensional compliant control and constrained QP gain selection. These are serious possible solutions/comparators, not reasons to abandon the application. Accepted evidence does not establish their held-out joint gain-selection benefit or that extra contact state is necessary. The known Mu/Wang predictive adaptive-impedance and Guo/Qian ultrasound works may cover more: their decisive methods remain unverified here, so this packet makes no field-wide novelty or no-solution assertion.",
+      "scope_change_rationale": "Retains the exact historically accepted v2 question and full application. Reopens its current unresolved pain for human consideration under the new cycle. Broadens the interrogation beyond memory to area, geometry, tangential wrench and history in accordance with the old explicit human feedback; no R8–R15 architecture or accepted/final method conclusion is inherited.",
+      "discovery_path": "COMMUNITY_RECOGNIZED",
+      "failure_origin": "AUTHOR_REPORTED",
+      "evidence_ids": ["j4KJ1EdUyYAJ", "QPuQ4sfxSTIJ", "ZDySGaNsMn8J", "USER-TRO-2022-3216078", "USER-TASE-2023-3282974", "_8NXx8-VkcgJ", "USER-TUFFC-2011-1961", "Ubx3Xkv4y2kJ", "U1Trzk-2GRIJ", "imoj6X2imAgJ", "3HbLu0M801YJ", "HUMAN-IJRR-2011-PSR", "HUMAN-NEURIPS-2022-VES", "HUMAN-MANSCI-2021-SPO"],
+      "interrogation": {
+        "strongest_argument": "A stronger contact representation may be unnecessary: practical six-dimensional wrench feedback already performs ultrasound scanning without constitutive identification; contact-aware MPC already predicts area/friction effects; constrained planning and QP already select gains; NNBO already optimizes soft-contact interaction. A fair combination of these mature capabilities may solve the retained task. Neither the absence of one paper combining every noun nor the label soft-contact proves an unsolved problem.",
+        "premises": [
+          "Held-out changes must occur on the scanning/control timescale and alter attainable joint performance or feasible impedance choices, rather than only changing a material parameter",
+          "Safely available current/history observations must carry enough information before action choices diverge; a detailed unobservable model cannot solve this by definition",
+          "Rendered physical impedance must correspond adequately to the action being assessed; energy interventions, saturation and delay can dominate nominal gain rankings",
+          "The best tuned simpler and mature in-field baselines must leave a practically significant residual; their effectiveness is a falsifier, not a novelty veto by association"
+        ],
+        "counterexamples": [
+          "If strong wrench feedback or fixed/predefined-gain MPC achieves equivalent joint outcomes across the retained shifts, richer contact information and online gain selection have no demonstrated value",
+          "A slow, homogeneous surface can remain effectively within calibration and make history/geometry augmentation superfluous",
+          "Two materials may be indistinguishable under all safe predecision probing; no estimator can guarantee the material-specific optimal gain before informative observations arrive",
+          "Gain changes may be limited or cancelled by energy/actuator constraints; a nominal optimized cost reduction then need not improve the actual scan"
+        ],
+        "alternative_explanations": [
+          "Apparent shift loss may be poor weight/gain tuning, unequal sensing/data/compute, inner-loop rendering error, sensor filtering/drift or geometry estimation error rather than missing contact information",
+          "Short-delay force feedback may absorb most contact variation without identifying a constitutive state",
+          "Contact loss/slip may be dominated by lubrication, path/orientation error or imposed energy limits rather than the selected gains",
+          "Lower force RMSE may conceal slower scanning, larger trajectory error, more withdrawals or poorer image quality"
+        ],
+        "literature_conflicts": [
+          "Kong's Kelvin-Voigt mismatch does not imply Hunt-Crossley is universally inadequate: the ex-vivo tissue study finds both HC and Kelvin-Boltzmann useful, selecting the latter partly for observer/analysis convenience",
+          "Finite-area memory mechanics suggest history-dependent force/moment capacity, while model-agnostic ultrasound control shows constitutive modeling is not necessary for nominal wrench regulation. The decision value of additional information remains unresolved",
+          "Generic predictive/value-equivalent state theory already supplies sufficiency concepts; it does not by itself show safe timely identifiability or a physical gain-selection benefit in this scanning task"
+        ]
+      },
+      "prior_assessments": [
+        {
+          "evidence_ids": ["j4KJ1EdUyYAJ"],
+          "source_domain": "Robotic optimal impedance in soft-environment interaction",
+          "domain_identity": "IN_FIELD",
+          "domain_rationale": "Same controlled quantity and soft-contact application family; a neural/optimal-control label does not make it external",
+          "coverage": "PARTIAL",
+          "covers": "PROBLEM",
+          "coverage_rationale": "Already optimizes scalar impedance for identified soft contact and reports meaningful nominal gains. The accepted card explicitly leaves abrupt/time-varying parameters and operation without prior identification open; it does not establish coupled held-out scanning performance",
+          "strongest_argument": "A physically motivated HC model plus optimal control can outperform uncertainty-unaware/Kelvin-Voigt baselines on the tested soft objects; memoryless does not mean useless",
+          "assumptions": "Pre-identification, HC approximation/limited speed, matched bounded uncertainty, persistent excitation and sufficiently accurate position realization",
+          "failure_boundaries": "Author-reported recovery mismatch for the comparator, decaying adaptation oscillations, tuned weights and the explicitly deferred abrupt/time-varying/unidentified regime; broad task safety and held-out benefit are not established",
+          "remaining_pain": "Can online normal/tangential impedance retain useful joint scanning performance when contact conditions depart from calibration, without unsafe excitation or retreat to alarm/rejection alone?"
+        },
+        {
+          "evidence_ids": ["QPuQ4sfxSTIJ", "ZDySGaNsMn8J"],
+          "source_domain": "Contact-aware robotic scanning and deformable-contact predictive control",
+          "domain_identity": "IN_FIELD",
+          "domain_rationale": "Continuous soft-contact force/motion control is directly within the target application, regardless of whether the decision variable is motion or gain",
+          "coverage": "PARTIAL",
+          "covers": "PROBLEM",
+          "coverage_rationale": "Already supplies finite-area/geometry/friction-aware prediction and strong real-time control. Predefined impedance and calibrated/pre-estimated contact limit what these studies establish about online gain selection; their strong feedback may nevertheless remove the need for it",
+          "strongest_argument": "Good contact prediction and motion optimization may deliver the desired scan without any gain optimizer",
+          "assumptions": "Local contact geometry, bounded deformation and calibrated/pre-estimated material; application-specific friction and velocity models",
+          "failure_boundaries": "Reported dynamic-surface degradation, excluded large/global deformation/lubricated friction and limited phantom/geometry generality; these do not prove failure of an adapted mature controller",
+          "remaining_pain": "Does extra impedance freedom provide a practical residual gain under held-out conditions after the predictive-motion baseline is tuned fairly?"
+        },
+        {
+          "evidence_ids": ["USER-TASE-2023-3282974", "USER-TRO-2022-3216078", "U1Trzk-2GRIJ", "imoj6X2imAgJ"],
+          "source_domain": "Robotic compliant control, online impedance planning and constrained variable impedance",
+          "domain_identity": "IN_FIELD",
+          "domain_rationale": "Same impedance-control field; different task, optimizer or experimental object is not sufficient for a CROSS_FIELD classification",
+          "coverage": "PARTIAL",
+          "covers": "PROBLEM",
+          "coverage_rationale": "Model-agnostic six-dimensional ultrasound regulation, online gain optimization and QP constraints already exist. Accepted cards do not establish their retained held-out soft-contact joint decision performance; omission of a soft-contact model is not evidence that they cannot solve it",
+          "strongest_argument": "Mature strong feedback and online constrained planning could solve the operational need at less modeling cost",
+          "assumptions": "Source-specific inertia/realization/prediction conditions; MPVIC free-space learned dynamics and slow high-level planning; available state/wrench and solver completion",
+          "failure_boundaries": "Variable-gain passivity/oscillation risks, approximate constraints or absent feasibility/stability proofs, contact discontinuities and transfer/compute limits vary by paper; no single universal failure is claimed",
+          "remaining_pain": "Which contact changes leave an actual performance deficit after these comparators, with energy interventions and execution failure included?"
+        },
+        {
+          "evidence_ids": ["HUMAN-IJRR-2011-PSR", "HUMAN-NEURIPS-2022-VES", "HUMAN-MANSCI-2021-SPO"],
+          "source_domain": "Predictive-state learning, reinforcement learning and decision-focused optimization",
+          "domain_identity": "CROSS_FIELD",
+          "domain_rationale": "The accepted sources develop generic prediction/decision mechanisms outside impedance/contact mechanics; judge actual coverage separately",
+          "coverage": "PARTIAL",
+          "covers": "PROBLEM",
+          "coverage_rationale": "They already address predictive sufficiency, value-relevant compression and prediction-versus-decision loss. Those conceptual subclaims cannot be presented as new; the sources do not establish the target's safe observable information or held-out physical gain-selection value",
+          "strongest_argument": "Mature theory explains why full-model fit and decision value can differ and provides reusable resources if the target pain survives review",
+          "assumptions": "Core-test/rank and sampling conditions, meaningful policy/value distortion, or a known fixed feasible optimization set depending on the source",
+          "failure_boundaries": "Unobservable states, coverage/data shift and uncertain physical feasible sets require separate target evidence; generic guarantees do not certify contact safety or deadline performance",
+          "remaining_pain": "Whether area/geometry/wrench/history information yields a safely identifiable, practically action-changing advantage in this physical task remains to be established; no representation architecture is selected"
+        }
+      ],
+      "unverified_claims": [
+        "No new benchtop failure, gain ranking reversal, observability result, objective improvement or experiment is claimed by this run",
+        "A shared action-information insufficiency across these papers is a testable hypothesis, not an independently established COMMON_FAILURE candidate; therefore no second candidate is forced",
+        "Mu DOI 10.1016/j.conengprac.2025.106398 and Wang DOI 10.1109/TIE.2025.3587119 may cover predictive adaptation more strongly than the old accepted cards; Guo DOI 10.1002/rcs.70197 already reports biomechanical-prior-driven online ultrasound damping; Qian DOI 10.1109/TIM.2026.3676192 may cover additional biomechanics/curvature/image control. Exact coverage remains UNKNOWN until methods are obtained and formally read",
+        "Current selection-stage readiness, novelty, significance and prior classification have not been certified by a fresh independent scientific reviewer",
+        "The size and safety of achievable held-out gain-selection benefit, informative observations, practical equivalence margins and interaction-energy definition remain uncertain"
+      ]
+    }
+  ],
+  "feedback_responses": []
+}

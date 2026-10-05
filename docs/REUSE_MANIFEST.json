@@ -679,9 +679,9 @@
       "source": "tools/literature_coverage_audit.py",
       "destination": "vendor/aris/tools/literature_coverage_audit.py",
       "source_sha256": "f596d7bdf7752aa972bcaa58a14a60cd6c0e3a15a77544f4a402b5f09ce56520",
-      "destination_sha256": "f596d7bdf7752aa972bcaa58a14a60cd6c0e3a15a77544f4a402b5f09ce56520",
+      "destination_sha256": "f6c57246ad4eb37fd29d12cee27d1197388f9b35497638c58de576abf4d8f649",
       "source_local_modified": false,
-      "adaptation": "none; byte-preserved"
+      "adaptation": "Real-case blocking fix: honor recorded withdrawal/identity holds and actual fulltext selection, as already required by source-admission-policy.md; source hash and scientific rules unchanged"
     },
     {
       "source": "tools/provenance.py",

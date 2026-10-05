@@ -289,6 +289,10 @@ def audit_landscape(
                 errors.append(f"literature candidate {source_id} lacks a screening reason")
             if screening_status != "IN_SCOPE":
                 continue
+            # Withdrawal/identity holds retain screening history, but do not
+            # authorize a current scientific read or create a reading obligation.
+            if decision.get("admission_status") in {"EXCLUDE_USER_WITHDRAWN", "HOLD_IDENTITY"}:
+                continue
             basis = decision.get("screening_basis")
             abstract_unavailable = (
                 basis == "TITLE_ONLY_ABSTRACT_UNAVAILABLE"
@@ -303,7 +307,12 @@ def audit_landscape(
             if basis == "TITLE_ABSTRACT" and not str(row.get("abstract") or "").strip():
                 errors.append(f"in-scope candidate {source_id} has no actual abstract")
             priority = decision.get("reading_priority")
-            if priority in MANDATORY_FULLTEXT_PRIORITIES and source_id not in evidence_ids:
+            if (
+                priority in MANDATORY_FULLTEXT_PRIORITIES
+                and decision.get("fulltext_selected")
+                and decision.get("admission_status") != "ADMIT_DISCOVERY_ONLY"
+                and source_id not in evidence_ids
+            ):
                 errors.append(
                     f"mandatory review/high-citation backbone paper {source_id} has no full-text Evidence Card"
                 )

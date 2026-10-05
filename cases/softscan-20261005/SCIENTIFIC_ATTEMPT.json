@@ -1,0 +1,59 @@
+[
+  {
+    "label": "science_begin_after_adaptation",
+    "argv": [
+      "science",
+      "begin",
+      "impedance-control-landscape-e2e",
+      "cases\\softscan-20261005\\frame.json"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "353ae27ded51d6571047a299f9121d58a4f2451c276bb8f0c0e3b6c7ca95cc26",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "science_status_before_submission",
+    "argv": [
+      "science",
+      "status",
+      "impedance-control-landscape-e2e"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "353ae27ded51d6571047a299f9121d58a4f2451c276bb8f0c0e3b6c7ca95cc26",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "science_actions_before_submission",
+    "argv": [
+      "science",
+      "allowed-actions",
+      "impedance-control-landscape-e2e"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "9378904fe23765bf2c957e0eb92e94c66297b93ae64346d38ad5a8d5685c6ac9",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "science_handoff_before_submission",
+    "argv": [
+      "science",
+      "handoff",
+      "impedance-control-landscape-e2e"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "c2853478b26dbc63f4a5e0ec62de0431c17bffbecc5ee006b0c23677619b0d8e",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "science_submit_first",
+    "argv": [
+      "science",
+      "submit-problems",
+      "impedance-control-landscape-e2e",
+      "cases\\softscan-20261005\\problems.first.json"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "8633a0e9034a4be423d0bb0c88ec8804ad0b4da7616ba6cfe25608813589efee",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

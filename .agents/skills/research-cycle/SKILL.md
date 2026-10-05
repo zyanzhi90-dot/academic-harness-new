@@ -1,0 +1,24 @@
+---
+name: research-cycle
+description: Execute a shared-evidence scientific cycle with academic-harness, from an accepted field map through problem discovery, human problem selection, method design, contribution checks, and supplementary literature. Use for problem discovery or concrete method design in a managed research directory.
+---
+
+# Unified scientific cycle
+
+Read [the scientific contract](references/research-contract.md), [payload contracts](references/schemas.md) and [adapted capabilities](references/capabilities.md). Work from this research directory. Use `python -m harness science status RUN`, `allowed-actions RUN` and `handoff RUN` before changing work. Controller state and immutable accepted artifacts determine what can execute.
+
+For a new run use `science start RUN`, then load the installed `research-lit` Skill and complete its full literature lifecycle. For an existing accepted literature run, use `science begin RUN frame.json`; this adopts the same run, map, corpus, evidence and history. A new run also requires `begin` after coverage acceptance. Never restart literature to enter science.
+
+Submit candidates with `science submit-problems RUN problems.json`. At PROBLEM_REVIEW, obtain `science review-handoff RUN`; prefer its configured `scientific_reviewer` in a fresh independent context, with bound originals and exact request. If this runtime cannot select configured roles, obtain `science review-handoff RUN --dispatch-mode native_generic_compat` and pass its exact task to a fresh native child with `fork_turns=none`. This reuses the installed role contract and complete original artifact snapshots, requires the platform's own child transcript and completion Hook, and permits no tools in the child. Do not edit or truncate the task; if it cannot fit or the natural Hook is unavailable, report that formal review is blocked. Use the actual Hook-attested verdict unchanged in `science submit-review RUN verdict.json`. Main cannot impersonate the reviewer or fabricate a transcript; no nested codex exec or new top-level session.
+
+At PROBLEM_SELECTION, present candidates, pain, prior coverage, significance and uncertainty to the human. Only after their explicit choice, record `python -m harness science human-select-problem RUN ID --request-id REQUEST`. A material change in the key question requires another human choice with `--accept-scope-change`. AI never decides for the human. Run human commands separately, without global `--root`, so installed prompt rules apply; when interface confirmation is unavailable, have the human run the command directly. Hook passage alone is not approval.
+
+Build a concrete, adjustable route and submit `science submit-method RUN method.json`. Read feedback before every revision; address every pending feedback ID with evidence, response and changed elements. Each submission retains a problem-bound route version. Review contributions, mechanisms and validation continuously, rather than saving them for a final gate. RCA and principle search are optional tools, never mandatory stages.
+
+Use `science submit-prior-assessment RUN prior.json` whenever coverage changes. An in-field substantial covering prior automatically requests gap-specific supplementary literature and returns to problem discovery after coverage acceptance. Cross-field identity alone does not imply prior coverage; mature external methods can be reused directly.
+
+For another missing premise use `science request-literature-update RUN update.json`, or `python -m harness update-literature RUN --requested-by method_design --gap "specific gap"`. Load research-lit, perform only the requested gap update with the existing map and evidence, then resume the saved problem or method work. Consume the new evidence feedback. Repeat as needed without fixed rounds.
+
+Plan checks within method packets. Perform only work authorized by the research task; this Skill does not grant experiment permission. Submit genuine results with `science submit-check RUN result.json`. The result invalidates the current ready decision and forces a route revision or a literature/problem return. Keep design-selection observations separate from independent contribution validation. A written plan never validates a claim.
+
+At METHOD_REVIEW use the same independent review protocol. At METHOD_READY present the complete bounded route, evidence, inferred and unverified claims to the human. After an explicit decision use `python -m harness science human-confirm-method RUN --request-id REQUEST`. METHOD_CONFIRMED stops with a handoff; it does not launch experiments or assert publication-level effectiveness. Use `science reopen-problem RUN --reason "reason" --evidence-id P1` when important pain or scientific scope requires reconsideration. Use `lit save-recovery RUN DESTINATION` and `lit resume RUN` for recovery of the same state.

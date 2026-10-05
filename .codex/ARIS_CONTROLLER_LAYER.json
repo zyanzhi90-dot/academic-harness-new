@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "source_repo": "D:\\桌面\\科研harness-新\\vendor\\aris",
+  "managed_files": [
+    {
+      "path": ".codex\\config.toml",
+      "sha256": "ea4882cf7576e77bfb5c01e3fd360eeb6a5166fb4b26ac90b197ddedbf9da146"
+    },
+    {
+      "path": ".codex\\hooks.json",
+      "sha256": "ab67124d99d6eb9604fef6c4e7d035bb1dc2747aa51ade623b0412566143ddf7"
+    },
+    {
+      "path": ".codex\\agents\\paper_reader.toml",
+      "sha256": "66505403981d3a867c97c5de18a375b6ef0241cf44f8cf1cd33ea793e802ece2"
+    },
+    {
+      "path": ".codex\\agents\\coverage_reviewer.toml",
+      "sha256": "718fb2283ed03fe72ec10133b2d04bce545a8c8d42185b5c0ab5d8607920d891"
+    },
+    {
+      "path": ".codex\\agents\\scientific_reviewer.toml",
+      "sha256": "4e46d07492b8a0e6c026343cb6a9542521f1087cc3caa0d351796fa82a91369a"
+    },
+    {
+      "path": ".codex\\agents\\independent_problem_reviewer.toml",
+      "sha256": "e5614de424d1f270edd1e1f8a11d3717d43674c75292d2474b0d612f7a4df94c"
+    },
+    {
+      "path": ".codex\\agents\\independent_novelty_reviewer.toml",
+      "sha256": "0241930a027636e66e6c3ce952b37681529f554d9acc3317cb614ef50f1601bc"
+    },
+    {
+      "path": ".codex\\agents\\independent_root_cause_reviewer.toml",
+      "sha256": "01a5ddba8b1e0c9fc3a66db840331ecbe83cc08162cb66852e2532237f380ca2"
+    },
+    {
+      "path": ".codex\\agents\\independent_method_reviewer.toml",
+      "sha256": "0faf611bbfd4c1e9b074867073e0f3b532ce2e076ace49cfa0337d976d990c89"
+    },
+    {
+      "path": ".codex\\agents\\result_to_claim_reviewer.toml",
+      "sha256": "77572a9e6e32bf365920e1c0cee7cbb1cc01201bbaf7502a98659363e822f115"
+    },
+    {
+      "path": ".codex\\hooks\\pre_tool_use_policy.py",
+      "sha256": "0b2c4c0393fc47ffdf0f45f96f28ee4178583ec32dc8e3033d4d25f6e0fce5fc"
+    },
+    {
+      "path": ".codex\\hooks\\subagent_attestation.py",
+      "sha256": "c3632b1534236aadd4a2618d229c363bbcdb2ab88aad266d75745eb4b9f6b510"
+    },
+    {
+      "path": ".codex\\rules\\aris.rules",
+      "sha256": "7d738101798413c06e460178398fa9f70a2f474bdcf5b09ea6182dda88aba7f7"
+    }
+  ],
+  "managed_skills": [
+    {
+      "path": ".agents/skills/research-lit/SKILL.md",
+      "sha256": "8b4734a18d7b35e8586b747f70d5df7af277615b857162087fd73ddbe9aca744",
+      "source": "D:\\桌面\\科研harness-新\\skills\\research-lit\\SKILL.md"
+    },
+    {
+      "path": ".agents/skills/research-cycle/references/capabilities.md",
+      "sha256": "faaa6d9a3daa5588a59da7ebfdc5d5f226e16f45ac3d29b3ed199aefc47e8fec",
+      "source": "D:\\桌面\\科研harness-新\\skills\\research-cycle\\references\\capabilities.md"
+    },
+    {
+      "path": ".agents/skills/research-cycle/references/research-contract.md",
+      "sha256": "cd6fec3fcb9c220edd324f3e0dfd67a0cabe273ccd2211d46871268b480efa89",
+      "source": "D:\\桌面\\科研harness-新\\skills\\research-cycle\\references\\research-contract.md"
+    },
+    {
+      "path": ".agents/skills/research-cycle/references/schemas.md",
+      "sha256": "c2a10719bceb6116b9d2a276bc5e58bda3d1ad57f8e400e93cccd899e5bef9c1",
+      "source": "D:\\桌面\\科研harness-新\\skills\\research-cycle\\references\\schemas.md"
+    },
+    {
+      "path": ".agents/skills/research-cycle/SKILL.md",
+      "sha256": "3cf30caf6476504aabccc92ba534d4f062001a443b8362b7896f36c40df26929",
+      "source": "D:\\桌面\\科研harness-新\\skills\\research-cycle\\SKILL.md"
+    }
+  ]
+}

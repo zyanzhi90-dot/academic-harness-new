@@ -1,0 +1,25 @@
+{
+  "scope": "Engineering verification only; not independent scientific review or case-effect acceptance",
+  "pytest": {
+    "command": ".venv\\Scripts\\python.exe -X utf8 -m pytest checks/test_foundation.py checks/test_scientific_cycle.py vendor/aris/tests/test_aris_controller.py -q -k 'not test_aris_controller or landscape or withdraw or reading_subset or representative or initial_map' --tb=short",
+    "exit_code": 0,
+    "observed_result": "45 passed, 247 deselected in 201.36s (0:03:21)"
+  },
+  "foundation": {
+    "command": ".venv\\Scripts\\python.exe -X utf8 -m harness check",
+    "exit_code": 0,
+    "ok": true,
+    "errors": []
+  },
+  "raw_cli_capture_hash_verification": {
+    "records": ["RUN_ATTEMPT.json", "SCIENTIFIC_ATTEMPT.json", "REVIEW_HANDOFF_ATTEMPT.json"],
+    "all_stdout_and_stderr_hashes_match": true
+  },
+  "byte_preservation_and_negative_guard": "ADAPTATION_CHECK.json",
+  "stop_boundary": {
+    "phase": "PROBLEM_REVIEW",
+    "human_selection": null,
+    "active_route": null,
+    "independent_reviewer_verdict": null
+  }
+}

@@ -1,0 +1,112 @@
+schema_version: 2
+fields:
+- name: Robotic impedance control
+  approved_elite_venues:
+  - canonical_name: IEEE Transactions on Robotics
+    aliases:
+    - T-RO
+    - IEEE T-RO
+    - IEEE Trans. Robot.
+  - canonical_name: IEEE Robotics and Automation Letters
+    aliases:
+    - RA-L
+    - IEEE RA-L
+    - IEEE Robot. Autom. Lett.
+  - canonical_name: The International Journal of Robotics Research
+    aliases:
+    - IJRR
+    - Int. J. Robot. Res.
+  - canonical_name: Science Robotics
+    aliases: []
+  - canonical_name: IEEE International Conference on Robotics and Automation
+    aliases:
+    - ICRA
+  - canonical_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
+    aliases:
+    - IROS
+  - canonical_name: 'Robotics: Science and Systems'
+    aliases:
+    - RSS
+  - canonical_name: Automatica
+    aliases: []
+  - canonical_name: IEEE Transactions on Automatic Control
+    aliases:
+    - IEEE TAC
+    - TAC
+  - canonical_name: IEEE/ASME Transactions on Mechatronics
+    aliases:
+    - T-Mech
+    - IEEE/ASME T-Mech
+  - canonical_name: IEEE Transactions on Haptics
+    aliases:
+    - ToH
+    - IEEE ToH
+high_citation_rule:
+  metric: raw_citation_count
+  comparison: strictly_greater_than
+  thresholds:
+  - publication_year_max: 1999
+    citation_count_strictly_greater_than: 300
+  - publication_year_min: 2000
+    publication_year_max: 2009
+    citation_count_strictly_greater_than: 200
+  - publication_year_min: 2010
+    publication_year_max: 2017
+    citation_count_strictly_greater_than: 100
+  - publication_year_min: 2018
+    publication_year_max: 2020
+    citation_count_strictly_greater_than: 60
+  - publication_year_min: 2021
+    publication_year_max: 2022
+    citation_count_strictly_greater_than: 35
+  - publication_year_min: 2023
+    publication_year_max: 2023
+    citation_count_strictly_greater_than: 20
+  - publication_year_min: 2024
+    publication_year_max: 2024
+    citation_count_strictly_greater_than: 10
+  - publication_year_min: 2025
+    publication_year_max: 2025
+    citation_count_strictly_greater_than: 3
+  - publication_year_min: 2026
+    publication_year_max: 9999
+    citation_count_strictly_greater_than: 1
+source_tracks:
+  proactively_retrieved_literature:
+    initial_decision: DISCOVERY_METADATA_ONLY
+    active_read_gate: high_citation_or_approved_elite_venue
+    bounded_decision_grade_exceptions:
+    - decisive_closest_prior_or_concurrent
+    - negative_or_contradictory_result
+    - diagnostic_or_replication_evidence
+  user_supplied_material:
+    decision: USER_SUPPLIED_READ
+search_routes:
+  preferred:
+  - Google Scholar
+  - Crossref
+  - arXiv
+  - IEEE Xplore
+  fallback: Controller-issued batched human search when configured routes fail
+source_types:
+  include:
+  - peer-reviewed journal article
+  - peer-reviewed conference paper
+  - identity-verified preprint when a bounded exception applies
+  - authoritative review used as a map, not as a substitute for primary evidence
+  exclude:
+  - unsourced web summary
+  - vendor marketing material
+  - application report without a reusable impedance-control mechanism
+languages:
+- English
+notes: Direct relevance to the development of robotic impedance control is required.
+  Teleoperation/haptics, legged/whole-body control, admittance-only work, and generic
+  interaction-control literature are retained only when they directly advance or explain
+  a reusable impedance-control mechanism. The approved citation/venue rule controls
+  active-reading eligibility, never claim validity or automatic full-text selection.
+  `HIGH_CITATION_BACKBONE` is assigned only after title/abstract screening identifies
+  an in-scope foundational or turning-point mechanism paper; that label requires full-text
+  reading. A bounded exception requires verified identity, in-scope relevance, a scientific
+  reason, and explicit decision targets; recency alone is insufficient. Citation counts
+  must record provider and retrieval date.

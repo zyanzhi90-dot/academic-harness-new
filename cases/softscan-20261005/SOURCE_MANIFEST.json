@@ -1,0 +1,3254 @@
+{
+  "source_repository": "zyanzhi90-dot/e2e",
+  "source_commit": "8fff5f3cbb1d47405f54888c0e92c61d08e31ced",
+  "local_object_source": "D:\\桌面\\科研Agent Harness设计\\impedance-control-e2e",
+  "source_worktree_head": "f1dd87b10695fcc7621ae3676a7f978cb933dd49",
+  "archive_sha256": "0fec766c0eedfe108422c0699e7243df7e576155ee15922a5b26758165289ea1",
+  "files": [
+    {
+      "path": ".aris/agent-attestations/paper_reader/0084a9817c874b20a6ead0fbc9d89456.consumed.json",
+      "git_blob": "21421c090587411189fd94aa57ffd2755ebd5f4f",
+      "bytes": 343,
+      "git_bytes_sha256": "1a85c2abfa619275e868af9630f8a205314780c9e4d9404528246d7c3c44df98"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/17afee148cd246238a85766f7f64f53f.consumed.json",
+      "git_blob": "8e5aa3e461660a5577201668306e66b03ff7d2f5",
+      "bytes": 343,
+      "git_bytes_sha256": "54e9880aafc06f609af2c343e7ce2f17c112df91175e11423cf22785dc289b87"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/31fd036653654762b5b4366c9e14e426.consumed.json",
+      "git_blob": "e5ad2d0c1ba5d43646570033bde705c284e07e3b",
+      "bytes": 343,
+      "git_bytes_sha256": "ed02044f0d6965d26b4e3edc792675923ceb2eb2b25d46d47850679682adfb4b"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/35a8e54eb9d644579252db440f395f22.consumed.json",
+      "git_blob": "1de106d7041f338b6b338a545e25df521d95fe0b",
+      "bytes": 343,
+      "git_bytes_sha256": "fb1353378baabe229bbcea008e1d61cb21b45527617c896bae3bfcc8aaf9b504"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/38b38dc1510440ec91893a5ae1d94190.consumed.json",
+      "git_blob": "1d74bac21ebe542d147f5d4869259ee78191da57",
+      "bytes": 351,
+      "git_bytes_sha256": "e3c41afdef5ef58640e6b3a716ecf9418fa52b52ef869cfbbff2c687454a4f67"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/392b7c1eae0745609c37ab7d0af232b4.consumed.json",
+      "git_blob": "ff1c65da820e27eb9a576fc57535867a1cf7835a",
+      "bytes": 343,
+      "git_bytes_sha256": "03af86aa4f9fdd7a250743fcf046f4d39b7945154965fdd27585ca0560869951"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/45d595fd7a014ab1bfba4b3b00183417.consumed.json",
+      "git_blob": "d1b05173775167928ca7a7e66adf029732567997",
+      "bytes": 343,
+      "git_bytes_sha256": "53d3e84e38f5642fbaad64b4c36a5dbd318f226ea2b559c3345a85fa7e41a116"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/49fa872a40a84b60b3f7d4fbc7db076b.consumed.json",
+      "git_blob": "cd1b458f95ec0983d4133f5fb1f2bd6321c0f83e",
+      "bytes": 343,
+      "git_bytes_sha256": "ffc902514755a3cc9bfad7430eb3f43f79c7c48a48069b4c581ff68f4cc5a344"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/60daef8675b64664a213e0d3cf89d011.consumed.json",
+      "git_blob": "e2fb031feac4f6f0c041a95aff39b5058f18d82d",
+      "bytes": 343,
+      "git_bytes_sha256": "6a7b5514b737b68f2117f07f8e8456141a14e7b71080780bbc40082fefe3f627"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/71297c4d2a7b4101bc533dab5f18435b.consumed.json",
+      "git_blob": "105ac8b3a914a1e9625c795091931886a15c13df",
+      "bytes": 362,
+      "git_bytes_sha256": "b108d568cc087d7decddc4be65bbbfb19414b5db32318018f325d0a6d6e40606"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/770db7672cec4209bb026c2c36f417d0.consumed.json",
+      "git_blob": "92eff4d15e10752b2b63056730c0d2f73578f9d1",
+      "bytes": 351,
+      "git_bytes_sha256": "b9bb73ccc7ea9b9591125ed3f55f097c1caab35b0146d853a1ef2699a9afe5ac"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/7b409c97308941f2a757b52f002b8742.consumed.json",
+      "git_blob": "a7593af4decfa75c8bf3a4716419327b9808ace3",
+      "bytes": 368,
+      "git_bytes_sha256": "a9748d314ae2fe7c189e826861247f0291521701f25ae90c5e5b1c0665aa415b"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/853fba31cba444a68d2318b6b27527c3.consumed.json",
+      "git_blob": "ac8029b7fdec6910bb26b4f4d479daa5cc055ec1",
+      "bytes": 384,
+      "git_bytes_sha256": "b9e57e4c7914376e0f3ca1c59569fdef574d5d0b90d15e5bfa7e9b29ba547156"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/85bcbd54abd74addbb09a638a313ce6f.consumed.json",
+      "git_blob": "fca2555db63e88418853b44d85df36322d93202a",
+      "bytes": 351,
+      "git_bytes_sha256": "191757b8be77c51d42fbb5153e4258459220d6e03907d1a8abe5f77a383518e7"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/95e9e52c2696423b906d0b33430c010d.consumed.json",
+      "git_blob": "8dc204b72a801828228b7319325e19167acdc1b7",
+      "bytes": 343,
+      "git_bytes_sha256": "a00aa083bec5ded3de5001520e174d626048dd2960045349641cf48a3f522692"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/9a0200ef8a03430db30751563d994b28.consumed.json",
+      "git_blob": "a68a8a9a22f0df0b865ea9d1cab586b269513b45",
+      "bytes": 351,
+      "git_bytes_sha256": "65cc9d76e37d671949482252c5def026212b62764996b88f1080a52978879883"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/9ba42fd561774a539d094497a8586f58.consumed.json",
+      "git_blob": "e3012cbd73746f808e9ee7c6de8f74fd88b34108",
+      "bytes": 343,
+      "git_bytes_sha256": "659facb6e2c489e28a5972becd80b0a868643308708a70d50e4f59aa61a3ac2b"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/a98c9ae603c74fd1aee74e933a996026.consumed.json",
+      "git_blob": "197c3f930f1c8ed5f6b85d894ee0651e093e8521",
+      "bytes": 343,
+      "git_bytes_sha256": "c7c0b55d92eb3e74698114e327e7f77c65ed6409ff29de7034c42ef29e754919"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/e18a8b9c65ef460f8f54fe0ac3f55cb0.consumed.json",
+      "git_blob": "50b6da81e59efbca803d4de43c3a8e1f4a4f5d4d",
+      "bytes": 343,
+      "git_bytes_sha256": "66ae47f19f8d00acd47d4465ebf6317a56089ce9327224c6dbecf86d45fe09c6"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/e646b790c7814d7982f6ab81a3f58b18.consumed.json",
+      "git_blob": "5faff2dba421f204b90457c374fe53eccd1ff2c7",
+      "bytes": 362,
+      "git_bytes_sha256": "95fbdb3077db145dec770a96a7fad3da631ea9188cb6fac5131b023f41abeb84"
+    },
+    {
+      "path": ".aris/agent-attestations/paper_reader/f2cd5493385c4394be119c7023085c3f.consumed.json",
+      "git_blob": "32df57a9983585ccfa31df0fc5ce3ffee6017cde",
+      "bytes": 351,
+      "git_bytes_sha256": "486f6ffd684ca12f8b54945f6fea6b43c76de0fc7bf836facd1408e8a20b16ef"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/field-map/bd47c1da873690e6e3f2a05d2030ba164fb13c561f5f24f73527460e5be3a039.md",
+      "git_blob": "feb8c2e04a9716597d8fc950bea73b5cf82f0e5f",
+      "bytes": 32458,
+      "git_bytes_sha256": "e4d7e62c13fa0b55eadff650af12257b2a0f4b7cedc038dc03ad542191e673c9"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-1434b0d72db8471f8aa6870af09dfe28/artifacts/idea-stage/PROBLEM_CANDIDATES.jsonl",
+      "git_blob": "30910b15e62686d3d48366f4c6a9518be9d98113",
+      "bytes": 11435,
+      "git_bytes_sha256": "5731c6baa4f94b82d4f12481fc79e01196d0605e996ce19087cabc7dd6751ad5"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-1434b0d72db8471f8aa6870af09dfe28/artifacts/idea-stage/PROBLEM_CANDIDATES.md",
+      "git_blob": "a8cbef812dff6057b39f2235bfd259383daadd3b",
+      "bytes": 3094,
+      "git_bytes_sha256": "5987549d0711251577de5267e04c883d8b73f6bd273e59abd8d96d0ce952cb24"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-1434b0d72db8471f8aa6870af09dfe28/artifacts/idea-stage/PROBLEM_EVIDENCE_CAPSULE.md",
+      "git_blob": "6ed1cd92500feb480ff8ad83685ef3ae8a4930b0",
+      "bytes": 2603,
+      "git_bytes_sha256": "c573a1f53c07d72c965563567b89a2143f3e4ae1d0b5e1bee1af11bc06f069fa"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-1434b0d72db8471f8aa6870af09dfe28/artifacts/idea-stage/PROBLEM_NOVELTY_VERDICTS.jsonl",
+      "git_blob": "eb802335c8ed505e571e677ae59d9f3f33f99454",
+      "bytes": 11286,
+      "git_bytes_sha256": "6e82a6726661741b3d45f9d1b66f4f46477c70c14052158fc5bd5b1f4a348687"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-1434b0d72db8471f8aa6870af09dfe28/artifacts/idea-stage/PROBLEM_QUALITY_VERDICTS.jsonl",
+      "git_blob": "f2a00c36294be9862df127a948b1f8625c6d39dc",
+      "bytes": 8001,
+      "git_bytes_sha256": "089f0133f0637326f97b75aa910554d490f5697e866ceb45a85b10a6aa9f69ef"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-1434b0d72db8471f8aa6870af09dfe28/artifacts/idea-stage/RESEARCH_CONTRACT.md",
+      "git_blob": "6b18510a4a5e11108529118985be61d7d35c0a5c",
+      "bytes": 8416,
+      "git_bytes_sha256": "0f5d079a29905fdd02fae638521b702233ac409b86578f1c65ec875493b47af9"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-2d107937502844eda62afc8aa1bc7d8f/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "a593b331147645117ca0342591500d624da62440",
+      "bytes": 36401,
+      "git_bytes_sha256": "88cf6d0ce38ad03a312b565c8e3f11d8ae77daa5365bd78d9d635c14b1787ab3"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-2d107937502844eda62afc8aa1bc7d8f/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "e1d077e35501ebabace102a927cf7d8816e5a675",
+      "bytes": 170307,
+      "git_bytes_sha256": "ab7f71d064cb82040f2f686bb35382b0fb1082c1a9662db5515e1b69fc8a0dd1"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-2d107937502844eda62afc8aa1bc7d8f/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "9b79aff6b3323f7d8b2a68488de75e99a6d8651a",
+      "bytes": 13362,
+      "git_bytes_sha256": "ef26eb5becd8fc3bfeccbf006c3aee41629a8fa02c5d5e7a3e8d2878304017fe"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-2d50f3940210406394ebf1325919f23c/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "e72240449261337aac9f1936caab2cafada24a62",
+      "bytes": 26744,
+      "git_bytes_sha256": "8cba614c20ee09a9f8b00b0ce29d5d01a7128abb831e77f2119fb0255a30ac91"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-2d50f3940210406394ebf1325919f23c/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "2423c238d06cbad16c59a4d014ecae2bfd0ee970",
+      "bytes": 143226,
+      "git_bytes_sha256": "d26d88263dfab7129b5494c6e9ddfecaeb9d63bb7856b4b002205eec75df1ad6"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-2d50f3940210406394ebf1325919f23c/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "f3d0a766d7a9df4811136495ff015a38bb9aef99",
+      "bytes": 7992,
+      "git_bytes_sha256": "d8e2b2525ca25a5f8f7491d4990c91364eb221d52abdcbb7c8b413e54a5d9322"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-31074cfbc46e4473a7aae727901e0610/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "986f1331f2807e60c976fa4715e46b99fef0a0f2",
+      "bytes": 10096,
+      "git_bytes_sha256": "37aa00d354296b0f2de567ac8bc4f4a9f0f40a4340f8d5496f58e71d38624a3b"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-31074cfbc46e4473a7aae727901e0610/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "e5e0ceaab3947b58e3655f462764cf2c0427c84a",
+      "bytes": 86215,
+      "git_bytes_sha256": "d15917e3c7dbaa648b4c4654905548cdcb160b56ab56cb794731c542f47f22f1"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-31074cfbc46e4473a7aae727901e0610/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "a9ce2b7f7f572ac681bd5c0cfdbea1ddec4a205c",
+      "bytes": 6886,
+      "git_bytes_sha256": "6b5036954f3cb7746afb677a02d9080afa21cba90b0a9cea28ff7f26e3e7f7df"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-404f0c6daabd4355bdd5ae67d52bd2a2/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "1b3128df78399d76a38a2eea80cac83c344ee1e2",
+      "bytes": 9674,
+      "git_bytes_sha256": "28f0a3761e458aea55aba770d2e1dad06240decf2c85e57a4f7e4669dbbb7d08"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-404f0c6daabd4355bdd5ae67d52bd2a2/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "e4e9a7fdf968132bf2653cb26f4ad1d5e7225d5c",
+      "bytes": 66831,
+      "git_bytes_sha256": "ad7ca385462d97011e9b258aa2912afb8d2e59d5ca1b14c4ab705312650559e2"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-404f0c6daabd4355bdd5ae67d52bd2a2/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "915bf65dfcbe0d9000b9d1166618351d212e0d85",
+      "bytes": 6073,
+      "git_bytes_sha256": "e38917f71a05bac4f4578a341a9a45add533bbd68180bc4ec31009b05532a103"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-fcd5a878e9414da5b07527fb9a6fa8c9/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "8dcfe2b7e7768e5c4d5b618e24023b252c515ff2",
+      "bytes": 15734,
+      "git_bytes_sha256": "e9fe66fa550f06f468d8c4932577bee467320e4f15d25899a2f10ca3beb8728b"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-fcd5a878e9414da5b07527fb9a6fa8c9/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "73af084f7839a86f7a28044be5f48f76e69442ec",
+      "bytes": 91652,
+      "git_bytes_sha256": "cf575e8306301f0e8e275c2e1e057903b45c60e6bfc333c06fed14e1510f5bae"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-fcd5a878e9414da5b07527fb9a6fa8c9/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "8f2c1dbd83d72130915fe09d396747d80108373d",
+      "bytes": 7780,
+      "git_bytes_sha256": "ea39cfdb29dd8f9a81f6d96483861afbabbf0fde0cf0d762d3dae11bd2c38dcc"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-fd671281f0cb470bb216ba0c45b9a4d0/artifacts/idea-stage/PROBLEM_CANDIDATES.jsonl",
+      "git_blob": "30910b15e62686d3d48366f4c6a9518be9d98113",
+      "bytes": 11435,
+      "git_bytes_sha256": "5731c6baa4f94b82d4f12481fc79e01196d0605e996ce19087cabc7dd6751ad5"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-fd671281f0cb470bb216ba0c45b9a4d0/artifacts/idea-stage/PROBLEM_CANDIDATES.md",
+      "git_blob": "a8cbef812dff6057b39f2235bfd259383daadd3b",
+      "bytes": 3094,
+      "git_bytes_sha256": "5987549d0711251577de5267e04c883d8b73f6bd273e59abd8d96d0ce952cb24"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-fd671281f0cb470bb216ba0c45b9a4d0/artifacts/idea-stage/PROBLEM_EVIDENCE_CAPSULE.md",
+      "git_blob": "6ed1cd92500feb480ff8ad83685ef3ae8a4930b0",
+      "bytes": 2603,
+      "git_bytes_sha256": "c573a1f53c07d72c965563567b89a2143f3e4ae1d0b5e1bee1af11bc06f069fa"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-fd671281f0cb470bb216ba0c45b9a4d0/artifacts/idea-stage/PROBLEM_NOVELTY_VERDICTS.jsonl",
+      "git_blob": "eb802335c8ed505e571e677ae59d9f3f33f99454",
+      "bytes": 11286,
+      "git_bytes_sha256": "6e82a6726661741b3d45f9d1b66f4f46477c70c14052158fc5bd5b1f4a348687"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-fd671281f0cb470bb216ba0c45b9a4d0/artifacts/idea-stage/PROBLEM_QUALITY_VERDICTS.jsonl",
+      "git_blob": "f2a00c36294be9862df127a948b1f8625c6d39dc",
+      "bytes": 8001,
+      "git_bytes_sha256": "089f0133f0637326f97b75aa910554d490f5697e866ceb45a85b10a6aa9f69ef"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/human-return-fd671281f0cb470bb216ba0c45b9a4d0/artifacts/idea-stage/RESEARCH_CONTRACT.md",
+      "git_blob": "6b18510a4a5e11108529118985be61d7d35c0a5c",
+      "bytes": 8416,
+      "git_bytes_sha256": "0f5d079a29905fdd02fae638521b702233ac409b86578f1c65ec875493b47af9"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/query-plan/104d9ec3759ad7df77da3166a7569617cfb18d6f33ce34b685caf34e935b6422.json",
+      "git_blob": "23c166a46de293086c9a9dc297dc3d75a68d74dd",
+      "bytes": 60170,
+      "git_bytes_sha256": "b83f529bb2668c71b1e4af099421bb48597282b087b0442aeabd760a8716cef2"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/query-plan/1cac7e9d3a5a9c8fd9103ae066aef316e534bc5e22f52cba70af7e6611ecc406.json",
+      "git_blob": "0e7bc5394093f28c5aaf286c8a67d11c24435b8f",
+      "bytes": 47219,
+      "git_bytes_sha256": "41a081d290ac9c39d2d1ed0a967aee85d3f2cb8a2a04e052ac1f7dec6a97e209"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/query-plan/4aeaafecd2aed17710e7e605adc57264e2ae2b1e552e854579f1958844965e00.json",
+      "git_blob": "3cc45b2849a27f0f39af077032ff998c97ef4ad8",
+      "bytes": 32338,
+      "git_bytes_sha256": "d309508cb198a3cc0e9b25f13045596bce1219ef5ee244f37d00de7b5c0d5c95"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/query-plan/6028427a61e8e32e71635c7f78a026316e20e2a7b37bb21db12f33fb5c797173.json",
+      "git_blob": "c018071a519732e983016d29279c391f37c7c6bf",
+      "bytes": 57676,
+      "git_bytes_sha256": "c98ff49c018d046dbfc1cf229f323b5d67ee3858db9e41079f699be8eaf09bd5"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/query-plan/a6937acfc11d3a47018b762449863c3f7136f9cc5fea0ece98b061b6e4104776.json",
+      "git_blob": "f79d370d88e814812d1ca577949d0cda1f0ff10b",
+      "bytes": 9079,
+      "git_bytes_sha256": "e4f3ba3a482f7ab47c9b4b18f55b4f6485acbe688427c5479c8ed1a79e4a0150"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/query-plan/c3d2e724efde59c42a7ddd568777d3ba45f06b6505f57c95cb4de073fb7d2626.json",
+      "git_blob": "4da7cd9a8bd0f1803830bcfe7979c7be913b2a96",
+      "bytes": 62319,
+      "git_bytes_sha256": "c28b34218630a18ba2bfda02f4c96da04865f2f1e4fb1df00df579327d18e3ed"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/query-plan/e1931a8e6ded7b45c836be3877ef3ba3768b2786546b6beeec521c9870eacde8.json",
+      "git_blob": "63af0f01c64d4ca458319c3b68b9f9a60a87861a",
+      "bytes": 66981,
+      "git_bytes_sha256": "d5966dcefa10770eff82b9d0928374e4e0604536defdf2143149e4dd84331206"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/query-plan/eb643e3a0375d24e81f3c462439de93b1fa38d01ca4a52ec23b317b8f8ad3079.json",
+      "git_blob": "e41fa2f8edf0cd2deaac06b80908dd0ed11445dc",
+      "bytes": 66981,
+      "git_bytes_sha256": "1bec7f797c67e336297c372c69927676581afa6120e562f14a9a677baa33f49d"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/query-plan/ed6367b83f1e952062f3cb5f417e26c4f2d3fbb2a3f4d03866fed5935048c074.json",
+      "git_blob": "e7f2d0b634cb2bd203d57ac77a32bd3849890378",
+      "bytes": 20877,
+      "git_bytes_sha256": "2f1ab6126e79a3d8744e64c97f5e09758d6cc61677d2726b464a209ed0720747"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-06dcaa39d888413b9c3be1e3ec5f7c6d/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "ffb21f8eb6e689e16d339ac886ee159966c64605",
+      "bytes": 37346,
+      "git_bytes_sha256": "0d395ab60962fd8bfe27df2b16b5a893175b37321a39d097c68348e04662d6c3"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-06dcaa39d888413b9c3be1e3ec5f7c6d/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "b9532df2a0b824d33a051a2d6b3eca2130b3d449",
+      "bytes": 174641,
+      "git_bytes_sha256": "dee7d657014d9a99920b4a5817b0e500ec35254dc7abe9f96451c2717826792a"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-06dcaa39d888413b9c3be1e3ec5f7c6d/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "9644ddc2b0f2462c9635836190f9a49745545039",
+      "bytes": 10174,
+      "git_bytes_sha256": "d367dcc6296f2d16dc67f8ae540645d991367f37764e1901b690527091a12c1d"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-1990721bb56e4638b36baff8050decf9/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "82fd068c2ff2fb8159da17b15a4d63190b6b5267",
+      "bytes": 7888,
+      "git_bytes_sha256": "62ded8e03e40b63325509a6ce2824e7892d912f031638d282ca6096a3c703d2c"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-1990721bb56e4638b36baff8050decf9/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "25111282554e5707baba8a2c6649ae15a19efd4b",
+      "bytes": 48027,
+      "git_bytes_sha256": "464392b1dde3ea2f556f176465af621f7eca70d4076195de8579d0a092b2121e"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-1990721bb56e4638b36baff8050decf9/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "a114e6306ee0c93b50d5983b07423ff1d63b0169",
+      "bytes": 11231,
+      "git_bytes_sha256": "a12327cf18896ccba12f0ad0663dd106e1ecd8877d83f88ebaf5aca5f047ee24"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-1b2fe5f83aea4bc085985a7175224eb4/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "bca2aa0f14f89f241bc778e319974af8a9728248",
+      "bytes": 25058,
+      "git_bytes_sha256": "797d9cfc0ca9850d3edf7131346e553e48c0f43c446f2b448525f10045cf09f2"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-1b2fe5f83aea4bc085985a7175224eb4/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "3b78fe1eca283f5449820361d61aebdfaf61bdc4",
+      "bytes": 137977,
+      "git_bytes_sha256": "16e8e69c5ae855d0f23770b2440acc4859287afcb36d70b6f4f2f567420540b8"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-1b2fe5f83aea4bc085985a7175224eb4/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "6a6a1ce9da04021e76307af1beea1d7f865ae0dc",
+      "bytes": 8124,
+      "git_bytes_sha256": "d313fe98eacc7da837db970d64e5fc919670ffa3f6b8d8295c390f3e0b8da99a"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-2161408c494444c6a7cbdb50af83ed83/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "d5992c26d7a67307995c6c51f7211f1bb2074175",
+      "bytes": 3584,
+      "git_bytes_sha256": "bb213738aa79782db9072f17563dfb08d9a90cca498befe638bc7254e982dd24"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-2161408c494444c6a7cbdb50af83ed83/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "ff8e6d9a4567634e448539f95343704d0fca6ded",
+      "bytes": 47357,
+      "git_bytes_sha256": "7c4382d808ada13348e5a4f827a8f2baa59b1231c77b443453597c274ae91519"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-2161408c494444c6a7cbdb50af83ed83/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "82e0e9fcae1378abe48dfae4ccc619431c06ed45",
+      "bytes": 9686,
+      "git_bytes_sha256": "495a9f0dace78133ae224796dece8d58b4f1146b8c3e4b3686c220031166a50d"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-2e4cf01fc1114b7ab16dab821b4c9bf5/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "a814a296582bfcdeb87c82d00deac54d462d405f",
+      "bytes": 15946,
+      "git_bytes_sha256": "0d4b62ce3898a31a6aff0a0ba139e86f0457ba5eaeaa19b1d0893fa08a48de87"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-2e4cf01fc1114b7ab16dab821b4c9bf5/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "c52a5e6dabf0e1f677f88bb0ffd886be96915f17",
+      "bytes": 102316,
+      "git_bytes_sha256": "2134d1b13d46d171c4257f796426e17f557cd22387a618c452096c0e9b73a64a"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-2e4cf01fc1114b7ab16dab821b4c9bf5/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "8038044b8cb70dd489aa12fa2266b720644fc70a",
+      "bytes": 11337,
+      "git_bytes_sha256": "ada3c568d46da7f4030995c8903ffb2c7512571f53c0e4b7d4fa56030b0a7442"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-3739800a52be440f883a8fde777d216e/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "6c46313fb35e195dc1b98a92b1f2c98744e10e8a",
+      "bytes": 8894,
+      "git_bytes_sha256": "e04a93c4b26edfa92ba58b8bf4006e51239d0ccbc3c04c3f429f2a3ab52cf0e0"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-3739800a52be440f883a8fde777d216e/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "eef81f6bd8459e9517abe4861b2bcdea01021ace",
+      "bytes": 51046,
+      "git_bytes_sha256": "fae3b3658a6ca65c1bdb5413edf9ec4a289a0fdc60cbad171b80e2127bd8a1a4"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-3739800a52be440f883a8fde777d216e/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "38c05b02d2e390877ba4db5ccbdafcfd9c98ee04",
+      "bytes": 8714,
+      "git_bytes_sha256": "0c02d897c883f5e26feaf37d350acab5912bfd3ae0c396ed8e73c8bddb5dc8b4"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-9385b864d4a94f31aa211a726be3ff49/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "09b117dacd3a7edb3ebe2bb558acf31db23b2037",
+      "bytes": 7634,
+      "git_bytes_sha256": "3bd427feb6793a6828db5bcd4ad95ae1b1c4774b9747d7c4027a16964d82f315"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-9385b864d4a94f31aa211a726be3ff49/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "70f61e9a133860dcebeb2990236085d7e1c97f6f",
+      "bytes": 60233,
+      "git_bytes_sha256": "0bf8d7bd6f3ad370e7806a5d2d8755979685f8eb59d684fafbca61dd6ed7caf6"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-9385b864d4a94f31aa211a726be3ff49/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "235eca463cfea6b77c9a43aaa4677e652762946d",
+      "bytes": 7191,
+      "git_bytes_sha256": "b5083ad9c76a81f0edce2511e6e949699285b2cfa273bf3236fd0b61097edb9d"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-d01121db2b6e445a886ba9f4f646b96d/artifacts/idea-stage/METHOD_DESIGN.md",
+      "git_blob": "2927f9e3b52579446f658d5a0e0150a4064f4885",
+      "bytes": 12427,
+      "git_bytes_sha256": "4b0febeb0935fa3ca7422919e00b1e44a0ebfd38cb7649a7f6ef27d33e9c457f"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-d01121db2b6e445a886ba9f4f646b96d/artifacts/idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "3ffba1c63a49d14360a342ff65e78d0c35b84afd",
+      "bytes": 76620,
+      "git_bytes_sha256": "eadd96030394433aac1a524b3195702d0ed262d9157f700cf255ca97637caa56"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/return-d01121db2b6e445a886ba9f4f646b96d/artifacts/idea-stage/METHOD_DESIGN_REVIEW.json",
+      "git_blob": "2c386c01ed3c644b8cba94df8cfceba3ca03a199",
+      "bytes": 7945,
+      "git_bytes_sha256": "e2f24b5384cc1a5bfbf8798ee7aa6c6b70715fa50552da04bc8faca08092afbc"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/revision-eb73bb2fc8794d63a6b6102d8f6cb785/artifacts/idea-stage/NECESSITY_CLOSURE.json",
+      "git_blob": "5d85afb27a57c5f7679ae1c6b8b54b207cd09e9f",
+      "bytes": 10821,
+      "git_bytes_sha256": "ec8396ced5982dd23b485a3dc9fabbcdaa43fc81e918d9123e274d85ff9b5d28"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/revision-eb73bb2fc8794d63a6b6102d8f6cb785/artifacts/idea-stage/NECESSITY_VERDICT.json",
+      "git_blob": "bdb71ef7ac316824d9d6b1d3f774f1e40f138619",
+      "bytes": 2815,
+      "git_bytes_sha256": "e48069a02d7ef0b0f6c80d6044f47f722d6efc673f57439d0aec53f4b6a57f30"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/revision-eb73bb2fc8794d63a6b6102d8f6cb785/artifacts/idea-stage/PROBLEM_CANDIDATES.jsonl",
+      "git_blob": "e6a6aa16dcedd680b970f9cc9b0492be516c990a",
+      "bytes": 13454,
+      "git_bytes_sha256": "6b5f81b4727383267f5b0110e00b87ecbcff3ca5b64deef7184122602ff9f007"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/revision-eb73bb2fc8794d63a6b6102d8f6cb785/artifacts/idea-stage/PROBLEM_CANDIDATES.md",
+      "git_blob": "3b4094ef7bdb19927d0525f9dc561481c6dc093a",
+      "bytes": 3472,
+      "git_bytes_sha256": "1ecf11aadb29507a1f070831d78adad03d4c00b840e42404ea4e7c8df2251eaa"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/revision-eb73bb2fc8794d63a6b6102d8f6cb785/artifacts/idea-stage/PROBLEM_EVIDENCE_CAPSULE.md",
+      "git_blob": "c54ccf42d3a554da0153ac5cb6b6fadcba7cf949",
+      "bytes": 2951,
+      "git_bytes_sha256": "187cd6ac4b885567844fab5a983f5bdf2b911613a746d4f5df202e84c1782d81"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/revision-eb73bb2fc8794d63a6b6102d8f6cb785/artifacts/idea-stage/PROBLEM_NOVELTY_VERDICTS.jsonl",
+      "git_blob": "f973a3b231916c69167e57b340e68b1f15c1973f",
+      "bytes": 12268,
+      "git_bytes_sha256": "bc5f5594227e82c6786e3b3fe907e889a2492b370ac4d1a180d952b7df0c6adf"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/revision-eb73bb2fc8794d63a6b6102d8f6cb785/artifacts/idea-stage/PROBLEM_QUALITY_VERDICTS.jsonl",
+      "git_blob": "4ef660247a6bcb16d78a23558cd64b4fd0bc92d1",
+      "bytes": 8426,
+      "git_bytes_sha256": "75c6d34270002c06c821623137da53391df1af9bdd55759f102f62856a7e59a6"
+    },
+    {
+      "path": ".aris/archive/impedance-control-landscape-e2e/revision-eb73bb2fc8794d63a6b6102d8f6cb785/artifacts/idea-stage/RESEARCH_CONTRACT.md",
+      "git_blob": "833dd948ee37a8c818519782cc9650aed6bc050e",
+      "bytes": 8643,
+      "git_bytes_sha256": "cac57b1ee7361c18ac6bf52386ce8c9df51a7c12b0f5aacebf3314f336925d8b"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/coverage_review.json",
+      "git_blob": "a3464722b9d97d3d2bfb3904d5594fd0200fccac",
+      "bytes": 3230,
+      "git_bytes_sha256": "71c5d1086936e498ca51ddbe208f72a9bffb9226ea053cc8136ea11f36192dc4"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-03NKTnfzQ6sJ.json",
+      "git_blob": "4252b52ea98b2e840a48e69c171f6d6455e7392d",
+      "bytes": 11700,
+      "git_bytes_sha256": "a6dc4e4f6508aeb7758ecb4530c61f107c2121552a9b94ea77638967bb35eb67"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-0n2WntIcZ5MJ.json",
+      "git_blob": "87d6af3d4c9a484f75471a98fa05076ce02b1952",
+      "bytes": 6781,
+      "git_bytes_sha256": "941d5bd730097cae07c897621b24d355bb22877ee6a83ca22e85986f31d51bf3"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-1z4gQqRfAwkJ.json",
+      "git_blob": "f11eb8c979f992022e86dcca00ac2edaf8b3a27b",
+      "bytes": 7177,
+      "git_bytes_sha256": "9401c7ae7aacabd551cf0ad5741a0339798bb05da8b87d109d01ab628f8afad2"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-3HbLu0M801YJ.json",
+      "git_blob": "57c42e48379e26a16ad64670836fdfd7b2958b0c",
+      "bytes": 11502,
+      "git_bytes_sha256": "5d64abe1a21d0f3bb0fa7f7498fa9f4db4ab2729557d6d2f19ab932d0ebdc581"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-3kL0MPf4EmMJ.json",
+      "git_blob": "13723d54bd344ab52584fd2563af002ccba247a1",
+      "bytes": 10515,
+      "git_bytes_sha256": "9ebd45d0e2d62cf884285d8b6cdae7f8f43413e0de203bfe7ac8297dfdbbdc15"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-4S498O8MV4AJ.json",
+      "git_blob": "4f80b1d9823f4c7d8db246b177db6d6773451010",
+      "bytes": 7375,
+      "git_bytes_sha256": "6fa326bf3be8786bd4fab88fd6208b84e28e99d08939b024da92e6e72b6e8d65"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-4tr9C5LNwYwJ.json",
+      "git_blob": "5beee45fc6d53c7acf29554928debcb7f2b11ea1",
+      "bytes": 6092,
+      "git_bytes_sha256": "ccb1e84911aaf272fd7eaffd05af05f773cc763d440b3bee52c58b25d68517b6"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-50unDADdPGEJ.json",
+      "git_blob": "6bb7c5c550324d756635054468afb4bb0d7dd78d",
+      "bytes": 13492,
+      "git_bytes_sha256": "2041aaf59785f930ddc226328ef7d671fd2c731c6b482157f66401a9a6788b4f"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-5WHAHKnl3fYJ.json",
+      "git_blob": "85a3161719f0d1ced1e44463980a05f9096b8a6b",
+      "bytes": 11719,
+      "git_bytes_sha256": "7bc23aa55672ccb5aab153551eab20490c1e780b6ed3e05cf71237b21dde8936"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-5peSBIP--BgJ.json",
+      "git_blob": "264468af2ffdd6299ff35570c6ae4b3d956e0848",
+      "bytes": 5422,
+      "git_bytes_sha256": "5cd7cfa5ef83c443291e91ba2ea2c7b5a091e0d8f1174ff5fa39384cd5a60134"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-9PorOFP0XSIJ.json",
+      "git_blob": "5c1ea2ebe4e6dab9bc04ad79d36da09ec7913bfa",
+      "bytes": 4980,
+      "git_bytes_sha256": "0ffd4b06842cca30a71dff1feef93b8da3e7936d546d5efea96525c083efc27e"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-9vRJMR2dgG4J.json",
+      "git_blob": "77354e8ac1c7d127b37527b1d89e4791bf911dcb",
+      "bytes": 6773,
+      "git_bytes_sha256": "7e89daf4e8392cbcf792e43302107742dab0f45e9c24850144a1132d6552a267"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-AQhmZpqu8cQJ.json",
+      "git_blob": "d6b1871a96147d37f2c088472a6fd93989954a38",
+      "bytes": 15476,
+      "git_bytes_sha256": "16544604f3f979a7d7902cee45d9bde21d611f2bde47cd7b74e9d10183b023de"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-B5eAiFMsuvgJ.json",
+      "git_blob": "1dac17be880938cb93a617df5c986711f60414ea",
+      "bytes": 11449,
+      "git_bytes_sha256": "ba6f583660841c59c1c85bc6664fcfaece069d8a289774e25935ec8cc9e55805"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-B68ZOyQGJ80J.json",
+      "git_blob": "dc041b2d88d5c3853b10e6ef26e7ea8adca0798e",
+      "bytes": 5068,
+      "git_bytes_sha256": "0c7e1e970c75c3a38ed0c03cd260cfb7d97cf4f191ebf38e0ce4105e4c1e8bb2"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-COAQ-sK9a0gJ.json",
+      "git_blob": "323fc30487fa40e6b9edf006c0be91af2cee7a9e",
+      "bytes": 10970,
+      "git_bytes_sha256": "2c33797d798fcba97bb2e03484c4d7361ddeab3dc782faa374dcfb790be8f6a4"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-CkE-5mElf_IJ.json",
+      "git_blob": "c09114e0848801ea01d1e6067788d0a63904365e",
+      "bytes": 8051,
+      "git_bytes_sha256": "68ee5c20d1cca1b9ad8ccd3a879e4a2635e95412e9e41be614d52f60aded8b05"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-D0Bq_8tYnBQJ.json",
+      "git_blob": "b9603654ead9952f4353a20c1c2d44f9cb07e9f5",
+      "bytes": 18510,
+      "git_bytes_sha256": "83d75a49de1345a07f44f6e8063b89a467fd3e67e8f6b9922954738c3cfb7ed6"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-GkLovpurDJwJ.json",
+      "git_blob": "f44257b9de3732e2dd085c99aeb125bae9e5280a",
+      "bytes": 11649,
+      "git_bytes_sha256": "8d80728676c1d84e28d553301626fa4cf2ca55f732e9112574b0d4e91958add6"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-AUTOMATICA-2013-LBMPC.json",
+      "git_blob": "eb5a127c7b6fa46e55ad6e25f4c2a44a71cc9e34",
+      "bytes": 14594,
+      "git_bytes_sha256": "83ac00b07039a3292879b82081a7b463a48e04b33eb30946eb790dd491342ae2"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-EJMAS-2024-105348.json",
+      "git_blob": "0136a41afb9bd9c669f7789458b95e492731496b",
+      "bytes": 12806,
+      "git_bytes_sha256": "2d83f1333ec35dba857775ad11c125449ede7f7b67ae05f4063bdeb722a821f4"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-IJRR-2011-PSR.json",
+      "git_blob": "7126248bd1811bbf516e6bbe9ae0c53f423b022a",
+      "bytes": 11309,
+      "git_bytes_sha256": "c19679f058533c845c57d7f6ad5a16f1610f357a505561a59dfdc1b63b29fd48"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-LRA-2022-ASEE.json",
+      "git_blob": "f33f29a070e2c3284a9dc4ef191c15037ddf1c68",
+      "bytes": 14356,
+      "git_bytes_sha256": "556f46ccc37b914faced26c3a9d92434cb14faf8a9f6568d6bb13979f54c617d"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-MANSCI-2021-SPO.json",
+      "git_blob": "d6ad2f8bc4c3b48c8264030c16d0bafb0a616990",
+      "bytes": 14941,
+      "git_bytes_sha256": "72b77fc89c379beae4ee82ed019a1093805ec59b6f9e553ae33a1ee088b3a97e"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-NEURIPS-2022-VES.json",
+      "git_blob": "954b6776393cc44f53b1bbaf34823f79d99f84e0",
+      "bytes": 15227,
+      "git_bytes_sha256": "924b4733b16509e3b01e15d5f15f77f4571caa59002b3056fb211d2cf7f5d184"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-NEURIPS-2023-PREDICT-CALIBRATE.json",
+      "git_blob": "5e1ecf8c8d43c6e655ceb4e5071db5ab6a885d1c",
+      "bytes": 15813,
+      "git_bytes_sha256": "a8f3d0a52a76c6fe6805e15c332fbf5765b7525f4801ce5931b169ed8d00e5b8"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-TAC-2019-GENERAL-SAFETY-FRAMEWORK.json",
+      "git_blob": "ab4b5c9a04b7e8c6a5d137992358da75235501ce",
+      "bytes": 21800,
+      "git_bytes_sha256": "9b44164b8d7335c8bf1b1e0071a3fb5b72e7ac0751eeeb335a0397ac5784a7a4"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-TRO-2017-CWC.json",
+      "git_blob": "ad2668bb1f89cd9ba0edc7c626aed39c4c578008",
+      "bytes": 10970,
+      "git_bytes_sha256": "e7d1d6e3cd3f062a2b6f48dc07afa0d32459cd00a673a03921adf0846f4d7064"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HVvmYj1jhCIJ.json",
+      "git_blob": "b9ec6ad7e336b9c1d157120134989828a74cbf35",
+      "bytes": 5877,
+      "git_bytes_sha256": "f61997edb4ff6d74e267c005833e618ae18aa31ed98be5a24f0a8a535d47bce2"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-JKrA-rLcvHkJ.json",
+      "git_blob": "bb85e3a3dc090b7dce9bd03e85047171884d0cfd",
+      "bytes": 5394,
+      "git_bytes_sha256": "bb96eb56f597c6a24d76f26fca2b62571703c1817900a75e11dfab057513471a"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-JSUpYYWBjK0J.json",
+      "git_blob": "71e69dda7df5176aa4fe20a82990760f02c1ae17",
+      "bytes": 11507,
+      "git_bytes_sha256": "ab536daa0e98ac016e37f6dbccf5e6bc811616b70ea0fb84a255e491def3db14"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-LJMBf6MAPHQJ.json",
+      "git_blob": "a29c61c9a47714955cbc8703dc5638753c4740e4",
+      "bytes": 9198,
+      "git_bytes_sha256": "857df7ccd24c3f057a794408fd6cbeec1b767de69b97011c0933999a97bc28e6"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-MeRUvAZGn0QJ.json",
+      "git_blob": "2e993eeeece82e312ebc9dcb35415e75cead4934",
+      "bytes": 9564,
+      "git_bytes_sha256": "fb76d257979fd90a2c53aa751a5a561090e9ecb6202c673d5c093ddd62b68c72"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-NeHbiasbAqAJ.json",
+      "git_blob": "0926ae093f9029f4b2cbf39cdb5404180af049a4",
+      "bytes": 5229,
+      "git_bytes_sha256": "0a7f296652d10f90038d30eee8251b4c8edbd79d98e69656280840a025316167"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-NmJOT6QG-tUJ.json",
+      "git_blob": "270e08173ddfae70a4716ecf33e43886b89a9e69",
+      "bytes": 5070,
+      "git_bytes_sha256": "1f8e09dde607ea5f8f112a72553e32dc875f10111d25375de8c7e27fcf7f845e"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-NxOKyaExNYMJ.json",
+      "git_blob": "b37403a546c04d864567f22e3d14fac3b3c98f81",
+      "bytes": 5557,
+      "git_bytes_sha256": "19259fcdc97ba7fd990e6fc559cfa94f206b87ab581e13d26c5bcfcf8675a6cd"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-QPuQ4sfxSTIJ.json",
+      "git_blob": "ac2162073ec4789da481f9d08b4f64d5eb5b1174",
+      "bytes": 7157,
+      "git_bytes_sha256": "6b2393d4a6b427ee71967045ec29bbd46f50d9975a4061f3682596f087797f7e"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-Qm5BKnMez5cJ.json",
+      "git_blob": "9ab9db74bc505b633a2bef7cac546f8d7d634a7d",
+      "bytes": 8445,
+      "git_bytes_sha256": "051e8f755c4776face52612ce0d49098fc9a396f4b3d9c30538f445ae3471da5"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-QxZKurx6oDQJ.json",
+      "git_blob": "71bc85b437b7f6b9dd16fe05014f7393f0b0b71b",
+      "bytes": 17174,
+      "git_bytes_sha256": "119c01038afb0a40405b45da493be2129ba66ab0d35406fd58977bab5b8334a2"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-Rw7RRyHn644J.json",
+      "git_blob": "4a340c8af995b42c2899bc7ce47cba6d54f2ab5d",
+      "bytes": 5566,
+      "git_bytes_sha256": "f22013afab8c27dceeb6459069b8f847b17666fbd028355175692efe9aa75bab"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-SbaEWjemGjsJ.json",
+      "git_blob": "56fe2d5b681446f5f429f8602fc6a4dff78aabf3",
+      "bytes": 11646,
+      "git_bytes_sha256": "19d15614ee9fd10ab10d669a23cd48bd980506ce7bf90b0e716f6ac219ac6720"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-TWbe_B2DfGkJ.json",
+      "git_blob": "db1c2ccb6f9633a24ba42c3ff6e11602db8958b8",
+      "bytes": 13221,
+      "git_bytes_sha256": "371f4a0f7a7bbb3da05ee4e3e61af550bb33820988f68c2a17fc379c52e5ee5f"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-U1Trzk-2GRIJ.json",
+      "git_blob": "cb4ca4a022b8a45c24d81f42a207ddc2c335eb04",
+      "bytes": 9531,
+      "git_bytes_sha256": "3475250ac4a26eacfdc6fe3f98ddc1dfe2dbb1acdebf60eb2648431a829a939b"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-USER-TASE-2023-3282974.json",
+      "git_blob": "3ded9a0c165a1801d7d9a3f749d09d724d28e6ea",
+      "bytes": 6038,
+      "git_bytes_sha256": "4d004b43304b0a24b50f7ab47ba5a647373a2800d0b7de3aa3ce3a66fa627516"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-USER-TRO-2022-3216078.json",
+      "git_blob": "5403b75731dd624bde26b9e99d8f6a24b00151c6",
+      "bytes": 5239,
+      "git_bytes_sha256": "271767782fdf97f7761250ae9e50bf81ea0f427b5ec06e332608706c4062196d"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-USER-TUFFC-2011-1961.json",
+      "git_blob": "9b3deb1cc4d2be1c089c71c0258e66eff1a91aac",
+      "bytes": 5087,
+      "git_bytes_sha256": "cd2787d9090ae50680ec7664d6bb7c864fc3afa53d90ffcc515bf1738bba0332"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-Ubx3Xkv4y2kJ.json",
+      "git_blob": "69c71e4a95689daf859f75b70b1c42ca5847ea80",
+      "bytes": 6808,
+      "git_bytes_sha256": "191991578f347de4a18868d6daaa4458097c634f0fc9a835fac3bc69d062c224"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-VewJDUrPRiAJ.json",
+      "git_blob": "d486ce95bf648053dacb79f0e303343baa7fc75c",
+      "bytes": 8152,
+      "git_bytes_sha256": "d62a1c93881e9c91f7b0e9f317fbdb4978aa63a0a2325d81fe0acb688cce9866"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-VnY2KfSKIPgJ.json",
+      "git_blob": "e38fd394d2429d204b0d10844028ad64542c6b4a",
+      "bytes": 11406,
+      "git_bytes_sha256": "818c65bf41fbcdcba357ab98c1c38b0a47685050605bea079a0361f60879c54e"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-W_DvVyMz0QAJ.json",
+      "git_blob": "8d7756326ab3c754c9eac924de3295061e40ed8b",
+      "bytes": 12251,
+      "git_bytes_sha256": "833ae02a1fca223eba297c8806805f7799adbc594f4b482aeb5045007a0da051"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-X3fLqXpiIBoJ.json",
+      "git_blob": "08c404f864d598267a80710e20e6595699f8d5d3",
+      "bytes": 12194,
+      "git_bytes_sha256": "fbb1f5816ab2824503e7aad23542a8f30f34920d914b9ac4ce438b516a17c8fd"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-YroEWEBohvsJ.json",
+      "git_blob": "3daba41ebdc01c8378e2383db1aa8a140cb2fdf8",
+      "bytes": 18542,
+      "git_bytes_sha256": "03f6e2e8e79710a9e4c81623965279ea309972c86add3fd2ed3c9091b83c84ed"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ZDySGaNsMn8J.json",
+      "git_blob": "111fb7598ecb35d30d5ca61d51812d8affdfcf44",
+      "bytes": 7736,
+      "git_bytes_sha256": "8ab0314589d2b8018cd9ba9e70cb2ef46a56fb2188606c5e17f9ff7b3ad992a7"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ZUU9058b5_oJ.json",
+      "git_blob": "cd0479c6ba67b321c017bab7d78bb0437bbf88cd",
+      "bytes": 19897,
+      "git_bytes_sha256": "1dcff1e8dd40d7cb7ba43528468fd8764dbe919740848069dff47a2801128ce5"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-_-WpL4QNulUJ.json",
+      "git_blob": "194142c1bf3e70ab2bb230f19fe0f3aee7f5f3b7",
+      "bytes": 6555,
+      "git_bytes_sha256": "a214d0c4eb4de6b248e272daba9269ddbe0b8dc090eaba3138f2f58c9266cb37"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-_8NXx8-VkcgJ.json",
+      "git_blob": "15b5fbd635a8b272b6a0f6fdf51672fb583fe09e",
+      "bytes": 6295,
+      "git_bytes_sha256": "34a985d75f94acb20cbe9a74015a6a2dbb671c9b7abb75d842ca2aac83b60973"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-_BLr7kWHLDkJ.json",
+      "git_blob": "b32bdde4c1414212385ada759ac9402f04b34525",
+      "bytes": 5376,
+      "git_bytes_sha256": "28478e896df54dcc4dac149590667c66e5b3cb34de4d997da4299ab1b4aae4a2"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-_Li1FYysbT8J.json",
+      "git_blob": "7360a9ef103b8414dd13462c22d5966ba97379b5",
+      "bytes": 10393,
+      "git_bytes_sha256": "6996412b0fd429ef7ab93fe99079798cadb738d630068a01bb5c591084e1afda"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-advYcrj8QdMJ.json",
+      "git_blob": "11cdfb2bd54f933614601932f0a0cc1a013e39fb",
+      "bytes": 10354,
+      "git_bytes_sha256": "b591d53aa063d0b86bd0e307249e35aded6b9ccd7ce85ccb675102afa6df4b62"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-bRrwxfzJq_QJ.json",
+      "git_blob": "fdd2ea8590ca517e88c58ee3fae0d5769d45b508",
+      "bytes": 16116,
+      "git_bytes_sha256": "d49ec2b9a41663228bd1ff0732b7db51a08e48462b0ed16d00bf93af8f254fa5"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-bh9zIsh1OIgJ.json",
+      "git_blob": "33cb1bc3461a9ab3553399f525c8b3930b60ec3c",
+      "bytes": 16690,
+      "git_bytes_sha256": "3e12173fec405bda41e7f4236d440a618810841ede319f4d42ead4dc6d6fa11c"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-bl3FOCgTd_YJ.json",
+      "git_blob": "1a30144e45f2f209143e7e6e75266d56b2e23af5",
+      "bytes": 19306,
+      "git_bytes_sha256": "46351d05725639be1a8bf25c572c75903c4ef7c3c79575f7b69ee8ed9c71c2ea"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ctEq_owme9kJ.json",
+      "git_blob": "2b04d6ee47a632175acc98a8cadb93a6b15b7728",
+      "bytes": 6523,
+      "git_bytes_sha256": "5e1a1214735d7d4eb8f7aec0ee9555406cf0d1d6d60ac105d3bcb836ae443ab8"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-d1A3Ar8wid4J.json",
+      "git_blob": "75afe085ee7e6f04e385217bb0ebe41e94e66a3d",
+      "bytes": 13581,
+      "git_bytes_sha256": "0bfa128dc9b01d92e72db22cf4f2551d664671bb7cf71aef43e18577fb25d83b"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-d7xxRHNdSMAJ.json",
+      "git_blob": "31cd4c71e8ce0655151242450a06b2832d751d3d",
+      "bytes": 13170,
+      "git_bytes_sha256": "4875d5b0b28d349d241ab9395866f920b01dbe12a27c11d1e894cb632492f3ca"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-dqYs440MKMMJ.json",
+      "git_blob": "110b811f67add79e1f7a2e49b9118af7820ef18f",
+      "bytes": 10366,
+      "git_bytes_sha256": "54f09a2ccb9b4d2a9a811714d2e96011618f8416919d365fc0d2950e40da2d8d"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-eenWQDjapxgJ.json",
+      "git_blob": "b292067c544c142437cfc2eb6e4144462d55e45a",
+      "bytes": 10758,
+      "git_bytes_sha256": "5d540de42cdeee94e0cc40791c24f3e0417c65b3dd449dcc25837f64e5e24130"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ekyHPViUuoYJ.json",
+      "git_blob": "35ce369723d850e7336dd4ac24a549fd42b390cc",
+      "bytes": 10795,
+      "git_bytes_sha256": "ba8d0e162eda46f41ede54cae0a1bc5b01d1f2deac72dc6a83afe84bd5a06b2a"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-external-b12da74d477d3d6e2a08620a14c634000ccec5c4b7bf441d7bfa7e3dfb83307f.json",
+      "git_blob": "37620fe812d2c7e11bbab9118a0d6c9f82947c18",
+      "bytes": 13898,
+      "git_bytes_sha256": "b18e6eccb696e7785ca7ac60c54636e5857afa7ab609263e98d66154364876c7"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-f7_NpbvAX4cJ.json",
+      "git_blob": "b14285a4b0ac93a1a5fb190692d686efd88dbac5",
+      "bytes": 11874,
+      "git_bytes_sha256": "0be1ad5ec01e254eb08c0b31b4c5867da5177a015b222068099be23c8d8fc687"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-gFUzDeNXl9cJ.json",
+      "git_blob": "a3a405b4c216b1382769827963798d9a00cdc8b6",
+      "bytes": 6660,
+      "git_bytes_sha256": "e3abfad0ed9a1cb4ecb838bac6cb4f0c7b85e7badc9f57a2bf6a01c6be548cef"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-grfxImawk1MJ.json",
+      "git_blob": "6fce18c168f0f6b1cf30007bfddb973576603ac1",
+      "bytes": 11118,
+      "git_bytes_sha256": "f1d2fc7c132ce6dafbe79fef916fd0781ae739eb907f0614fbe044f21e75643e"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-iVgeAxXqokQJ.json",
+      "git_blob": "6996fcc2dfba51cbfa921c9c32f506d56e087fbd",
+      "bytes": 4873,
+      "git_bytes_sha256": "ef23aab049553dea30cf42c58bebb33d4d0856212de71ea93643a7a57406bfc7"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-iasK6kEBzIEJ.json",
+      "git_blob": "7c0343323ac863cd05ed3dd9fd0a6791356b78ca",
+      "bytes": 6909,
+      "git_bytes_sha256": "a1f9a53bf6c43cac2c03923ae8634b290a849e00a5d7283e46ef38b2b4965b62"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-imOw8mw7I6cJ.json",
+      "git_blob": "653a9837b7e6c972c15c0fdf3473e825036fb7bb",
+      "bytes": 13466,
+      "git_bytes_sha256": "b904d967034ebff927d5e63e43829edfc68d9fa94c4702d581ab0159199deae2"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-imoj6X2imAgJ.json",
+      "git_blob": "96122d26fb51952e8a2f9f5bbf4760433500f718",
+      "bytes": 13126,
+      "git_bytes_sha256": "258c6caaf8b6aa2a37f10427259903178075b5a74919516d58e846e86699503a"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ioYGUCT49JIJ.json",
+      "git_blob": "598b79d7a73d69697b9a626e862b95d31ef7cd08",
+      "bytes": 11907,
+      "git_bytes_sha256": "d922eab3f0629e60b5b2a4e960692dbd915b6e3b84b5d85c2d4715666a408462"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-j4KJ1EdUyYAJ.json",
+      "git_blob": "463819e0528f4df4c524f59aeffaa7a20cd208c3",
+      "bytes": 11585,
+      "git_bytes_sha256": "90be32ada84d3c295994f37d91f3d4d60ae8a0f7be656090f6c268979ad4edc4"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-jF_ZhPcGGroJ.json",
+      "git_blob": "f3ac0c95fb1b56a9399f653fb811af837ae5385e",
+      "bytes": 12413,
+      "git_bytes_sha256": "48f4824b193d8675039f52a711da5129d259484521fa175481527263d0a3041c"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-kQorDN4oymIJ.json",
+      "git_blob": "d38c27941d7f456368b2bcf17bf13e3ce135fd1f",
+      "bytes": 13364,
+      "git_bytes_sha256": "20c2ef9f76fddf02687de71c62e9a29b6fc71bdca21173ee08a9d1d926a07969"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-kexwZicrUfAJ.json",
+      "git_blob": "03fecfea77274bd8fb86e8099579c6971c949b5a",
+      "bytes": 8536,
+      "git_bytes_sha256": "6d5806fd3fd1cbf8c68361de2884e24bb0e7c9f2e27045c9f120c9192b55eba6"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-kmOXrypch9kJ.json",
+      "git_blob": "69c6b46ddba773db91a1fa2156347d54a43cad86",
+      "bytes": 16697,
+      "git_bytes_sha256": "a84db09e33183f18059a2e867ae0dfd4ef410db4355a1d6680541c1dcc4d0d9a"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-lLfdIFGp-oYJ.json",
+      "git_blob": "859ebca90639850b403250bc41ab544efeed65f2",
+      "bytes": 11492,
+      "git_bytes_sha256": "4cbdd0c84e04ef844a5e7dc342744fd81b00c6f6bfa1b1442662e910e494d545"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-lk5U1cKDpscJ.json",
+      "git_blob": "222cf83787391fa17679a6be9fb89693510f0f6a",
+      "bytes": 13770,
+      "git_bytes_sha256": "38e81a990014f725c8a98abc996e4b48c84855aaf97b6075d879750336ce371c"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-lkDBxoBPKI8J.json",
+      "git_blob": "14df1e224e85faa49ec19b476029be9cacd78fad",
+      "bytes": 5687,
+      "git_bytes_sha256": "6d620c47415aefd71fda909cd3f85b59db55a2820af147f95cf44a2a546ad9be"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-m1A_ZYZ-UQwJ.json",
+      "git_blob": "dd07db703d8a56733ad29cf30802f6ba5bdadb1e",
+      "bytes": 11501,
+      "git_bytes_sha256": "20acc75a142aeb1f8ae1398db251e6728db2282dca63bbe4058bdf837f263788"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-mWLHYOo4c4wJ.json",
+      "git_blob": "2b3da6cc5ba8515c225bb91e54d497e720921264",
+      "bytes": 4955,
+      "git_bytes_sha256": "dc2ee704f80ae8810a2a679ec982fa1c536b909e0d90c522359d5ab4c0454f7c"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-msQI3P227yEJ.json",
+      "git_blob": "264470b5f70895a08a6a2243529e228eab3124d7",
+      "bytes": 11271,
+      "git_bytes_sha256": "827ec00bc1033b41e35de64e0eae1ce91f7789df7faac3b4584bbd233fc761fe"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-nZ1L1Vl7KvEJ.json",
+      "git_blob": "951d2ac6001b4d044cf241907363bf0e3a542f48",
+      "bytes": 6689,
+      "git_bytes_sha256": "f7049c9acd51c871ab0e2444ce872ed917a9a635a16dcb0bb1bfe1bd078f2b76"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-pO9mjm67fekJ.json",
+      "git_blob": "ffcb63928d323792ccdb421e05279d0ccc20908d",
+      "bytes": 6941,
+      "git_bytes_sha256": "2ab1bdb65b89d8e073f1b22162abea71c8a7238985225a4d598fe036444412d6"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-q3JkVkVjN94J.json",
+      "git_blob": "d7753acfe686d540caaf6128edf7beb1647c22bd",
+      "bytes": 5386,
+      "git_bytes_sha256": "73ea56355ecd4e7645f6b840ba88fb872ee2db7cd060cf24b998c6ab3fedc031"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-sXrm1sT8KVIJ.json",
+      "git_blob": "346173bb36a8357d2fe6ef68673364316b7b5744",
+      "bytes": 10974,
+      "git_bytes_sha256": "728108a96de104255b2190ec1151f0c9c4ab73f3b8228a1c54f975a5d83d7c4f"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-sXzu51TTSB0J.json",
+      "git_blob": "16de19c00fff3f21f8df4307ba56feeec89db3bc",
+      "bytes": 12603,
+      "git_bytes_sha256": "f83920482bb5f9f8cf5c378573f28cb4f893b30cec2d6e96e596d3e92202e87a"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-tS1rA372YsUJ.json",
+      "git_blob": "66fe4e242e7908e1cad28f01acb0f03c42cb9c04",
+      "bytes": 9281,
+      "git_bytes_sha256": "fb62a244a9ce43c9418e78750810709dc57f5611e095c661ac95c0369d574b66"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-tZYsUFlRIUIJ.json",
+      "git_blob": "41d2a23008da402c0e11dc58513b58c731d26538",
+      "bytes": 14922,
+      "git_bytes_sha256": "926d7a15bcd70fb50050588382c4f215c3a4c3da0d778396046ddc8713746c5f"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ur6FQs3aZv0J.json",
+      "git_blob": "8bdfa260d02a44fd2bdfa948a0c20374821494be",
+      "bytes": 12160,
+      "git_bytes_sha256": "75465d32c96ab7e774f0169e8dff9f554fa83042a0cdea6028783614727e7307"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-vpcxx3P9RKAJ.json",
+      "git_blob": "b081965758c031a75b17fe29d7c7223693947252",
+      "bytes": 10690,
+      "git_bytes_sha256": "99fd9f479f5525748feda10951eed6ace85bc217b3c464f66b2bc125f9e4d5bc"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-vql7SZH2jUQJ.json",
+      "git_blob": "f444bf719481c0f91affd4e29bdbcaab6130b5ee",
+      "bytes": 12413,
+      "git_bytes_sha256": "c09dcfd01940c79124db47f5e597675753a8d3a4177014ab8a441b0e99ac3c9d"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-w4w_nVaBi-4J.json",
+      "git_blob": "6068bcae713aca0e702321ea5e349cb5da5d7d4e",
+      "bytes": 5450,
+      "git_bytes_sha256": "a6abb41d7d94cae3c4308aaaae268c52abdb0f2a3ae5660ae9df58e787463900"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-w6vmLz5pAjIJ.json",
+      "git_blob": "e7dfcbed352a1bf0bb922c07a5862d51fd12ed41",
+      "bytes": 13687,
+      "git_bytes_sha256": "0e99144ab58d7bc8b052feefd9586e1721ec4940f1571b196a6582bcb354148b"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-xlNjdqnC2fMJ.json",
+      "git_blob": "436f0a7c4307604c159d491a2d379526cdfdcad8",
+      "bytes": 7814,
+      "git_bytes_sha256": "da75db09aa1e81272d05452bedbdb5be7afd4481ab1591260c285d745810845d"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-y051Shzv2A8J.json",
+      "git_blob": "597f4566f335a44d0dd3cba8cb7f8c5748f38fa6",
+      "bytes": 6060,
+      "git_bytes_sha256": "0140a5639369a4704a28d82797db1c4917d3d06b761c2789857b49d6cbb95ff5"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-yWRyC18EraoJ.json",
+      "git_blob": "a87c4d7cfe51fbc1f9bc9b8e1ec39de2ef7c3cbb",
+      "bytes": 9378,
+      "git_bytes_sha256": "cb0f36f37a92906940a10dc1c10d4e5be69440f02af8a3f73ee77a7c3fd3b36c"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ycrjHzo2ClcJ.json",
+      "git_blob": "9e093af64374d165a942bb95e948cbda31444704",
+      "bytes": 15816,
+      "git_bytes_sha256": "5f29a94e255ddb7c1ab6e39ae864a3dcb3466eab61b646211076db6af5065f4b"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-zs_SrlrWveIJ.json",
+      "git_blob": "28e6edff6657aaf3ff78e26f21d554b8e6321c2b",
+      "bytes": 10786,
+      "git_bytes_sha256": "b777ce6a081b311e2e5f2af4c9a252c3832ee64df2f055e36ca440c0c1297cf2"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/incremental-query-plan-problem_necessity.json",
+      "git_blob": "0b7329de974e639a731fb7841a0e7db177f3541c",
+      "bytes": 9050,
+      "git_bytes_sha256": "40aee1227c9fa1de15471d6aeb795c9c6e1c4516a6662b526f0fbc3d62c5ac5a"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query-plan/incremental-query-plan-method_design-1bec7f797c67e336297c372c69927676581afa6120e562f14a9a677baa33f49d.json",
+      "git_blob": "e41fa2f8edf0cd2deaac06b80908dd0ed11445dc",
+      "bytes": 66981,
+      "git_bytes_sha256": "1bec7f797c67e336297c372c69927676581afa6120e562f14a9a677baa33f49d"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query-plan/incremental-query-plan-method_design-2f1ab6126e79a3d8744e64c97f5e09758d6cc61677d2726b464a209ed0720747.json",
+      "git_blob": "e7f2d0b634cb2bd203d57ac77a32bd3849890378",
+      "bytes": 20877,
+      "git_bytes_sha256": "2f1ab6126e79a3d8744e64c97f5e09758d6cc61677d2726b464a209ed0720747"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query-plan/incremental-query-plan-method_design-41a081d290ac9c39d2d1ed0a967aee85d3f2cb8a2a04e052ac1f7dec6a97e209.json",
+      "git_blob": "0e7bc5394093f28c5aaf286c8a67d11c24435b8f",
+      "bytes": 47219,
+      "git_bytes_sha256": "41a081d290ac9c39d2d1ed0a967aee85d3f2cb8a2a04e052ac1f7dec6a97e209"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query-plan/incremental-query-plan-method_design-b83f529bb2668c71b1e4af099421bb48597282b087b0442aeabd760a8716cef2.json",
+      "git_blob": "23c166a46de293086c9a9dc297dc3d75a68d74dd",
+      "bytes": 60170,
+      "git_bytes_sha256": "b83f529bb2668c71b1e4af099421bb48597282b087b0442aeabd760a8716cef2"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query-plan/incremental-query-plan-method_design-c28b34218630a18ba2bfda02f4c96da04865f2f1e4fb1df00df579327d18e3ed.json",
+      "git_blob": "4da7cd9a8bd0f1803830bcfe7979c7be913b2a96",
+      "bytes": 62319,
+      "git_bytes_sha256": "c28b34218630a18ba2bfda02f4c96da04865f2f1e4fb1df00df579327d18e3ed"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query-plan/incremental-query-plan-method_design-c98ff49c018d046dbfc1cf229f323b5d67ee3858db9e41079f699be8eaf09bd5.json",
+      "git_blob": "c018071a519732e983016d29279c391f37c7c6bf",
+      "bytes": 57676,
+      "git_bytes_sha256": "c98ff49c018d046dbfc1cf229f323b5d67ee3858db9e41079f699be8eaf09bd5"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query-plan/incremental-query-plan-method_design-d309508cb198a3cc0e9b25f13045596bce1219ef5ee244f37d00de7b5c0d5c95.json",
+      "git_blob": "3cc45b2849a27f0f39af077032ff998c97ef4ad8",
+      "bytes": 32338,
+      "git_bytes_sha256": "d309508cb198a3cc0e9b25f13045596bce1219ef5ee244f37d00de7b5c0d5c95"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query-plan/incremental-query-plan-method_design-d5966dcefa10770eff82b9d0928374e4e0604536defdf2143149e4dd84331206.json",
+      "git_blob": "63af0f01c64d4ca458319c3b68b9f9a60a87861a",
+      "bytes": 66981,
+      "git_bytes_sha256": "d5966dcefa10770eff82b9d0928374e4e0604536defdf2143149e4dd84331206"
+    },
+    {
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query_plan.json",
+      "git_blob": "37c6527beda644a15de7d78de3e9564efdeac9cd",
+      "bytes": 20351,
+      "git_bytes_sha256": "e9a64519d0c207f2028b60f35db5df9ec0b6f5944260fd1342e2d566e7f7840a"
+    },
+    {
+      "path": ".aris/repair-history/impedance-control-landscape-e2e/literature-corpus-before-43147efdf9a1e49bc4f0881702125d279c9578cec3ffe5ad2c715437c706e61d.jsonl",
+      "git_blob": "290dcb693d7b588f20883e684dd5492deca74ac7",
+      "bytes": 478480,
+      "git_bytes_sha256": "1b2fbb6954c66cdbc47e246738112c220ddafcaabce5f2e15e1887e0e35fedfa"
+    },
+    {
+      "path": ".aris/repair-history/impedance-control-landscape-e2e/literature-corpus-before-bb3c56610246cfd17b73f1f4e1414b289360f4a5bc781ac4a2e47a8460385967.jsonl",
+      "git_blob": "22accfb54dcc8d78068fc0ea64d754e15d93478c",
+      "bytes": 3224836,
+      "git_bytes_sha256": "527148984751638f05ab3cb01872dea89f55178e710123b25e25f940f2bf2504"
+    },
+    {
+      "path": ".aris/runs/impedance-control-landscape-e2e.json",
+      "git_blob": "2779380f0b49caf8dec66c2593868f3de13a8862",
+      "bytes": 6726574,
+      "git_bytes_sha256": "d6fa2bc470a3d4595a3214c3ba79316bd5512d4b4fbe1897980e610ff70457dd"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/active_field_map.json",
+      "git_blob": "0fff15b8f298d390cd4e103e7617bb1a10682360",
+      "bytes": 29041,
+      "git_bytes_sha256": "30d69404aa36787babbb2950ec91ab606d944e50003f60febb0b91c7ebc19be4"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/coverage_review.json",
+      "git_blob": "a3464722b9d97d3d2bfb3904d5594fd0200fccac",
+      "bytes": 3230,
+      "git_bytes_sha256": "71c5d1086936e498ca51ddbe208f72a9bffb9226ea053cc8136ea11f36192dc4"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-03NKTnfzQ6sJ.json",
+      "git_blob": "4252b52ea98b2e840a48e69c171f6d6455e7392d",
+      "bytes": 11700,
+      "git_bytes_sha256": "a6dc4e4f6508aeb7758ecb4530c61f107c2121552a9b94ea77638967bb35eb67"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-0n2WntIcZ5MJ.json",
+      "git_blob": "b21a7f5d231d63ef37a66528b04afed9a94e2d6d",
+      "bytes": 5603,
+      "git_bytes_sha256": "329d049f79dea1bd4932d14def8ee8654cd7ced958771af0683db0056196c216"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-1z4gQqRfAwkJ.json",
+      "git_blob": "f11eb8c979f992022e86dcca00ac2edaf8b3a27b",
+      "bytes": 7177,
+      "git_bytes_sha256": "9401c7ae7aacabd551cf0ad5741a0339798bb05da8b87d109d01ab628f8afad2"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-3HbLu0M801YJ.json",
+      "git_blob": "57c42e48379e26a16ad64670836fdfd7b2958b0c",
+      "bytes": 11502,
+      "git_bytes_sha256": "5d64abe1a21d0f3bb0fa7f7498fa9f4db4ab2729557d6d2f19ab932d0ebdc581"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-3kL0MPf4EmMJ.json",
+      "git_blob": "13723d54bd344ab52584fd2563af002ccba247a1",
+      "bytes": 10515,
+      "git_bytes_sha256": "9ebd45d0e2d62cf884285d8b6cdae7f8f43413e0de203bfe7ac8297dfdbbdc15"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-4S498O8MV4AJ.json",
+      "git_blob": "4f80b1d9823f4c7d8db246b177db6d6773451010",
+      "bytes": 7375,
+      "git_bytes_sha256": "6fa326bf3be8786bd4fab88fd6208b84e28e99d08939b024da92e6e72b6e8d65"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-4tr9C5LNwYwJ.json",
+      "git_blob": "5beee45fc6d53c7acf29554928debcb7f2b11ea1",
+      "bytes": 6092,
+      "git_bytes_sha256": "ccb1e84911aaf272fd7eaffd05af05f773cc763d440b3bee52c58b25d68517b6"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-50unDADdPGEJ.json",
+      "git_blob": "6bb7c5c550324d756635054468afb4bb0d7dd78d",
+      "bytes": 13492,
+      "git_bytes_sha256": "2041aaf59785f930ddc226328ef7d671fd2c731c6b482157f66401a9a6788b4f"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-5WHAHKnl3fYJ.json",
+      "git_blob": "85a3161719f0d1ced1e44463980a05f9096b8a6b",
+      "bytes": 11719,
+      "git_bytes_sha256": "7bc23aa55672ccb5aab153551eab20490c1e780b6ed3e05cf71237b21dde8936"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-5peSBIP--BgJ.json",
+      "git_blob": "264468af2ffdd6299ff35570c6ae4b3d956e0848",
+      "bytes": 5422,
+      "git_bytes_sha256": "5cd7cfa5ef83c443291e91ba2ea2c7b5a091e0d8f1174ff5fa39384cd5a60134"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-8htVct74jO8J-method-v5.json",
+      "git_blob": "dec19116ce7fc1ec94c370188767bb435e18e8ef",
+      "bytes": 7993,
+      "git_bytes_sha256": "66600e866fe26fe621eef2da6e195cace093a5e3468c1badd6860f8f2ba86fc4"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-8htVct74jO8J.json",
+      "git_blob": "e5f245ba039bfa187cc63781d218199d82378ee3",
+      "bytes": 7992,
+      "git_bytes_sha256": "3eb3ebd91c8371aa85f07206368dffa26600c00246f7b6a575db4970c3e71fef"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-9PorOFP0XSIJ.json",
+      "git_blob": "5c1ea2ebe4e6dab9bc04ad79d36da09ec7913bfa",
+      "bytes": 4980,
+      "git_bytes_sha256": "0ffd4b06842cca30a71dff1feef93b8da3e7936d546d5efea96525c083efc27e"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-9vRJMR2dgG4J.json",
+      "git_blob": "7390595d0ade5e4dca15cefdec9f16757faee62f",
+      "bytes": 5583,
+      "git_bytes_sha256": "7201832b3abb578649a894ce518b36e518f534149f117d421b4f5959a309e2ba"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-AQhmZpqu8cQJ.json",
+      "git_blob": "d6b1871a96147d37f2c088472a6fd93989954a38",
+      "bytes": 15476,
+      "git_bytes_sha256": "16544604f3f979a7d7902cee45d9bde21d611f2bde47cd7b74e9d10183b023de"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-B5eAiFMsuvgJ.json",
+      "git_blob": "1dac17be880938cb93a617df5c986711f60414ea",
+      "bytes": 11449,
+      "git_bytes_sha256": "ba6f583660841c59c1c85bc6664fcfaece069d8a289774e25935ec8cc9e55805"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-B68ZOyQGJ80J.json",
+      "git_blob": "dc041b2d88d5c3853b10e6ef26e7ea8adca0798e",
+      "bytes": 5068,
+      "git_bytes_sha256": "0c7e1e970c75c3a38ed0c03cd260cfb7d97cf4f191ebf38e0ce4105e4c1e8bb2"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-COAQ-sK9a0gJ.json",
+      "git_blob": "323fc30487fa40e6b9edf006c0be91af2cee7a9e",
+      "bytes": 10970,
+      "git_bytes_sha256": "2c33797d798fcba97bb2e03484c4d7361ddeab3dc782faa374dcfb790be8f6a4"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-CkE-5mElf_IJ.json",
+      "git_blob": "89bc521fb67b3026d35981a74d6cf2b6c12c35f6",
+      "bytes": 5625,
+      "git_bytes_sha256": "59403b4bf8d25a210cca1086c5e613c28fb210c47da27541ddf6272ecd82b594"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-D0Bq_8tYnBQJ.json",
+      "git_blob": "b9603654ead9952f4353a20c1c2d44f9cb07e9f5",
+      "bytes": 18510,
+      "git_bytes_sha256": "83d75a49de1345a07f44f6e8063b89a467fd3e67e8f6b9922954738c3cfb7ed6"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-GkLovpurDJwJ.json",
+      "git_blob": "f44257b9de3732e2dd085c99aeb125bae9e5280a",
+      "bytes": 11649,
+      "git_bytes_sha256": "8d80728676c1d84e28d553301626fa4cf2ca55f732e9112574b0d4e91958add6"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-AUTOMATICA-2013-LBMPC.json",
+      "git_blob": "465f5b613b6a21cc80b06c7b1fb19283d00158bb",
+      "bytes": 13699,
+      "git_bytes_sha256": "0f51febcbd5cfe59097fe771b1da10b80beb1d5b004f521052c381e36eafe45e"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-EJMAS-2024-105348.json",
+      "git_blob": "24b7678dcd2345e967e5cd60b20816612272f17c",
+      "bytes": 11848,
+      "git_bytes_sha256": "ee7e9e1f86ff274f5cdd3a569dfed9e3f200ac8bf6eaf0ddc16ab88110cc4bd6"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-IJRR-2011-PSR.json",
+      "git_blob": "a6a22924c699a9c4899d9fa31c71cb0dcbbd4596",
+      "bytes": 10004,
+      "git_bytes_sha256": "71eaeadfac6f0636544be05519feac9de96998991f3ea766d19271a8ff8ba1b2"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-LRA-2022-ASEE.json",
+      "git_blob": "848bcad96d557f128385e9d23217e68e0fec4200",
+      "bytes": 13357,
+      "git_bytes_sha256": "cb93fafd2b64e3dd19d6cdc2686fcb6156f40d28a0c6082a35f9aea9548846af"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-MANSCI-2021-SPO.json",
+      "git_blob": "d42b684f11feb30e168aabbd5a5ee7e16854ac98",
+      "bytes": 6123,
+      "git_bytes_sha256": "c48c27659b533582fc35e81e8b0c5456341e95e2f36eebedcf9a83d4886d58c3"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-NEURIPS-2022-VES.json",
+      "git_blob": "f9a800ee8dbc6b697ee8f024dba39667f4dd3364",
+      "bytes": 6412,
+      "git_bytes_sha256": "30bb1e3b53adda560af2042b252d0591bc61f413c6e7d41a05dbca95d79bf311"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-NEURIPS-2023-PREDICT-CALIBRATE.json",
+      "git_blob": "20b617bdca0b3a5c509be1ff8361e98de74396ea",
+      "bytes": 7003,
+      "git_bytes_sha256": "b0ed51fa4c7f3e034414fa3be6ff8903a4525cb7f9d3bd1f6b255479e921da24"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-NEURIPS-2025-FEASIBILITY-DFL.json",
+      "git_blob": "ccb5fe60b9b9d8ab8ec056de8124f311825aad6d",
+      "bytes": 6774,
+      "git_bytes_sha256": "72f12c8832c36f22460bd8001550d4e540ead686dc8ee8df5ada96169ccd4a5d"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-TAC-2019-GENERAL-SAFETY-FRAMEWORK.json",
+      "git_blob": "7cb7acee117d13500c66fdd72c402a8ce0782a6c",
+      "bytes": 13158,
+      "git_bytes_sha256": "e284a564d2cbd544fb64cc777948346ac9004f4a54c254ca8b5076d397ea9573"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HUMAN-TRO-2017-CWC.json",
+      "git_blob": "34db7cd8bcfc6eac009dbf89b0730b7ab9e9b3c5",
+      "bytes": 9733,
+      "git_bytes_sha256": "9f7abdf3b903e5f84dc47dca9ebef359a26e1197b448302d4c1f5017484bbda7"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-HVvmYj1jhCIJ.json",
+      "git_blob": "b9ec6ad7e336b9c1d157120134989828a74cbf35",
+      "bytes": 5877,
+      "git_bytes_sha256": "f61997edb4ff6d74e267c005833e618ae18aa31ed98be5a24f0a8a535d47bce2"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-JKrA-rLcvHkJ.json",
+      "git_blob": "bb85e3a3dc090b7dce9bd03e85047171884d0cfd",
+      "bytes": 5394,
+      "git_bytes_sha256": "bb96eb56f597c6a24d76f26fca2b62571703c1817900a75e11dfab057513471a"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-JSUpYYWBjK0J.json",
+      "git_blob": "71e69dda7df5176aa4fe20a82990760f02c1ae17",
+      "bytes": 11507,
+      "git_bytes_sha256": "ab536daa0e98ac016e37f6dbccf5e6bc811616b70ea0fb84a255e491def3db14"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-LJMBf6MAPHQJ.json",
+      "git_blob": "a29c61c9a47714955cbc8703dc5638753c4740e4",
+      "bytes": 9198,
+      "git_bytes_sha256": "857df7ccd24c3f057a794408fd6cbeec1b767de69b97011c0933999a97bc28e6"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-MeRUvAZGn0QJ.json",
+      "git_blob": "2e993eeeece82e312ebc9dcb35415e75cead4934",
+      "bytes": 9564,
+      "git_bytes_sha256": "fb76d257979fd90a2c53aa751a5a561090e9ecb6202c673d5c093ddd62b68c72"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-NeHbiasbAqAJ.json",
+      "git_blob": "0926ae093f9029f4b2cbf39cdb5404180af049a4",
+      "bytes": 5229,
+      "git_bytes_sha256": "0a7f296652d10f90038d30eee8251b4c8edbd79d98e69656280840a025316167"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-NmJOT6QG-tUJ.json",
+      "git_blob": "270e08173ddfae70a4716ecf33e43886b89a9e69",
+      "bytes": 5070,
+      "git_bytes_sha256": "1f8e09dde607ea5f8f112a72553e32dc875f10111d25375de8c7e27fcf7f845e"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-NxOKyaExNYMJ.json",
+      "git_blob": "b37403a546c04d864567f22e3d14fac3b3c98f81",
+      "bytes": 5557,
+      "git_bytes_sha256": "19259fcdc97ba7fd990e6fc559cfa94f206b87ab581e13d26c5bcfcf8675a6cd"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-QPuQ4sfxSTIJ.json",
+      "git_blob": "919676a32bead341522748064869ddbe2569f724",
+      "bytes": 6005,
+      "git_bytes_sha256": "4044cbb85f351c5059d08b06e712ffe7e026a083063e34d55a4295afc1da3cfa"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-Qm5BKnMez5cJ.json",
+      "git_blob": "9ab9db74bc505b633a2bef7cac546f8d7d634a7d",
+      "bytes": 8445,
+      "git_bytes_sha256": "051e8f755c4776face52612ce0d49098fc9a396f4b3d9c30538f445ae3471da5"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-QxZKurx6oDQJ.json",
+      "git_blob": "71bc85b437b7f6b9dd16fe05014f7393f0b0b71b",
+      "bytes": 17174,
+      "git_bytes_sha256": "119c01038afb0a40405b45da493be2129ba66ab0d35406fd58977bab5b8334a2"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-Rw7RRyHn644J.json",
+      "git_blob": "4a340c8af995b42c2899bc7ce47cba6d54f2ab5d",
+      "bytes": 5566,
+      "git_bytes_sha256": "f22013afab8c27dceeb6459069b8f847b17666fbd028355175692efe9aa75bab"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-SbaEWjemGjsJ.json",
+      "git_blob": "56fe2d5b681446f5f429f8602fc6a4dff78aabf3",
+      "bytes": 11646,
+      "git_bytes_sha256": "19d15614ee9fd10ab10d669a23cd48bd980506ce7bf90b0e716f6ac219ac6720"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-TWbe_B2DfGkJ.json",
+      "git_blob": "db1c2ccb6f9633a24ba42c3ff6e11602db8958b8",
+      "bytes": 13221,
+      "git_bytes_sha256": "371f4a0f7a7bbb3da05ee4e3e61af550bb33820988f68c2a17fc379c52e5ee5f"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-U1Trzk-2GRIJ.json",
+      "git_blob": "cb4ca4a022b8a45c24d81f42a207ddc2c335eb04",
+      "bytes": 9531,
+      "git_bytes_sha256": "3475250ac4a26eacfdc6fe3f98ddc1dfe2dbb1acdebf60eb2648431a829a939b"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-USER-TASE-2023-3282974.json",
+      "git_blob": "3ded9a0c165a1801d7d9a3f749d09d724d28e6ea",
+      "bytes": 6038,
+      "git_bytes_sha256": "4d004b43304b0a24b50f7ab47ba5a647373a2800d0b7de3aa3ce3a66fa627516"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-USER-TRO-2022-3216078.json",
+      "git_blob": "5403b75731dd624bde26b9e99d8f6a24b00151c6",
+      "bytes": 5239,
+      "git_bytes_sha256": "271767782fdf97f7761250ae9e50bf81ea0f427b5ec06e332608706c4062196d"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-USER-TUFFC-2011-1961.json",
+      "git_blob": "9b3deb1cc4d2be1c089c71c0258e66eff1a91aac",
+      "bytes": 5087,
+      "git_bytes_sha256": "cd2787d9090ae50680ec7664d6bb7c864fc3afa53d90ffcc515bf1738bba0332"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-Ubx3Xkv4y2kJ.json",
+      "git_blob": "d6ed4dc74c77c9c20b771cbb97a080f5fd18212f",
+      "bytes": 5645,
+      "git_bytes_sha256": "955d730547c3926a8bd86bf4223339746115e48f9edd9928d737537cce7b65b7"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-VewJDUrPRiAJ.json",
+      "git_blob": "d486ce95bf648053dacb79f0e303343baa7fc75c",
+      "bytes": 8152,
+      "git_bytes_sha256": "d62a1c93881e9c91f7b0e9f317fbdb4978aa63a0a2325d81fe0acb688cce9866"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-VnY2KfSKIPgJ.json",
+      "git_blob": "e38fd394d2429d204b0d10844028ad64542c6b4a",
+      "bytes": 11406,
+      "git_bytes_sha256": "818c65bf41fbcdcba357ab98c1c38b0a47685050605bea079a0361f60879c54e"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-W_DvVyMz0QAJ.json",
+      "git_blob": "8d7756326ab3c754c9eac924de3295061e40ed8b",
+      "bytes": 12251,
+      "git_bytes_sha256": "833ae02a1fca223eba297c8806805f7799adbc594f4b482aeb5045007a0da051"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-X3fLqXpiIBoJ.json",
+      "git_blob": "08c404f864d598267a80710e20e6595699f8d5d3",
+      "bytes": 12194,
+      "git_bytes_sha256": "fbb1f5816ab2824503e7aad23542a8f30f34920d914b9ac4ce438b516a17c8fd"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-YroEWEBohvsJ.json",
+      "git_blob": "3daba41ebdc01c8378e2383db1aa8a140cb2fdf8",
+      "bytes": 18542,
+      "git_bytes_sha256": "03f6e2e8e79710a9e4c81623965279ea309972c86add3fd2ed3c9091b83c84ed"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-ZDySGaNsMn8J.json",
+      "git_blob": "c55ea18a6618dcad4d74e69250551f6929b8417f",
+      "bytes": 5437,
+      "git_bytes_sha256": "ac70b66b5bf6303c88bb867c0ef00ed88b693a35683b82877023ec46dde98ee8"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-ZUU9058b5_oJ.json",
+      "git_blob": "cd0479c6ba67b321c017bab7d78bb0437bbf88cd",
+      "bytes": 19897,
+      "git_bytes_sha256": "1dcff1e8dd40d7cb7ba43528468fd8764dbe919740848069dff47a2801128ce5"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-_-WpL4QNulUJ.json",
+      "git_blob": "f4e3f962ecb3cbbb4cfb8bbb3fde94063e1185fa",
+      "bytes": 5377,
+      "git_bytes_sha256": "fd0db2f50d73cb455dd992a09888b1bc2ce6668a00a6bff134adf1ce558053d4"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-_8NXx8-VkcgJ.json",
+      "git_blob": "f350536d3b4eff6f0c765fa076cd13d56ef68513",
+      "bytes": 5132,
+      "git_bytes_sha256": "77d63b599e6f96534f0b2e0687144d7c91ed066a1ef5d0589cbfee2f4ff7637e"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-_BLr7kWHLDkJ.json",
+      "git_blob": "b32bdde4c1414212385ada759ac9402f04b34525",
+      "bytes": 5376,
+      "git_bytes_sha256": "28478e896df54dcc4dac149590667c66e5b3cb34de4d997da4299ab1b4aae4a2"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-_Li1FYysbT8J.json",
+      "git_blob": "7360a9ef103b8414dd13462c22d5966ba97379b5",
+      "bytes": 10393,
+      "git_bytes_sha256": "6996412b0fd429ef7ab93fe99079798cadb738d630068a01bb5c591084e1afda"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-advYcrj8QdMJ.json",
+      "git_blob": "11cdfb2bd54f933614601932f0a0cc1a013e39fb",
+      "bytes": 10354,
+      "git_bytes_sha256": "b591d53aa063d0b86bd0e307249e35aded6b9ccd7ce85ccb675102afa6df4b62"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-bRrwxfzJq_QJ-method-v5.json",
+      "git_blob": "dee2780c964c7c3152b08903c6931e7eeb79cc9f",
+      "bytes": 7493,
+      "git_bytes_sha256": "0f13f2e6bcf256220f4f8d93f29998b86a6b729d42686c8d38feb56eb9e0479d"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-bRrwxfzJq_QJ.json",
+      "git_blob": "cfa870e083d0d4386a9be26f6fb8f2f6f6e560cc",
+      "bytes": 7492,
+      "git_bytes_sha256": "9b1a8d1050ee5640208e0f8a91bcef93c5bfee2f48b4d18c8cf441e77f7a5c67"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-bh9zIsh1OIgJ.json",
+      "git_blob": "33cb1bc3461a9ab3553399f525c8b3930b60ec3c",
+      "bytes": 16690,
+      "git_bytes_sha256": "3e12173fec405bda41e7f4236d440a618810841ede319f4d42ead4dc6d6fa11c"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-bl3FOCgTd_YJ.json",
+      "git_blob": "1a30144e45f2f209143e7e6e75266d56b2e23af5",
+      "bytes": 19306,
+      "git_bytes_sha256": "46351d05725639be1a8bf25c572c75903c4ef7c3c79575f7b69ee8ed9c71c2ea"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-ctEq_owme9kJ.json",
+      "git_blob": "2b04d6ee47a632175acc98a8cadb93a6b15b7728",
+      "bytes": 6523,
+      "git_bytes_sha256": "5e1a1214735d7d4eb8f7aec0ee9555406cf0d1d6d60ac105d3bcb836ae443ab8"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-d1A3Ar8wid4J.json",
+      "git_blob": "75afe085ee7e6f04e385217bb0ebe41e94e66a3d",
+      "bytes": 13581,
+      "git_bytes_sha256": "0bfa128dc9b01d92e72db22cf4f2551d664671bb7cf71aef43e18577fb25d83b"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-d7xxRHNdSMAJ.json",
+      "git_blob": "31cd4c71e8ce0655151242450a06b2832d751d3d",
+      "bytes": 13170,
+      "git_bytes_sha256": "4875d5b0b28d349d241ab9395866f920b01dbe12a27c11d1e894cb632492f3ca"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-dqYs440MKMMJ.json",
+      "git_blob": "110b811f67add79e1f7a2e49b9118af7820ef18f",
+      "bytes": 10366,
+      "git_bytes_sha256": "54f09a2ccb9b4d2a9a811714d2e96011618f8416919d365fc0d2950e40da2d8d"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-eenWQDjapxgJ.json",
+      "git_blob": "b292067c544c142437cfc2eb6e4144462d55e45a",
+      "bytes": 10758,
+      "git_bytes_sha256": "5d540de42cdeee94e0cc40791c24f3e0417c65b3dd449dcc25837f64e5e24130"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-ekyHPViUuoYJ.json",
+      "git_blob": "35ce369723d850e7336dd4ac24a549fd42b390cc",
+      "bytes": 10795,
+      "git_bytes_sha256": "ba8d0e162eda46f41ede54cae0a1bc5b01d1f2deac72dc6a83afe84bd5a06b2a"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-external-b12da74d477d3d6e2a08620a14c634000ccec5c4b7bf441d7bfa7e3dfb83307f.json",
+      "git_blob": "61e21ca0a62c7942d29c300a5397d024c0e844ef",
+      "bytes": 12733,
+      "git_bytes_sha256": "88f9927edfa3d7789e2d1baa75cd526bb987a854d27e41177ea745c840ebc5bf"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-f7_NpbvAX4cJ.json",
+      "git_blob": "b14285a4b0ac93a1a5fb190692d686efd88dbac5",
+      "bytes": 11874,
+      "git_bytes_sha256": "0be1ad5ec01e254eb08c0b31b4c5867da5177a015b222068099be23c8d8fc687"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-gFUzDeNXl9cJ.json",
+      "git_blob": "a3a405b4c216b1382769827963798d9a00cdc8b6",
+      "bytes": 6660,
+      "git_bytes_sha256": "e3abfad0ed9a1cb4ecb838bac6cb4f0c7b85e7badc9f57a2bf6a01c6be548cef"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-grfxImawk1MJ.json",
+      "git_blob": "6fce18c168f0f6b1cf30007bfddb973576603ac1",
+      "bytes": 11118,
+      "git_bytes_sha256": "f1d2fc7c132ce6dafbe79fef916fd0781ae739eb907f0614fbe044f21e75643e"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-iVgeAxXqokQJ.json",
+      "git_blob": "6996fcc2dfba51cbfa921c9c32f506d56e087fbd",
+      "bytes": 4873,
+      "git_bytes_sha256": "ef23aab049553dea30cf42c58bebb33d4d0856212de71ea93643a7a57406bfc7"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-iasK6kEBzIEJ.json",
+      "git_blob": "41caf7d1edcc11fba9550aa0454a0945b5ee02ac",
+      "bytes": 5746,
+      "git_bytes_sha256": "58b4bd69bb4a9664edb161b06da86f2c87653b8bc436808f3f5e1bdde3263495"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-imOw8mw7I6cJ.json",
+      "git_blob": "653a9837b7e6c972c15c0fdf3473e825036fb7bb",
+      "bytes": 13466,
+      "git_bytes_sha256": "b904d967034ebff927d5e63e43829edfc68d9fa94c4702d581ab0159199deae2"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-imoj6X2imAgJ.json",
+      "git_blob": "96122d26fb51952e8a2f9f5bbf4760433500f718",
+      "bytes": 13126,
+      "git_bytes_sha256": "258c6caaf8b6aa2a37f10427259903178075b5a74919516d58e846e86699503a"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-ioYGUCT49JIJ.json",
+      "git_blob": "598b79d7a73d69697b9a626e862b95d31ef7cd08",
+      "bytes": 11907,
+      "git_bytes_sha256": "d922eab3f0629e60b5b2a4e960692dbd915b6e3b84b5d85c2d4715666a408462"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-j4KJ1EdUyYAJ.json",
+      "git_blob": "463819e0528f4df4c524f59aeffaa7a20cd208c3",
+      "bytes": 11585,
+      "git_bytes_sha256": "90be32ada84d3c295994f37d91f3d4d60ae8a0f7be656090f6c268979ad4edc4"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-jF_ZhPcGGroJ.json",
+      "git_blob": "f3ac0c95fb1b56a9399f653fb811af837ae5385e",
+      "bytes": 12413,
+      "git_bytes_sha256": "48f4824b193d8675039f52a711da5129d259484521fa175481527263d0a3041c"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-kQorDN4oymIJ.json",
+      "git_blob": "d38c27941d7f456368b2bcf17bf13e3ce135fd1f",
+      "bytes": 13364,
+      "git_bytes_sha256": "20c2ef9f76fddf02687de71c62e9a29b6fc71bdca21173ee08a9d1d926a07969"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-kexwZicrUfAJ.json",
+      "git_blob": "03fecfea77274bd8fb86e8099579c6971c949b5a",
+      "bytes": 8536,
+      "git_bytes_sha256": "6d5806fd3fd1cbf8c68361de2884e24bb0e7c9f2e27045c9f120c9192b55eba6"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-kmOXrypch9kJ.json",
+      "git_blob": "69c6b46ddba773db91a1fa2156347d54a43cad86",
+      "bytes": 16697,
+      "git_bytes_sha256": "a84db09e33183f18059a2e867ae0dfd4ef410db4355a1d6680541c1dcc4d0d9a"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-lLfdIFGp-oYJ.json",
+      "git_blob": "859ebca90639850b403250bc41ab544efeed65f2",
+      "bytes": 11492,
+      "git_bytes_sha256": "4cbdd0c84e04ef844a5e7dc342744fd81b00c6f6bfa1b1442662e910e494d545"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-lk5U1cKDpscJ.json",
+      "git_blob": "222cf83787391fa17679a6be9fb89693510f0f6a",
+      "bytes": 13770,
+      "git_bytes_sha256": "38e81a990014f725c8a98abc996e4b48c84855aaf97b6075d879750336ce371c"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-lkDBxoBPKI8J.json",
+      "git_blob": "14df1e224e85faa49ec19b476029be9cacd78fad",
+      "bytes": 5687,
+      "git_bytes_sha256": "6d620c47415aefd71fda909cd3f85b59db55a2820af147f95cf44a2a546ad9be"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-m1A_ZYZ-UQwJ.json",
+      "git_blob": "dd07db703d8a56733ad29cf30802f6ba5bdadb1e",
+      "bytes": 11501,
+      "git_bytes_sha256": "20acc75a142aeb1f8ae1398db251e6728db2282dca63bbe4058bdf837f263788"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-mWLHYOo4c4wJ.json",
+      "git_blob": "2b3da6cc5ba8515c225bb91e54d497e720921264",
+      "bytes": 4955,
+      "git_bytes_sha256": "dc2ee704f80ae8810a2a679ec982fa1c536b909e0d90c522359d5ab4c0454f7c"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-msQI3P227yEJ.json",
+      "git_blob": "264470b5f70895a08a6a2243529e228eab3124d7",
+      "bytes": 11271,
+      "git_bytes_sha256": "827ec00bc1033b41e35de64e0eae1ce91f7789df7faac3b4584bbd233fc761fe"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-nZ1L1Vl7KvEJ.json",
+      "git_blob": "951d2ac6001b4d044cf241907363bf0e3a542f48",
+      "bytes": 6689,
+      "git_bytes_sha256": "f7049c9acd51c871ab0e2444ce872ed917a9a635a16dcb0bb1bfe1bd078f2b76"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-pO9mjm67fekJ.json",
+      "git_blob": "ffcb63928d323792ccdb421e05279d0ccc20908d",
+      "bytes": 6941,
+      "git_bytes_sha256": "2ab1bdb65b89d8e073f1b22162abea71c8a7238985225a4d598fe036444412d6"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-q3JkVkVjN94J.json",
+      "git_blob": "d7753acfe686d540caaf6128edf7beb1647c22bd",
+      "bytes": 5386,
+      "git_bytes_sha256": "73ea56355ecd4e7645f6b840ba88fb872ee2db7cd060cf24b998c6ab3fedc031"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-sXrm1sT8KVIJ.json",
+      "git_blob": "346173bb36a8357d2fe6ef68673364316b7b5744",
+      "bytes": 10974,
+      "git_bytes_sha256": "728108a96de104255b2190ec1151f0c9c4ab73f3b8228a1c54f975a5d83d7c4f"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-sXzu51TTSB0J.json",
+      "git_blob": "16de19c00fff3f21f8df4307ba56feeec89db3bc",
+      "bytes": 12603,
+      "git_bytes_sha256": "f83920482bb5f9f8cf5c378573f28cb4f893b30cec2d6e96e596d3e92202e87a"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-tS1rA372YsUJ.json",
+      "git_blob": "66fe4e242e7908e1cad28f01acb0f03c42cb9c04",
+      "bytes": 9281,
+      "git_bytes_sha256": "fb62a244a9ce43c9418e78750810709dc57f5611e095c661ac95c0369d574b66"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-tZYsUFlRIUIJ.json",
+      "git_blob": "41d2a23008da402c0e11dc58513b58c731d26538",
+      "bytes": 14922,
+      "git_bytes_sha256": "926d7a15bcd70fb50050588382c4f215c3a4c3da0d778396046ddc8713746c5f"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-ur6FQs3aZv0J.json",
+      "git_blob": "8bdfa260d02a44fd2bdfa948a0c20374821494be",
+      "bytes": 12160,
+      "git_bytes_sha256": "75465d32c96ab7e774f0169e8dff9f554fa83042a0cdea6028783614727e7307"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-vpcxx3P9RKAJ.json",
+      "git_blob": "b081965758c031a75b17fe29d7c7223693947252",
+      "bytes": 10690,
+      "git_bytes_sha256": "99fd9f479f5525748feda10951eed6ace85bc217b3c464f66b2bc125f9e4d5bc"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-vql7SZH2jUQJ.json",
+      "git_blob": "f444bf719481c0f91affd4e29bdbcaab6130b5ee",
+      "bytes": 12413,
+      "git_bytes_sha256": "c09dcfd01940c79124db47f5e597675753a8d3a4177014ab8a441b0e99ac3c9d"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-w4w_nVaBi-4J.json",
+      "git_blob": "6068bcae713aca0e702321ea5e349cb5da5d7d4e",
+      "bytes": 5450,
+      "git_bytes_sha256": "a6abb41d7d94cae3c4308aaaae268c52abdb0f2a3ae5660ae9df58e787463900"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-w6vmLz5pAjIJ.json",
+      "git_blob": "e7dfcbed352a1bf0bb922c07a5862d51fd12ed41",
+      "bytes": 13687,
+      "git_bytes_sha256": "0e99144ab58d7bc8b052feefd9586e1721ec4940f1571b196a6582bcb354148b"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-xlNjdqnC2fMJ.json",
+      "git_blob": "436f0a7c4307604c159d491a2d379526cdfdcad8",
+      "bytes": 7814,
+      "git_bytes_sha256": "da75db09aa1e81272d05452bedbdb5be7afd4481ab1591260c285d745810845d"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-y051Shzv2A8J.json",
+      "git_blob": "597f4566f335a44d0dd3cba8cb7f8c5748f38fa6",
+      "bytes": 6060,
+      "git_bytes_sha256": "0140a5639369a4704a28d82797db1c4917d3d06b761c2789857b49d6cbb95ff5"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-yWRyC18EraoJ.json",
+      "git_blob": "a87c4d7cfe51fbc1f9bc9b8e1ec39de2ef7c3cbb",
+      "bytes": 9378,
+      "git_bytes_sha256": "cb0f36f37a92906940a10dc1c10d4e5be69440f02af8a3f73ee77a7c3fd3b36c"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-ycrjHzo2ClcJ.json",
+      "git_blob": "9e093af64374d165a942bb95e948cbda31444704",
+      "bytes": 15816,
+      "git_bytes_sha256": "5f29a94e255ddb7c1ab6e39ae864a3dcb3466eab61b646211076db6af5065f4b"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/evidence-zs_SrlrWveIJ.json",
+      "git_blob": "28e6edff6657aaf3ff78e26f21d554b8e6321c2b",
+      "bytes": 10786,
+      "git_bytes_sha256": "b777ce6a081b311e2e5f2af4c9a252c3832ee64df2f055e36ca440c0c1297cf2"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/human-fulltext-batch-environment-model.json",
+      "git_blob": "764bed0844d8ad933f6a4dd0e33d440b5b0386af",
+      "bytes": 1038,
+      "git_bytes_sha256": "fd4aa7ba814d6dac6e74d640ff9e92ff65a0f7f0bf7f8629fc3a01e1d3994496"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/query_plan.json",
+      "git_blob": "e7f2d0b634cb2bd203d57ac77a32bd3849890378",
+      "bytes": 20877,
+      "git_bytes_sha256": "2f1ab6126e79a3d8744e64c97f5e09758d6cc61677d2726b464a209ed0720747"
+    },
+    {
+      "path": ".aris/staging/impedance-control-landscape-e2e/source_admission_policy.json",
+      "git_blob": "e6b4d30da119243e303fe2693695973405f6c20f",
+      "bytes": 3926,
+      "git_bytes_sha256": "dc2edbebb0dd670f7a69391b16f077777cc5e73ccead8664f64296523545f3e3"
+    },
+    {
+      "path": "ACTIVE_FIELD_MAP_CANDIDATE.json",
+      "git_blob": "2683fa0ac65b37da4817fc4b135475e88dae07e5",
+      "bytes": 30952,
+      "git_bytes_sha256": "a633233e2bc9f540cf8cc257849a3d69b7d7c9731d16041d3f3db4a3b1c1f9a9"
+    },
+    {
+      "path": "CURRENT_CONTINUATION.md",
+      "git_blob": "3128c818aa4573147c29940359348ebdf5913423",
+      "bytes": 4428,
+      "git_bytes_sha256": "fbe266d426e8f0751d34a1896c586412eccb658cd5c57a35a53fa962863e4edf"
+    },
+    {
+      "path": "E2E_RUNTIME_BLOCK_2026-08-15_PROJECT_HOOK_DISCOVERY.md",
+      "git_blob": "91038e8372ee7a7f5b7ddbdff3cb3902745602bb",
+      "bytes": 2980,
+      "git_bytes_sha256": "7a90329cd0909d2ba737de0d4d6e348f4e8c490c9826a58b993260e57cb6f63f"
+    },
+    {
+      "path": "EVIDENCE_HUMAN_MANSCI_2021_SPO_CURRENT.json",
+      "git_blob": "9957eff5205567c0d4218fbc0d4d7ad3f92624dc",
+      "bytes": 5850,
+      "git_bytes_sha256": "28e8a5c2bc99ab9b1a8b5b95d01b21a06b55a9681f79299289ec9f704f18e07f"
+    },
+    {
+      "path": "EVIDENCE_HUMAN_NEURIPS_2022_VES_CURRENT.json",
+      "git_blob": "0d91784a91e00afbfd60e7773650cfe9cedfb863",
+      "bytes": 6147,
+      "git_bytes_sha256": "2b3c773efa3ce14cb7fb459f75803116b6b334dfcf2b12b957a2af8be30820b8"
+    },
+    {
+      "path": "EVIDENCE_HUMAN_NEURIPS_2023_PREDICT_CALIBRATE_CURRENT.json",
+      "git_blob": "003c1aa63207060cc91c3bff800e335a3e52f450",
+      "bytes": 6722,
+      "git_bytes_sha256": "731dfa89435afd184bb20040c35743f92ec9f4b7e5e82e1c34a79631dca5c573"
+    },
+    {
+      "path": "EVIDENCE_HUMAN_NEURIPS_2025_FEASIBILITY_DFL_CURRENT.json",
+      "git_blob": "f103de7f66d30aa7677616b2adcf636f6a1c14ed",
+      "bytes": 6501,
+      "git_bytes_sha256": "d2c399cfd42e5ab21cb0d8c7349152ffa6a4c9e272ae20e594339ae42eadd24a"
+    },
+    {
+      "path": "EVIDENCE_HUMAN_TAC_2019_GENERAL_SAFETY_FRAMEWORK_CURRENT.json",
+      "git_blob": "fba758cf72d853c8250159855cdb2045a0e9a8bc",
+      "bytes": 13159,
+      "git_bytes_sha256": "bb45638b11d0867545f9ccae76ac51b83daffa3965b59d3e3be85c074dacf46e"
+    },
+    {
+      "path": "FULLTEXT_DOWNLOAD_BATCH.md",
+      "git_blob": "14ee28d34ac6e92bc56d461c3873bfdf10cfddf9",
+      "bytes": 1707,
+      "git_bytes_sha256": "1b81cc7cede4dc8a0b599f9214850ecc253a803b6955f265d2f6d76c353a5531"
+    },
+    {
+      "path": "FULLTEXT_DOWNLOAD_BATCH_V2.md",
+      "git_blob": "aa13a96ca506d67e927b222b9575e615337466c2",
+      "bytes": 23551,
+      "git_bytes_sha256": "9e490031d4ada09d4e17edb2127b2d54d3c061652883d994bd18c1d642381639"
+    },
+    {
+      "path": "HANDOFF_2026-08-14_FULLTEXT_DOWNLOADED.md",
+      "git_blob": "d2dba22aa73a126186d43f17cd938864839d09d0",
+      "bytes": 13546,
+      "git_bytes_sha256": "13cec8ac9df9b06ae6783b12089a4456db8b51e84cc759ab072edb6c37f70876"
+    },
+    {
+      "path": "HANDOFF_2026-08-15_READER_ATTESTATION_RUNTIME_BLOCK.md",
+      "git_blob": "b9f926a38aaaca774807ff44cb8333d4704d867d",
+      "bytes": 5808,
+      "git_bytes_sha256": "f9dc5bcb9923eb7df31fab18217cc434d157f848b943f67a5f7ecc257a2d2ed6"
+    },
+    {
+      "path": "HUMAN_FULLTEXT_BATCH_TEMPLATE.json",
+      "git_blob": "ae702f37f9d1f8e100a30b7698e871c12b6043da",
+      "bytes": 1657,
+      "git_bytes_sha256": "cb2dd0f8b48c354401f00c3a7ef6535ec4d656914187a952ea6ae3d96cb4aeb2"
+    },
+    {
+      "path": "HUMAN_FULLTEXT_BATCH_V2.json",
+      "git_blob": "40faebedd1f8b4400370aebb8db4188cb39f9bc4",
+      "bytes": 14265,
+      "git_bytes_sha256": "ce40fb75caeab496bb6a58787bfa018dc008c2ba42e0fddfe32ade6e7055d8ef"
+    },
+    {
+      "path": "IMPEDANCE_CONTROL_E2E_CHANGELOG.md",
+      "git_blob": "53d6d62916ee42492494384d20356edd9aa11e50",
+      "bytes": 19452,
+      "git_bytes_sha256": "743b032408bf3cd8fbe56507b219e7342402a5fb08bdb2987ae846fef668afa6"
+    },
+    {
+      "path": "LITERATURE_RERUN_V2_CHANGELOG.md",
+      "git_blob": "e19d3b4a1cfa2aeb02b648f5aedec4bd11c907e6",
+      "bytes": 2255,
+      "git_bytes_sha256": "628c5d16f7c954360225f5e3b51d1fbab51c1df5e680ef02dbcbd4eaf3422728"
+    },
+    {
+      "path": "LITERATURE_REUSE_AUDIT_V2.md",
+      "git_blob": "3f8565aaed7716ad9e4616002e9e66b9bd2c885a",
+      "bytes": 3869,
+      "git_bytes_sha256": "f39c33949439fcc1eefdf588c55231b87e706819bed062853ae629017190160b"
+    },
+    {
+      "path": "METHOD_DESIGN_GAP_AUDIT.md",
+      "git_blob": "98757b632234f68687e73d19b367ee8de274f404",
+      "bytes": 12577,
+      "git_bytes_sha256": "63c28db36ea5991a8aa1ef097b746c83aef69629776fa801dffd7582c6d7a8fd"
+    },
+    {
+      "path": "METHOD_DESIGN_HUMAN_FULLTEXT_BATCH.json",
+      "git_blob": "2d14f23759b51bbc5254db8b51612a373db8ef09",
+      "bytes": 777,
+      "git_bytes_sha256": "b731569a936351e73489ec7f3c794a8853e2bd2064070e02d948719d7a458dab"
+    },
+    {
+      "path": "METHOD_DESIGN_HUMAN_FULLTEXT_BATCH_V2_CURRENT.json",
+      "git_blob": "3544785382a5374f4708046a0835c624fbf11ba9",
+      "bytes": 220,
+      "git_bytes_sha256": "4245cbe2b1bf7a47e325af0e4b69050116e9d1d35dc66c7b8d3cb50a9f402e02"
+    },
+    {
+      "path": "METHOD_DESIGN_HUMAN_SEARCH_RESULTS.json",
+      "git_blob": "215d2a5d2e81b13480d9350e17ed12e0e54c3ac1",
+      "bytes": 8400,
+      "git_bytes_sha256": "f816c31bf914b14896957137043731518a264f876bcd575f30c1bc49db4c9f37"
+    },
+    {
+      "path": "METHOD_DESIGN_HUMAN_SEARCH_RESULTS_R12.json",
+      "git_blob": "8f390eeedc56d5ef412f31589f52526835a77ab4",
+      "bytes": 3121,
+      "git_bytes_sha256": "2af268a9816e8f3b375e0885691229376e194dd43fdd622e98d22a647cd537d3"
+    },
+    {
+      "path": "METHOD_DESIGN_HUMAN_SEARCH_RESULTS_R6.json",
+      "git_blob": "6479b60c27f9888147b83c975bc5fd16934f657e",
+      "bytes": 3908,
+      "git_bytes_sha256": "ff7f9d52a4662f9d5380638152fd4ae964912087e1847eb041e71afc1d8b687f"
+    },
+    {
+      "path": "METHOD_DESIGN_HUMAN_SEARCH_RESULTS_V2_CURRENT.json",
+      "git_blob": "fee45326e25e0a943a111d6d5a4cf7acd4278af7",
+      "bytes": 8796,
+      "git_bytes_sha256": "434406ec9f48b21d390e87341c2396ef59ed4e7dabfda5a452b76770d6becfd5"
+    },
+    {
+      "path": "METHOD_DESIGN_HUMAN_SEARCH_RESULTS_V3_TERMINOLOGY.json",
+      "git_blob": "9368911bf413bbfc6ee3508877a68af0da212e31",
+      "bytes": 9892,
+      "git_bytes_sha256": "6f8f59ab448f4ddccec4b721afc74bde4c8dd7e29dea127172f5a991ee6da977"
+    },
+    {
+      "path": "METHOD_DESIGN_HUMAN_SEARCH_RESULTS_V4_SOURCE.json",
+      "git_blob": "bac3f2736860183f5e1371fe4875bf974dccdcd6",
+      "bytes": 13643,
+      "git_bytes_sha256": "45a89c2fb8c736c88ceec85b09b688ff5ea3c1ba2a7180a9c692dac98625049b"
+    },
+    {
+      "path": "METHOD_DESIGN_PRINCIPLE_HUMAN_SEARCH_RESULTS_V3.json",
+      "git_blob": "ee7c0acb19a07e7940a9abd27bb33970ebc36a4d",
+      "bytes": 17080,
+      "git_bytes_sha256": "7607009ecbf5f272b4ea147da75d8edfe9499ba37c09bcb25e5b5e78e41379b7"
+    },
+    {
+      "path": "METHOD_DESIGN_PRINCIPLE_SEARCH_PLAN_V2_CURRENT.json",
+      "git_blob": "3daf2874ceadfc8023c2410d2b4ee753509af8ee",
+      "bytes": 57350,
+      "git_bytes_sha256": "0a51613d94e9d360727dfa707accdacc199b2fdc28c758ec75341d6b2f521375"
+    },
+    {
+      "path": "METHOD_DESIGN_PRINCIPLE_SEARCH_PLAN_V3.json",
+      "git_blob": "99d1e41f4766ce15ca9ecda6b0b92f4d1464ac09",
+      "bytes": 33357,
+      "git_bytes_sha256": "bfcebee13c9a8fe910b52f21aca8e43865ff2f4af454914f2b2248fee604d55b"
+    },
+    {
+      "path": "METHOD_DESIGN_QUERY_PLAN_SOFTSCAN.json",
+      "git_blob": "843ed015cd9787d15da4fa66ad1bcf9a612e1695",
+      "bytes": 14263,
+      "git_bytes_sha256": "2582a1eb162c56d5da48f673c55302edb26c85ce076222f779167e595fb84eae"
+    },
+    {
+      "path": "NECESSITY_HUMAN_SEARCH_RESULTS_V2.json",
+      "git_blob": "86839c41c6a9eac3430d104c85be42e85518844a",
+      "bytes": 4949,
+      "git_bytes_sha256": "6a897c21af382ec2cef1d73d0397e20a4d77abd2cc285d135cac44c4126ea760"
+    },
+    {
+      "path": "NECESSITY_PHASE_CURRENT_EVIDENCE_PLAN_V2.json",
+      "git_blob": "3e08ff2602a99c7c78850944ad50e10ddf724a43",
+      "bytes": 4380,
+      "git_bytes_sha256": "667e1ba712346e387cef295323da5048333673bee5e34a44b07c6b200693f3fd"
+    },
+    {
+      "path": "NECESSITY_RECOVERY_QUERY_PLAN_V2.json",
+      "git_blob": "9124a4d3d53ddd7773626b5f64471a5bcd84dc16",
+      "bytes": 9051,
+      "git_bytes_sha256": "5ec76b394fac085bf939ad9bd514bba57628391f0b72a444be76fc8c84977326"
+    },
+    {
+      "path": "NEW_WINDOW_CONTINUATION_PROMPT.md",
+      "git_blob": "627317e8f849d3dd244aab93d27c01f1176ed230",
+      "bytes": 1229,
+      "git_bytes_sha256": "a6371ef30d8bacb4aca9ce11a705e91505121326b0e0f81f4b06608ea645ce5e"
+    },
+    {
+      "path": "PROBLEM_LEAD_QUERY_PLAN_SOFTSCAN.json",
+      "git_blob": "54ec4120801ca0930db346319307998a486a33ce",
+      "bytes": 9080,
+      "git_bytes_sha256": "a15a37ccd30468dee5463db57c67f20da5a729dab5281469f198186f27138ab6"
+    },
+    {
+      "path": "QUERY_PLAN_CANDIDATE.json",
+      "git_blob": "dcb1c0d7001cccb900c33bd5c92180c48ef0530d",
+      "bytes": 3053,
+      "git_bytes_sha256": "152603a9395d75190599c36febdc6a812c5e2b4af2481fb1c4923a0360ea54b3"
+    },
+    {
+      "path": "QUERY_PLAN_V2_REUSE_FIRST.json",
+      "git_blob": "61b8a58e7749dbfbb65bc216dc3beee8a3810302",
+      "bytes": 19872,
+      "git_bytes_sha256": "5b0153106f1a341dae1bec89ee6d618337bb92218b20ab76c5ad05e0edfe5660"
+    },
+    {
+      "path": "R15_STRONGEST_PRIOR_FINAL_AUDIT_2026-09-07.txt",
+      "git_blob": "229e7d0ae0727ec7315e81494f7e769777e46da9",
+      "bytes": 50421,
+      "git_bytes_sha256": "b1e05b6c9cd2a7ea0055e50572a6a3502c86d9986514007f9e0ed4ab9d4ffeef"
+    },
+    {
+      "path": "READ_EVENT_MANIFEST_V3.json",
+      "git_blob": "4d9c2434a643564c79ffe4b2ae216f775be60221",
+      "bytes": 26817,
+      "git_bytes_sha256": "9859a074ac509ec0de9547741c284131e83bf1947bb928a718f358538ba936ce"
+    },
+    {
+      "path": "RESEARCH_BRIEF.md",
+      "git_blob": "b209c2ff4a926afc75a6d0e7fbb5c9fbef6728df",
+      "bytes": 3361,
+      "git_bytes_sha256": "9c7ad51688c17b4da30850a801a14c6972e4ba156aabc066d0bbad0771015238"
+    },
+    {
+      "path": "SOURCE_POLICY_CANDIDATE.yaml",
+      "git_blob": "a1ce2078423496bea26bd3e028b96345958f1451",
+      "bytes": 4096,
+      "git_bytes_sha256": "369ec201fff3ed8756c90d1480cbdcc944da93adfae6932f21aaba9cf3714694"
+    },
+    {
+      "path": "SUPPLEMENTAL_FULLTEXT_BATCH_TEMPLATE.json",
+      "git_blob": "7a1d5f4190f15fa6efc74df75303b79d9016e4dd",
+      "bytes": 873,
+      "git_bytes_sha256": "1d10f45534ab1c8d3b6fd764c7574d28c7a4467c80b92eb348a864cb68c782b0"
+    },
+    {
+      "path": "SUPPLEMENTAL_FULLTEXT_DOWNLOAD_BATCH.md",
+      "git_blob": "9ea19c25f52894400c54ee4bb9ebbb0ed61ef233",
+      "bytes": 1741,
+      "git_bytes_sha256": "4e91864065d61c051fac68695c7ed4a80cbd90593920679f9ea5a5408cdcf75a"
+    },
+    {
+      "path": "SUPPLEMENTAL_QUERY_PLAN_CYCLE_2.json",
+      "git_blob": "fa18a9511d0bd70d8c4f21ec396fce54bba85e50",
+      "bytes": 1128,
+      "git_bytes_sha256": "0cf205c2c6d2621029ca6f73ad324b64b1fa15349eeab7dedef4eaa3186623e2"
+    },
+    {
+      "path": "USER_SOURCE_P04.json",
+      "git_blob": "0ef0b9dad09b229eb3663a6ba2178bb45921d7c1",
+      "bytes": 963,
+      "git_bytes_sha256": "8f07b4cb60c3fcef00c422199b136763efd646ec53158299cf338a6756ec0ec8"
+    },
+    {
+      "path": "USER_SOURCE_P06.json",
+      "git_blob": "975dca179083a58941a0db0e75a8e9a068149971",
+      "bytes": 862,
+      "git_bytes_sha256": "e0f0b47527f9bb34bb3c1e6b585ec9fd7ced3421aa3c325bd3b416df806904de"
+    },
+    {
+      "path": "USER_SOURCE_P17.json",
+      "git_blob": "d2ca337f99c7960ed175996befbefed3fa208789",
+      "bytes": 950,
+      "git_bytes_sha256": "21b25eecd3f76e83bfc4862ef1e96af3e5b23eb5efec8d0386240161e56c37be"
+    },
+    {
+      "path": "USER_SOURCE_P18.json",
+      "git_blob": "6183a122f8d107229f0b9d86f72cae4faaa3bb47",
+      "bytes": 936,
+      "git_bytes_sha256": "a574a51d66e2813bf33693f180d3e664ea1f6a26367e41a0354e9297de016677"
+    },
+    {
+      "path": "idea-stage/ACTIVE_FIELD_MAP.md",
+      "git_blob": "d9165174be2fe94ee6a03c2f04980e24a1025cef",
+      "bytes": 29145,
+      "git_bytes_sha256": "32717b1637b43df4ccac8e2f737f0fbd3f1219492976e9cf3f3031c8ee3f145f"
+    },
+    {
+      "path": "idea-stage/EVIDENCE_REGISTRY.jsonl",
+      "git_blob": "bfb7cae1b5e6c67af6fdb09abacf39812ef3b677",
+      "bytes": 1066485,
+      "git_bytes_sha256": "e61978de06d5bfac458fe22723dddb9529261e40c6963de5e2be5fc3a38ced9f"
+    },
+    {
+      "path": "idea-stage/LITERATURE_CORPUS.jsonl",
+      "git_blob": "559491f1b302265a6e72a702dabd2e3b8225c4a6",
+      "bytes": 8597594,
+      "git_bytes_sha256": "6095698bf63a7ffc127596f7943e559efe24a4caa773ebee8d58cfc74331358a"
+    },
+    {
+      "path": "idea-stage/METHOD_CANDIDATE_DECISION_BRIEF.md",
+      "git_blob": "84cffcc4d2d203336548686bd623d08278f803af",
+      "bytes": 17187,
+      "git_bytes_sha256": "87329c4be233ae92f42020712513cf52e835d97152b02fc444a991bfa4343b21"
+    },
+    {
+      "path": "idea-stage/METHOD_DESIGN.md",
+      "git_blob": "68f7ba914a03d359ecb53533cebf31c8672f2b9c",
+      "bytes": 6216,
+      "git_bytes_sha256": "68d917fdf3a3d077af89a629d65472a9c52673569992b7c6cf553ae5993b9876"
+    },
+    {
+      "path": "idea-stage/METHOD_DESIGN_PACKET.json",
+      "git_blob": "149b25534c6f6e7cfc60d2814e0d5096b4769b8c",
+      "bytes": 45829,
+      "git_bytes_sha256": "854616a0614d97c3556a0fe7dcca0c3c8e901e81978b38c58e938ce16bef62b3"
+    },
+    {
+      "path": "idea-stage/METHOD_NOVELTY_AUDIT_R15.md",
+      "git_blob": "ae876d30c5ced4ce58fc5bae09e21b2f79dbb65a",
+      "bytes": 31130,
+      "git_bytes_sha256": "37a757faff1239c6b14f2254220095501bedcd8c35d7c6ba7bfb998afb50a5c8"
+    },
+    {
+      "path": "idea-stage/METHOD_PRINCIPLES.jsonl",
+      "git_blob": "1690c5aa166fdcaa0224a9f8228e80daa020a565",
+      "bytes": 82566,
+      "git_bytes_sha256": "bbadda1e532a6df38b6b57bebf159c32b93e9c21bd6face308c493468ac6b27b"
+    },
+    {
+      "path": "idea-stage/METHOD_ROUTES.jsonl",
+      "git_blob": "e028af5fdffcd5ab5db416ea09008cf28342c8b9",
+      "bytes": 20571,
+      "git_bytes_sha256": "0aaf28c89678b23bc77ee904e714caab33e5e5b0f41bd8296723976e529c9c65"
+    },
+    {
+      "path": "idea-stage/METHOD_SELECTION_JUSTIFICATION_R10.md",
+      "git_blob": "6d63bce808c9338a0c84aa2c1c62880f44667bdd",
+      "bytes": 20786,
+      "git_bytes_sha256": "9d5fb46aea0929e361e823f44ab4d82602c11a8d279fdfc79016fd72eef88d27"
+    },
+    {
+      "path": "idea-stage/METHOD_SELECTION_JUSTIFICATION_R11.md",
+      "git_blob": "2034f9d30790ef986ed961d9b9d30b6ce018ffcb",
+      "bytes": 14966,
+      "git_bytes_sha256": "a28b9b54bf6e3ca7cd732d0f6f818d3d8b20501f7f2613f181d99fee9204e08f"
+    },
+    {
+      "path": "idea-stage/METHOD_SELECTION_JUSTIFICATION_R12.md",
+      "git_blob": "3e7629038882f142013db3247d210426415ee34c",
+      "bytes": 13163,
+      "git_bytes_sha256": "c6a3076379877af82049c9fb3b1948c75b7abb04f634a96bd279652df0e6cc14"
+    },
+    {
+      "path": "idea-stage/METHOD_SELECTION_JUSTIFICATION_R13.md",
+      "git_blob": "8d1eb0d95b3dc5b49987d53d75f71831cd389828",
+      "bytes": 11776,
+      "git_bytes_sha256": "ab7c52143866da0880b990f9625113945999616a749500dafc09119ba5d38920"
+    },
+    {
+      "path": "idea-stage/METHOD_SELECTION_JUSTIFICATION_R14.md",
+      "git_blob": "d5545dd995535af368b2c91fe251fcdf569e8a45",
+      "bytes": 12379,
+      "git_bytes_sha256": "bcae2d6cf90ed40e2d86647bfc565be94a39e9b6c9225a190c56abba8f346998"
+    },
+    {
+      "path": "idea-stage/METHOD_SELECTION_JUSTIFICATION_R15.md",
+      "git_blob": "9100582ebca3c12375415cab9cd2c45449a88d36",
+      "bytes": 7840,
+      "git_bytes_sha256": "4059673ac0085550d615fa355f3c7bf9422323fa26953d2ccf702a2c7d572db5"
+    },
+    {
+      "path": "idea-stage/METHOD_SELECTION_JUSTIFICATION_R9.md",
+      "git_blob": "8188c6dd1975ec6536df813a13f108d1a6c429c6",
+      "bytes": 28078,
+      "git_bytes_sha256": "bacf8ceac4ca2ea26e40448e8375cd6e399d730c4064bd494ad3a5da1de3d98d"
+    },
+    {
+      "path": "idea-stage/METHOD_SYNTHESIS_COMPLETE_R10.md",
+      "git_blob": "b55c22c7224635f13720d3b30ad76e7d6ea6b700",
+      "bytes": 17932,
+      "git_bytes_sha256": "67a1d045860a37dd86ecf41826c98d94d47cbb427449bd4da387a91bcdbae050"
+    },
+    {
+      "path": "idea-stage/METHOD_SYNTHESIS_COMPLETE_R11.md",
+      "git_blob": "ebe3f94595dee03ca0e0961f3f72c26703207f31",
+      "bytes": 13919,
+      "git_bytes_sha256": "60820f214c3a82c2293ddd050a4f46c529bd5e8d09c3143e72b2b8777c752aa0"
+    },
+    {
+      "path": "idea-stage/METHOD_SYNTHESIS_COMPLETE_R12.md",
+      "git_blob": "b15434219ed4c014372a4b775118045f467d8938",
+      "bytes": 16183,
+      "git_bytes_sha256": "8dc929cea382551f8353e8d252893f57a000150b1a896f90888fd49e9f061592"
+    },
+    {
+      "path": "idea-stage/METHOD_SYNTHESIS_COMPLETE_R13.md",
+      "git_blob": "88631d28aafdfb48584858530256a54e22edf074",
+      "bytes": 16911,
+      "git_bytes_sha256": "508fdf93b470a17a3eb648032ea390817148cbc1c20bbe1b335fb37510d5c761"
+    },
+    {
+      "path": "idea-stage/METHOD_SYNTHESIS_COMPLETE_R14.md",
+      "git_blob": "8ac4100540b87b951cd778dd954ec4a7da16c070",
+      "bytes": 15181,
+      "git_bytes_sha256": "e19194f4a3d7a98f3bf8a63251b7e0859c0c48981257861b52d1225b67ec873c"
+    },
+    {
+      "path": "idea-stage/METHOD_SYNTHESIS_COMPLETE_R15.md",
+      "git_blob": "0c79784440107adf1ea66918505d2dff895683f8",
+      "bytes": 51519,
+      "git_bytes_sha256": "5c3cf8646f4b6c0b401c93f923d738de08a2584d295ce97b134a21efeda89c5b"
+    },
+    {
+      "path": "idea-stage/METHOD_SYNTHESIS_COMPLETE_R9.md",
+      "git_blob": "617e907574d262f8b2ffd8b1211d663c7d90131e",
+      "bytes": 23882,
+      "git_bytes_sha256": "99dc3581402e242118953e66c1bb8ba9ae7135285e30a436affe51f9c7a56c25"
+    },
+    {
+      "path": "idea-stage/METHOD_SYNTHESIS_HUMAN_SELECTION_DRAFTS.md",
+      "git_blob": "3938bf21450b3f59df27ff19947e0d7d3e82b57b",
+      "bytes": 32600,
+      "git_bytes_sha256": "bd1c4838611729b79596b2919a5e0d40d4bebe3db79b428752a70ba9d42fb920"
+    },
+    {
+      "path": "idea-stage/METHOD_SYNTHESIS_REANCHORED_R8.md",
+      "git_blob": "0812c9e3130ad43ca7d7b365044a0a685fd5555c",
+      "bytes": 14501,
+      "git_bytes_sha256": "651e79fe534802af3b02f785d3a55ad7c5c588d09c78f290780f73a88b69d961"
+    },
+    {
+      "path": "idea-stage/NECESSITY_CLOSURE.json",
+      "git_blob": "2dd300eba276f100a3e1760b6ec0d64cd5282b82",
+      "bytes": 15921,
+      "git_bytes_sha256": "8cdffde60027bbd8d5695ec2d7817fa3015c36f6c9a04043cf05ab427d7bfc81"
+    },
+    {
+      "path": "idea-stage/NECESSITY_VERDICT.json",
+      "git_blob": "dfd404560b24e042dbf9ddc15973df9cf1a4828f",
+      "bytes": 3565,
+      "git_bytes_sha256": "04c8d12ec4716abc3deeecfe19e62172f7879358cd59899301f869810abf5922"
+    },
+    {
+      "path": "idea-stage/PROBLEM_CANDIDATES.jsonl",
+      "git_blob": "d5330e6f39826aa59aadc44134a071d1cfa64847",
+      "bytes": 14937,
+      "git_bytes_sha256": "44a73608cc3f9b4d0c8a5cc9b4cf43faf4a6392b6f09ff38b7161771f1b3f3b6"
+    },
+    {
+      "path": "idea-stage/PROBLEM_CANDIDATES.md",
+      "git_blob": "2697fd071f69ee3f7dad0cfb054059979f65994a",
+      "bytes": 3611,
+      "git_bytes_sha256": "3b407c6b51915670450894b9ed104bbed69d28629b99adf12f291778e27a6a91"
+    },
+    {
+      "path": "idea-stage/PROBLEM_EVIDENCE_CAPSULE.md",
+      "git_blob": "e73e53efd3fd71beaaa612618d36d4befc1c8fdc",
+      "bytes": 3244,
+      "git_bytes_sha256": "2a11f572f53aa2d7bf82f56826f61cb35bcc88f0df0aae4be1cdd77a76027b32"
+    },
+    {
+      "path": "idea-stage/PROBLEM_NOVELTY_VERDICTS.jsonl",
+      "git_blob": "267ff3b973dff660ae25342116781f81876a8029",
+      "bytes": 10058,
+      "git_bytes_sha256": "f6c30c7e70fcb9b8ed5638f12362e8c42cc702300c5430d09ab25fef4fc1617f"
+    },
+    {
+      "path": "idea-stage/PROBLEM_QUALITY_VERDICTS.jsonl",
+      "git_blob": "e18251650434d89eefa570f192a1554f45947fab",
+      "bytes": 7548,
+      "git_bytes_sha256": "f65f29c44e80ef126e9609b6afbcf5d979c94b4e475cc911fe85505ff52931f5"
+    },
+    {
+      "path": "idea-stage/RESEARCH_CONTRACT.md",
+      "git_blob": "9e5016c0560b6fd9287b250d8b3f33d0b9d093e7",
+      "bytes": 9665,
+      "git_bytes_sha256": "0b107ec8b177e29e4a1770ff1a6b3a2765f06a506d1b7093171c96c6321fd9f5"
+    },
+    {
+      "path": "idea-stage/ROOT_CAUSE_ANALYSIS.json",
+      "git_blob": "c0068b34f04023032a14f41242f39c92fc57ffaa",
+      "bytes": 21287,
+      "git_bytes_sha256": "080bce6e7acef9c486ff7618052246a288fe8d97bd82083db3d3a7cd6bf40077"
+    },
+    {
+      "path": "idea-stage/ROOT_CAUSE_ANALYSIS.md",
+      "git_blob": "8cf6ac8cc625c1fdf819c3d21f7670218f601350",
+      "bytes": 3889,
+      "git_bytes_sha256": "bf9cc3dbc29afe0a16ef51de32daabdbead2bbacc036c8e96c85c58fed5111d0"
+    },
+    {
+      "path": "idea-stage/ROOT_CAUSE_VERDICT.json",
+      "git_blob": "65a05cd6041a67c4c76186450603e23e32ff99d5",
+      "bytes": 3753,
+      "git_bytes_sha256": "d408a96d90fcb3db671601d0364f867b99cd235a79b1e1961b4021f0613b0237"
+    },
+    {
+      "path": "idea-stage/SEARCH_LEDGER.jsonl",
+      "git_blob": "0bbfb01b8dd758cf7a473e1117046956fc9f98f0",
+      "bytes": 4231332,
+      "git_bytes_sha256": "916c8a630a79d57ab4959d941dde25419efa828bc67540972c8b64fe0868d48d"
+    },
+    {
+      "path": "idea-stage/SOURCE_ADMISSION_POLICY.yaml",
+      "git_blob": "e6b4d30da119243e303fe2693695973405f6c20f",
+      "bytes": 3926,
+      "git_bytes_sha256": "dc2edbebb0dd670f7a69391b16f077777cc5e73ccead8664f64296523545f3e3"
+    },
+    {
+      "path": "query-01-output.txt",
+      "git_blob": "336d9ac97f6192ab08596a133685a04526c9fd98",
+      "bytes": 1918,
+      "git_bytes_sha256": "79ab928cee084b15dda800943a33d51077c5f530aecd9315d453bc044121198e"
+    }
+  ],
+  "accepted_binding_audit": [
+    {
+      "name": "source_admission_policy",
+      "path": "idea-stage/SOURCE_ADMISSION_POLICY.yaml",
+      "recorded_sha256": "0aacb468316351ea4fcb10f35fcda53ea0def3c5ae5a408cf878a55038e87aa5",
+      "git_bytes_sha256": "dc2edbebb0dd670f7a69391b16f077777cc5e73ccead8664f64296523545f3e3",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "query_plan",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query_plan.json",
+      "recorded_sha256": "17a0441a9801dec552d0be8e12912ea70480a11edc677cfae20bc7c555152da7",
+      "git_bytes_sha256": "e9a64519d0c207f2028b60f35db5df9ec0b6f5944260fd1342e2d566e7f7840a",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:LJMBf6MAPHQJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-LJMBf6MAPHQJ.json",
+      "recorded_sha256": "59b628a2fe035af9bb24adb568d26cd2e029e02c58988294edb667405c98681d",
+      "git_bytes_sha256": "857df7ccd24c3f057a794408fd6cbeec1b767de69b97011c0933999a97bc28e6",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:dqYs440MKMMJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-dqYs440MKMMJ.json",
+      "recorded_sha256": "c660465069c6dfa62a8783bb01a760993207bcbfca40fd0331e5f782ee0bbc30",
+      "git_bytes_sha256": "54f09a2ccb9b4d2a9a811714d2e96011618f8416919d365fc0d2950e40da2d8d",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:AQhmZpqu8cQJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-AQhmZpqu8cQJ.json",
+      "recorded_sha256": "479a3ef16dbf3c72c03efc2c7140c99d5bdadf7f763131ca3ab24251423a132c",
+      "git_bytes_sha256": "16544604f3f979a7d7902cee45d9bde21d611f2bde47cd7b74e9d10183b023de",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:ZUU9058b5_oJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ZUU9058b5_oJ.json",
+      "recorded_sha256": "751554500a79231c5da7e74765493787e1c14b6fa8a2cae8bf503fc178fdaa98",
+      "git_bytes_sha256": "1dcff1e8dd40d7cb7ba43528468fd8764dbe919740848069dff47a2801128ce5",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:kmOXrypch9kJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-kmOXrypch9kJ.json",
+      "recorded_sha256": "cd8ea299f745eced7d02a36dead5747a02fbdd8693c69c9d439f307850376b90",
+      "git_bytes_sha256": "a84db09e33183f18059a2e867ae0dfd4ef410db4355a1d6680541c1dcc4d0d9a",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:bh9zIsh1OIgJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-bh9zIsh1OIgJ.json",
+      "recorded_sha256": "6944837da4a246c7f748d316637bcd5d5d85d554cba08d4707dd85cd096b9a4c",
+      "git_bytes_sha256": "3e12173fec405bda41e7f4236d440a618810841ede319f4d42ead4dc6d6fa11c",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:D0Bq_8tYnBQJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-D0Bq_8tYnBQJ.json",
+      "recorded_sha256": "f89932569509d2fd6ae39060fbbed5b7c99187bb146b3f897bbb07a6f8284915",
+      "git_bytes_sha256": "83d75a49de1345a07f44f6e8063b89a467fd3e67e8f6b9922954738c3cfb7ed6",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:YroEWEBohvsJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-YroEWEBohvsJ.json",
+      "recorded_sha256": "0cdd1d8b5ff9c3107c592ae15e5289b578493bc02346e74d9f92883a85b53b29",
+      "git_bytes_sha256": "03f6e2e8e79710a9e4c81623965279ea309972c86add3fd2ed3c9091b83c84ed",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:bl3FOCgTd_YJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-bl3FOCgTd_YJ.json",
+      "recorded_sha256": "a14afd5ddecca3a26083a908d98e68e62e9c6b28485dab051361988a867a5334",
+      "git_bytes_sha256": "46351d05725639be1a8bf25c572c75903c4ef7c3c79575f7b69ee8ed9c71c2ea",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:SbaEWjemGjsJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-SbaEWjemGjsJ.json",
+      "recorded_sha256": "1d985af066cae0ff57276a3e05240f64c3fcf21fb24f5b6b3a9ee49973cdc80b",
+      "git_bytes_sha256": "19d15614ee9fd10ab10d669a23cd48bd980506ce7bf90b0e716f6ac219ac6720",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:3HbLu0M801YJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-3HbLu0M801YJ.json",
+      "recorded_sha256": "f4339df0eb1c164a2d2f2915086f98756d510886ce3a120f2f9e535ec0f46740",
+      "git_bytes_sha256": "5d64abe1a21d0f3bb0fa7f7498fa9f4db4ab2729557d6d2f19ab932d0ebdc581",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:TWbe_B2DfGkJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-TWbe_B2DfGkJ.json",
+      "recorded_sha256": "32505adb63e97abc2c6206551068c2c3ef3e7cf81f7287b8fae12fe8d3645881",
+      "git_bytes_sha256": "371f4a0f7a7bbb3da05ee4e3e61af550bb33820988f68c2a17fc379c52e5ee5f",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:kQorDN4oymIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-kQorDN4oymIJ.json",
+      "recorded_sha256": "bf390697e474d3c0b6b27819c8f7a4ff6459f1d126c0b07f18288102adfe5595",
+      "git_bytes_sha256": "20c2ef9f76fddf02687de71c62e9a29b6fc71bdca21173ee08a9d1d926a07969",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "active_field_map",
+      "path": "idea-stage/ACTIVE_FIELD_MAP.md",
+      "recorded_sha256": "c1cb1d60c0aca8329465f6c33837ce28c200dd5591b8cb46453b6d744f9a48d7",
+      "git_bytes_sha256": "32717b1637b43df4ccac8e2f737f0fbd3f1219492976e9cf3f3031c8ee3f145f",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "coverage_review",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/coverage_review.json",
+      "recorded_sha256": "566436c965bfcf8a5e0f4b59217365c4a67793c03687b74bbc803197f5ef0a78",
+      "git_bytes_sha256": "71c5d1086936e498ca51ddbe208f72a9bffb9226ea053cc8136ea11f36192dc4",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:w6vmLz5pAjIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-w6vmLz5pAjIJ.json",
+      "recorded_sha256": "82e061cea36aa3594d23845405b6a289137c6048b05b46a149271e62f1acec1a",
+      "git_bytes_sha256": "0e99144ab58d7bc8b052feefd9586e1721ec4940f1571b196a6582bcb354148b",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:d1A3Ar8wid4J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-d1A3Ar8wid4J.json",
+      "recorded_sha256": "c6b2c2e7a4d0cda3d736f7c5855ffff4816f1ac51c9d724a56a22a0b069db3a1",
+      "git_bytes_sha256": "0bfa128dc9b01d92e72db22cf4f2551d664671bb7cf71aef43e18577fb25d83b",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:lk5U1cKDpscJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-lk5U1cKDpscJ.json",
+      "recorded_sha256": "f12aaf8eb3f07fb2d2dd736bac2a4f538d90f1b118117d2233d6ada51128c807",
+      "git_bytes_sha256": "38e81a990014f725c8a98abc996e4b48c84855aaf97b6075d879750336ce371c",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:tZYsUFlRIUIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-tZYsUFlRIUIJ.json",
+      "recorded_sha256": "3365bed7f47541ea5b2f41c34e30f7706bc10979ad92c6c43ec9136c8ceeb86b",
+      "git_bytes_sha256": "926d7a15bcd70fb50050588382c4f215c3a4c3da0d778396046ddc8713746c5f",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:ycrjHzo2ClcJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ycrjHzo2ClcJ.json",
+      "recorded_sha256": "543ad4bd97954f42e6c7eb8a7a683ab65042d2f2eab6951bad8fbeb3501b0a05",
+      "git_bytes_sha256": "5f29a94e255ddb7c1ab6e39ae864a3dcb3466eab61b646211076db6af5065f4b",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:QxZKurx6oDQJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-QxZKurx6oDQJ.json",
+      "recorded_sha256": "5a3e8a9133306191e7cc56e5cc2ba02cf3ba4e935339ad2b514a706fea7de774",
+      "git_bytes_sha256": "119c01038afb0a40405b45da493be2129ba66ab0d35406fd58977bab5b8334a2",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:imOw8mw7I6cJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-imOw8mw7I6cJ.json",
+      "recorded_sha256": "35d5aed28e5dee5f9bd54a72ea3fcb8a191484a04fdbac241746274370ac3e0e",
+      "git_bytes_sha256": "b904d967034ebff927d5e63e43829edfc68d9fa94c4702d581ab0159199deae2",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:imoj6X2imAgJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-imoj6X2imAgJ.json",
+      "recorded_sha256": "19ceda0c113414d9de4e16161e0a0b96cd229d5f8bfac0cf5dbf6c3f9337c060",
+      "git_bytes_sha256": "258c6caaf8b6aa2a37f10427259903178075b5a74919516d58e846e86699503a",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HVvmYj1jhCIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HVvmYj1jhCIJ.json",
+      "recorded_sha256": "c4c0b6d1b0322f3553a927b6c1e740f2a9f2c01dbf28b1120ad75a1b5d592699",
+      "git_bytes_sha256": "f61997edb4ff6d74e267c005833e618ae18aa31ed98be5a24f0a8a535d47bce2",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:50unDADdPGEJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-50unDADdPGEJ.json",
+      "recorded_sha256": "8660d8f7d0c8e1bdf626037a1d97a7fba79c33e52de7e27c45c0ad44de4c3944",
+      "git_bytes_sha256": "2041aaf59785f930ddc226328ef7d671fd2c731c6b482157f66401a9a6788b4f",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:d7xxRHNdSMAJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-d7xxRHNdSMAJ.json",
+      "recorded_sha256": "d4899f87e7fb259c4cc78545ae9415b3f09dc0d928e954163f272470b589a1df",
+      "git_bytes_sha256": "4875d5b0b28d349d241ab9395866f920b01dbe12a27c11d1e894cb632492f3ca",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:ioYGUCT49JIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ioYGUCT49JIJ.json",
+      "recorded_sha256": "bb4639797061db9a6e933f57f042d4466692bb4a07a6c0bee3d9bd11b630f700",
+      "git_bytes_sha256": "d922eab3f0629e60b5b2a4e960692dbd915b6e3b84b5d85c2d4715666a408462",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:lLfdIFGp-oYJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-lLfdIFGp-oYJ.json",
+      "recorded_sha256": "a400475ed9175c65bdf80add3e390026ef39e85998dd489b4469739526dd901b",
+      "git_bytes_sha256": "4cbdd0c84e04ef844a5e7dc342744fd81b00c6f6bfa1b1442662e910e494d545",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:sXrm1sT8KVIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-sXrm1sT8KVIJ.json",
+      "recorded_sha256": "f9502b361e64d2eff6e7f5faaf2f797b6cdd11aceae91916c86253e9bee23344",
+      "git_bytes_sha256": "728108a96de104255b2190ec1151f0c9c4ab73f3b8228a1c54f975a5d83d7c4f",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:X3fLqXpiIBoJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-X3fLqXpiIBoJ.json",
+      "recorded_sha256": "af1724e5f0e23df14d5da88510b465a92aada28bb3aacf5fada8a969547ca3ec",
+      "git_bytes_sha256": "fbb1f5816ab2824503e7aad23542a8f30f34920d914b9ac4ce438b516a17c8fd",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:03NKTnfzQ6sJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-03NKTnfzQ6sJ.json",
+      "recorded_sha256": "e0ecd11c6208a649b06b3bfee7225fdfba4f54c28a93b1ed08b1d59a3c9316a6",
+      "git_bytes_sha256": "a6dc4e4f6508aeb7758ecb4530c61f107c2121552a9b94ea77638967bb35eb67",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:B5eAiFMsuvgJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-B5eAiFMsuvgJ.json",
+      "recorded_sha256": "4ac443b3591bfa207328df5150bc9b0ffdd62325b9e5d6f3cf24cd34943613fe",
+      "git_bytes_sha256": "ba6f583660841c59c1c85bc6664fcfaece069d8a289774e25935ec8cc9e55805",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:JSUpYYWBjK0J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-JSUpYYWBjK0J.json",
+      "recorded_sha256": "38320e377c0a2405d27e63cd6d8e66644a4d2ef19b51113a82c865384536ecdb",
+      "git_bytes_sha256": "ab536daa0e98ac016e37f6dbccf5e6bc811616b70ea0fb84a255e491def3db14",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:m1A_ZYZ-UQwJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-m1A_ZYZ-UQwJ.json",
+      "recorded_sha256": "b787679f236885c492e5ca9f1f0c9720bd3661ad0404cb69773a4474e03e982a",
+      "git_bytes_sha256": "20acc75a142aeb1f8ae1398db251e6728db2282dca63bbe4058bdf837f263788",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:vql7SZH2jUQJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-vql7SZH2jUQJ.json",
+      "recorded_sha256": "21b002142ec338d5678805c23bd118bc316e451e2c490ef1e0ccf11d1b1745ed",
+      "git_bytes_sha256": "c09dcfd01940c79124db47f5e597675753a8d3a4177014ab8a441b0e99ac3c9d",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:_Li1FYysbT8J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-_Li1FYysbT8J.json",
+      "recorded_sha256": "dfa04e94693afdce506412122e40042756200c1de9da28ca755949a7f43d6f38",
+      "git_bytes_sha256": "6996412b0fd429ef7ab93fe99079798cadb738d630068a01bb5c591084e1afda",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:5WHAHKnl3fYJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-5WHAHKnl3fYJ.json",
+      "recorded_sha256": "ad2dc7ea1d010f5c34986c4b5a705bbaf972f0970519e5282c7b5bd141f3d124",
+      "git_bytes_sha256": "7bc23aa55672ccb5aab153551eab20490c1e780b6ed3e05cf71237b21dde8936",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:GkLovpurDJwJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-GkLovpurDJwJ.json",
+      "recorded_sha256": "f0318d101e91945e4a60d60d3bc681cfd5ac94a7e672e0b30524771d61d343f8",
+      "git_bytes_sha256": "8d80728676c1d84e28d553301626fa4cf2ca55f732e9112574b0d4e91958add6",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:grfxImawk1MJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-grfxImawk1MJ.json",
+      "recorded_sha256": "db8a06ff6a89dddd0c300770985a1eaca10d33daded9d859ab1ea5e51bdf0971",
+      "git_bytes_sha256": "f1d2fc7c132ce6dafbe79fef916fd0781ae739eb907f0614fbe044f21e75643e",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:W_DvVyMz0QAJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-W_DvVyMz0QAJ.json",
+      "recorded_sha256": "2d73a9c80ee746ab41ce6b0ca7bb1cab4cc084f8c5c2b47c8fb257352b99df98",
+      "git_bytes_sha256": "833ae02a1fca223eba297c8806805f7799adbc594f4b482aeb5045007a0da051",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:eenWQDjapxgJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-eenWQDjapxgJ.json",
+      "recorded_sha256": "fbddbc7b58499ded79d3a6c50a68b508525e6dc7a9dd5441977d646b24f866f9",
+      "git_bytes_sha256": "5d540de42cdeee94e0cc40791c24f3e0417c65b3dd449dcc25837f64e5e24130",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:MeRUvAZGn0QJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-MeRUvAZGn0QJ.json",
+      "recorded_sha256": "177a61890aa9a62d0dade7599aec17aa0867776d65d60dad655208be228997d9",
+      "git_bytes_sha256": "fb76d257979fd90a2c53aa751a5a561090e9ecb6202c673d5c093ddd62b68c72",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:tS1rA372YsUJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-tS1rA372YsUJ.json",
+      "recorded_sha256": "4e7150b20d913944fcf4af55d37ff5427dccb79d91bf70d2d1561b5f4f3251e8",
+      "git_bytes_sha256": "fb62a244a9ce43c9418e78750810709dc57f5611e095c661ac95c0369d574b66",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:vpcxx3P9RKAJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-vpcxx3P9RKAJ.json",
+      "recorded_sha256": "7723b326c270fb3bb6b520a9db6c171f6cea3c95d65be3882122dea5240fc8a3",
+      "git_bytes_sha256": "99fd9f479f5525748feda10951eed6ace85bc217b3c464f66b2bc125f9e4d5bc",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:zs_SrlrWveIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-zs_SrlrWveIJ.json",
+      "recorded_sha256": "094058c9897667898340ed8202b0c09a1596d20fa91c1e0f061ab0ac030269c9",
+      "git_bytes_sha256": "b777ce6a081b311e2e5f2af4c9a252c3832ee64df2f055e36ca440c0c1297cf2",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:advYcrj8QdMJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-advYcrj8QdMJ.json",
+      "recorded_sha256": "8f09900d0702726b5f9bf331814ba6df2df8477482b3a73ba166827ee3fb1c8a",
+      "git_bytes_sha256": "b591d53aa063d0b86bd0e307249e35aded6b9ccd7ce85ccb675102afa6df4b62",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:COAQ-sK9a0gJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-COAQ-sK9a0gJ.json",
+      "recorded_sha256": "3265eaf2a094d0e37dd4411878397e7e551bb7eb664a481ad88783d1995f045d",
+      "git_bytes_sha256": "2c33797d798fcba97bb2e03484c4d7361ddeab3dc782faa374dcfb790be8f6a4",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:ekyHPViUuoYJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ekyHPViUuoYJ.json",
+      "recorded_sha256": "80862c9f4d9dd085fb812294af3b7aa52d2c593cf41dbf250cb1bfc0e4c1f32e",
+      "git_bytes_sha256": "ba8d0e162eda46f41ede54cae0a1bc5b01d1f2deac72dc6a83afe84bd5a06b2a",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:j4KJ1EdUyYAJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-j4KJ1EdUyYAJ.json",
+      "recorded_sha256": "5b1b20bd3d10c2f9f91e7b7a969fcfbd3aca8b91cc9493bfce1fb3ba47b4ea8c",
+      "git_bytes_sha256": "90be32ada84d3c295994f37d91f3d4d60ae8a0f7be656090f6c268979ad4edc4",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:msQI3P227yEJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-msQI3P227yEJ.json",
+      "recorded_sha256": "a065698cfc45ca147bc85d02a221c3a63a25c8aa01e4b683189164a3c32e98e3",
+      "git_bytes_sha256": "827ec00bc1033b41e35de64e0eae1ce91f7789df7faac3b4584bbd233fc761fe",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:f7_NpbvAX4cJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-f7_NpbvAX4cJ.json",
+      "recorded_sha256": "75d47ca1d73ad516f8c6c736d8810969c1d60856934d7f2340d51a51a3391823",
+      "git_bytes_sha256": "0be1ad5ec01e254eb08c0b31b4c5867da5177a015b222068099be23c8d8fc687",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:jF_ZhPcGGroJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-jF_ZhPcGGroJ.json",
+      "recorded_sha256": "3e0454c79b35d86b985926d7f345d85d59d282832035c54244ee58aa47554d15",
+      "git_bytes_sha256": "48f4824b193d8675039f52a711da5129d259484521fa175481527263d0a3041c",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:sXzu51TTSB0J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-sXzu51TTSB0J.json",
+      "recorded_sha256": "5073d7acb409e81ffee20cc9bea85d37a76fd64c90813a44ffdd0169d9e290d5",
+      "git_bytes_sha256": "f83920482bb5f9f8cf5c378573f28cb4f893b30cec2d6e96e596d3e92202e87a",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:ur6FQs3aZv0J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ur6FQs3aZv0J.json",
+      "recorded_sha256": "3f1a2d10fe824346b2fd05f2aa9f05f54dcd2bef2368d83e37da644d4f11d80f",
+      "git_bytes_sha256": "75465d32c96ab7e774f0169e8dff9f554fa83042a0cdea6028783614727e7307",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:VnY2KfSKIPgJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-VnY2KfSKIPgJ.json",
+      "recorded_sha256": "402c931e8384cb60db888ced1693a03ac22b4d06b839792865a1a8a1e7e5e613",
+      "git_bytes_sha256": "818c65bf41fbcdcba357ab98c1c38b0a47685050605bea079a0361f60879c54e",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:yWRyC18EraoJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-yWRyC18EraoJ.json",
+      "recorded_sha256": "6a93c58f843ec0a346b9279760b5a8dd328c3a91a5528ad5daac09db82850142",
+      "git_bytes_sha256": "cb0f36f37a92906940a10dc1c10d4e5be69440f02af8a3f73ee77a7c3fd3b36c",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:4S498O8MV4AJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-4S498O8MV4AJ.json",
+      "recorded_sha256": "d734749cf9cda260d9090257c932c0814540c03a5d23890c49f7ce48fae9e629",
+      "git_bytes_sha256": "6fa326bf3be8786bd4fab88fd6208b84e28e99d08939b024da92e6e72b6e8d65",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:mWLHYOo4c4wJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-mWLHYOo4c4wJ.json",
+      "recorded_sha256": "1357e93fe3c41ef4fc967b37cb23dec849aa7a70e785de69f365b137501e609d",
+      "git_bytes_sha256": "dc2ee704f80ae8810a2a679ec982fa1c536b909e0d90c522359d5ab4c0454f7c",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:NxOKyaExNYMJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-NxOKyaExNYMJ.json",
+      "recorded_sha256": "ec634d5dc994076db3f34a29bdaaa0c6d37ae25ef3738a3c486cdb9122eec824",
+      "git_bytes_sha256": "19259fcdc97ba7fd990e6fc559cfa94f206b87ab581e13d26c5bcfcf8675a6cd",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:w4w_nVaBi-4J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-w4w_nVaBi-4J.json",
+      "recorded_sha256": "706be9316fc12ecbb95e997987fba6bab11a57f19c0b41cc057fdd64ff2bdacd",
+      "git_bytes_sha256": "a6abb41d7d94cae3c4308aaaae268c52abdb0f2a3ae5660ae9df58e787463900",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:q3JkVkVjN94J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-q3JkVkVjN94J.json",
+      "recorded_sha256": "f8ed8a5cc7548cb55fadb2d0a069ff1ecaed13189f50cd125ba3353b6a4c6b42",
+      "git_bytes_sha256": "73ea56355ecd4e7645f6b840ba88fb872ee2db7cd060cf24b998c6ab3fedc031",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:iVgeAxXqokQJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-iVgeAxXqokQJ.json",
+      "recorded_sha256": "06f23b724535b0dc57129b295739032322142e76f39bd8f844b2541cce211095",
+      "git_bytes_sha256": "ef23aab049553dea30cf42c58bebb33d4d0856212de71ea93643a7a57406bfc7",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:_BLr7kWHLDkJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-_BLr7kWHLDkJ.json",
+      "recorded_sha256": "ef28ebc97cda37efeb85e5db4b63b26fb842fa211177b1c376963bc90f43846d",
+      "git_bytes_sha256": "28478e896df54dcc4dac149590667c66e5b3cb34de4d997da4299ab1b4aae4a2",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:xlNjdqnC2fMJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-xlNjdqnC2fMJ.json",
+      "recorded_sha256": "c5abbea44eeb4e80a70c74f1c28a8fb2c534f00e0ecc56a70d174cadd09b84b3",
+      "git_bytes_sha256": "da75db09aa1e81272d05452bedbdb5be7afd4481ab1591260c285d745810845d",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:1z4gQqRfAwkJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-1z4gQqRfAwkJ.json",
+      "recorded_sha256": "d1a3c123d52e15788702354fd13f5b2e3755f6f8f798233184ce048a093f0c77",
+      "git_bytes_sha256": "9401c7ae7aacabd551cf0ad5741a0339798bb05da8b87d109d01ab628f8afad2",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:Qm5BKnMez5cJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-Qm5BKnMez5cJ.json",
+      "recorded_sha256": "68888fbb29ebdd51bf9e86ff0d0a2dc2eef2928ea4551d3f0a67e0dbf28ddc79",
+      "git_bytes_sha256": "051e8f755c4776face52612ce0d49098fc9a396f4b3d9c30538f445ae3471da5",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:VewJDUrPRiAJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-VewJDUrPRiAJ.json",
+      "recorded_sha256": "a8ead83e693c4858c20db517346a2a777035318341535bbbe6375c8359af4d27",
+      "git_bytes_sha256": "d62a1c93881e9c91f7b0e9f317fbdb4978aa63a0a2325d81fe0acb688cce9866",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:pO9mjm67fekJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-pO9mjm67fekJ.json",
+      "recorded_sha256": "223e1d9e6c178186ea6ec787853f7c8e8f5dd5863795834931b6ece566bc9d13",
+      "git_bytes_sha256": "2ab1bdb65b89d8e073f1b22162abea71c8a7238985225a4d598fe036444412d6",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:kexwZicrUfAJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-kexwZicrUfAJ.json",
+      "recorded_sha256": "c64d5f00e48052620c38d3f64c5baf8c7ae81214facf2124fe5b7b9beed80fef",
+      "git_bytes_sha256": "6d5806fd3fd1cbf8c68361de2884e24bb0e7c9f2e27045c9f120c9192b55eba6",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:gFUzDeNXl9cJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-gFUzDeNXl9cJ.json",
+      "recorded_sha256": "60c0b77f3c4a53e2b907bd3bc76685a12d3beb7e478163f6dcf4740dcd070b0a",
+      "git_bytes_sha256": "e3abfad0ed9a1cb4ecb838bac6cb4f0c7b85e7badc9f57a2bf6a01c6be548cef",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:nZ1L1Vl7KvEJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-nZ1L1Vl7KvEJ.json",
+      "recorded_sha256": "c57cb186de4cc1420d4fa27c1eb23c564aef1f359062f90297c63141ddcd2ef7",
+      "git_bytes_sha256": "f7049c9acd51c871ab0e2444ce872ed917a9a635a16dcb0bb1bfe1bd078f2b76",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:JKrA-rLcvHkJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-JKrA-rLcvHkJ.json",
+      "recorded_sha256": "774488db966f5d4fd7fb830ff3b4444e0bb72312393197a364499ad6c77bbefd",
+      "git_bytes_sha256": "bb96eb56f597c6a24d76f26fca2b62571703c1817900a75e11dfab057513471a",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:Rw7RRyHn644J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-Rw7RRyHn644J.json",
+      "recorded_sha256": "9e6d3dc0801ec77867e587e62384c0b7f941c859d37b2c6680f2da8832870b15",
+      "git_bytes_sha256": "f22013afab8c27dceeb6459069b8f847b17666fbd028355175692efe9aa75bab",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:U1Trzk-2GRIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-U1Trzk-2GRIJ.json",
+      "recorded_sha256": "8bff25ac2690aaeee0caf07a357a4b79e441281139527678944b2ff0afa6876d",
+      "git_bytes_sha256": "3475250ac4a26eacfdc6fe3f98ddc1dfe2dbb1acdebf60eb2648431a829a939b",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:3kL0MPf4EmMJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-3kL0MPf4EmMJ.json",
+      "recorded_sha256": "93a1fe1f57719a06c698d5a38ab15ab671ae378916556a85a757ada4d274dd0c",
+      "git_bytes_sha256": "9ebd45d0e2d62cf884285d8b6cdae7f8f43413e0de203bfe7ac8297dfdbbdc15",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:ctEq_owme9kJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ctEq_owme9kJ.json",
+      "recorded_sha256": "61702b2e896a7c4bd466515382c083024cb311efa4cd1502c017ddcb45b76782",
+      "git_bytes_sha256": "5e1a1214735d7d4eb8f7aec0ee9555406cf0d1d6d60ac105d3bcb836ae443ab8",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:lkDBxoBPKI8J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-lkDBxoBPKI8J.json",
+      "recorded_sha256": "32e06a63c2d21a2faa531936f606a75c079033caf42ab15b9523121a52e4379f",
+      "git_bytes_sha256": "6d620c47415aefd71fda909cd3f85b59db55a2820af147f95cf44a2a546ad9be",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:4tr9C5LNwYwJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-4tr9C5LNwYwJ.json",
+      "recorded_sha256": "6c89bacdd30b55aa80627a73bf2881e8061c22cfdcb1a75982b6d3ae699c4da3",
+      "git_bytes_sha256": "ccb1e84911aaf272fd7eaffd05af05f773cc763d440b3bee52c58b25d68517b6",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:NeHbiasbAqAJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-NeHbiasbAqAJ.json",
+      "recorded_sha256": "6455f13712ddb3497f7e263398876118686a45d051b9efc10efdea4e928cd0ae",
+      "git_bytes_sha256": "0a7f296652d10f90038d30eee8251b4c8edbd79d98e69656280840a025316167",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:NmJOT6QG-tUJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-NmJOT6QG-tUJ.json",
+      "recorded_sha256": "addef67d1c8ce323e83a08142ed9cdd981569b0132e91e3777f6414ddd8a7982",
+      "git_bytes_sha256": "1f8e09dde607ea5f8f112a72553e32dc875f10111d25375de8c7e27fcf7f845e",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:5peSBIP--BgJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-5peSBIP--BgJ.json",
+      "recorded_sha256": "e066b21b2ffe99b4af1b4ab280ae45f85e317f0fdb83c14369a174e1a95763d9",
+      "git_bytes_sha256": "5cd7cfa5ef83c443291e91ba2ea2c7b5a091e0d8f1174ff5fa39384cd5a60134",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:B68ZOyQGJ80J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-B68ZOyQGJ80J.json",
+      "recorded_sha256": "e28b0b03e22e051fdee9e4d624d63172b4730ae43f344338e4f7866b20549e2d",
+      "git_bytes_sha256": "0c7e1e970c75c3a38ed0c03cd260cfb7d97cf4f191ebf38e0ce4105e4c1e8bb2",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:9PorOFP0XSIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-9PorOFP0XSIJ.json",
+      "recorded_sha256": "31836b38d8299c5720f88ac48770094be6570e52e126bba9686ba332570b2e55",
+      "git_bytes_sha256": "0ffd4b06842cca30a71dff1feef93b8da3e7936d546d5efea96525c083efc27e",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:y051Shzv2A8J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-y051Shzv2A8J.json",
+      "recorded_sha256": "eb14ced560240d8aec64c84837a0b843c1178952ee103aa415e29b93b113b15e",
+      "git_bytes_sha256": "0140a5639369a4704a28d82797db1c4917d3d06b761c2789857b49d6cbb95ff5",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "incremental-query-plan-problem_generation",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/incremental-query-plan-problem_generation.json",
+      "recorded_sha256": "a6937acfc11d3a47018b762449863c3f7136f9cc5fea0ece98b061b6e4104776",
+      "reconstruction": "MISSING_IN_PINNED_GIT_TREE"
+    },
+    {
+      "name": "evidence:0n2WntIcZ5MJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-0n2WntIcZ5MJ.json",
+      "recorded_sha256": "8ccd655a33772581bbef7e2c5c3e4c268083ce74bab855d906e5b81e6007ec4f",
+      "git_bytes_sha256": "941d5bd730097cae07c897621b24d355bb22877ee6a83ca22e85986f31d51bf3",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:CkE-5mElf_IJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-CkE-5mElf_IJ.json",
+      "recorded_sha256": "0400570e2fbca6e20ce58143a40403b16b83baa20c35288f572b374994c8950a",
+      "git_bytes_sha256": "68ee5c20d1cca1b9ad8ccd3a879e4a2635e95412e9e41be614d52f60aded8b05",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:USER-TRO-2022-3216078",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-USER-TRO-2022-3216078.json",
+      "recorded_sha256": "23124e2f9ca15b38b12f4184cc71df3284fda0fda8a120a8ad6f7a16c5e98b9f",
+      "git_bytes_sha256": "271767782fdf97f7761250ae9e50bf81ea0f427b5ec06e332608706c4062196d",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:ZDySGaNsMn8J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-ZDySGaNsMn8J.json",
+      "recorded_sha256": "e2d89b8d2ee2825134abc5b3729cd7d266ecd3c0792d81177da71c8f9ab8554e",
+      "git_bytes_sha256": "8ab0314589d2b8018cd9ba9e70cb2ef46a56fb2188606c5e17f9ff7b3ad992a7",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:_8NXx8-VkcgJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-_8NXx8-VkcgJ.json",
+      "recorded_sha256": "996f679931d39a198662eaad566b0af4594f2e52970f7667df7a8c98783922ee",
+      "git_bytes_sha256": "34a985d75f94acb20cbe9a74015a6a2dbb671c9b7abb75d842ca2aac83b60973",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:USER-TUFFC-2011-1961",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-USER-TUFFC-2011-1961.json",
+      "recorded_sha256": "469098ca2c4c023f5255f63fc5404209a80ef30817ea8c98c50340c21c519a94",
+      "git_bytes_sha256": "cd2787d9090ae50680ec7664d6bb7c864fc3afa53d90ffcc515bf1738bba0332",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:QPuQ4sfxSTIJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-QPuQ4sfxSTIJ.json",
+      "recorded_sha256": "2cf12a19e72e4934ece0de74a422068c8103d0dc8085d4f97248034d71e23f7a",
+      "git_bytes_sha256": "6b2393d4a6b427ee71967045ec29bbd46f50d9975a4061f3682596f087797f7e",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:USER-TASE-2023-3282974",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-USER-TASE-2023-3282974.json",
+      "recorded_sha256": "7807d1764e8739aa1bc5568ed90c2e0f2b58d90d21475567f0d662b2bc03f500",
+      "git_bytes_sha256": "4d004b43304b0a24b50f7ab47ba5a647373a2800d0b7de3aa3ce3a66fa627516",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:iasK6kEBzIEJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-iasK6kEBzIEJ.json",
+      "recorded_sha256": "cd66e5b3bd076bfc2971a196fb82366088bc3d686665471ec3b3eecf46fb4ad9",
+      "git_bytes_sha256": "a1f9a53bf6c43cac2c03923ae8634b290a849e00a5d7283e46ef38b2b4965b62",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:9vRJMR2dgG4J",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-9vRJMR2dgG4J.json",
+      "recorded_sha256": "f2cfab988614128e678b82123316b233a5e0b67a4be2a257bab82719f3431700",
+      "git_bytes_sha256": "7e89daf4e8392cbcf792e43302107742dab0f45e9c24850144a1132d6552a267",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:Ubx3Xkv4y2kJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-Ubx3Xkv4y2kJ.json",
+      "recorded_sha256": "19b913258fe8451fcf21618b59363c15851345a0c704ea52b4ea01c0378645b9",
+      "git_bytes_sha256": "191991578f347de4a18868d6daaa4458097c634f0fc9a835fac3bc69d062c224",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:_-WpL4QNulUJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-_-WpL4QNulUJ.json",
+      "recorded_sha256": "39a6d0b0e18e0408e9ad964f8f2834e8587f557d588e73616f99e83593fb49c4",
+      "git_bytes_sha256": "a214d0c4eb4de6b248e272daba9269ddbe0b8dc090eaba3138f2f58c9266cb37",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:scholar:15965392972228430987",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-external-b12da74d477d3d6e2a08620a14c634000ccec5c4b7bf441d7bfa7e3dfb83307f.json",
+      "recorded_sha256": "39abca13e3a7d755e4d2343a1aa90ca9ae96164f529263134a454414d46a9ef9",
+      "git_bytes_sha256": "b18e6eccb696e7785ca7ac60c54636e5857afa7ab609263e98d66154364876c7",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HUMAN-EJMAS-2024-105348",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-EJMAS-2024-105348.json",
+      "recorded_sha256": "3ba456e49b67c53e99b66428a297fc9ec6c598933bbf0aa715dc02b4e0b26e8e",
+      "git_bytes_sha256": "2d83f1333ec35dba857775ad11c125449ede7f7b67ae05f4063bdeb722a821f4",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HUMAN-AUTOMATICA-2013-LBMPC",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-AUTOMATICA-2013-LBMPC.json",
+      "recorded_sha256": "6f7ac43588bababe96c6a147c2e4c7553446b95c25ba6ffd50ff6c96d68f6400",
+      "git_bytes_sha256": "83ac00b07039a3292879b82081a7b463a48e04b33eb30946eb790dd491342ae2",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HUMAN-LRA-2022-ASEE",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-LRA-2022-ASEE.json",
+      "recorded_sha256": "6db5f08b725a68d9ba250876f2e6c0aa8a1a02841d4da6364b2663f80a0ebf72",
+      "git_bytes_sha256": "556f46ccc37b914faced26c3a9d92434cb14faf8a9f6568d6bb13979f54c617d",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HUMAN-TRO-2017-CWC",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-TRO-2017-CWC.json",
+      "recorded_sha256": "1d8ed1a682cd40ffe39db44a264c50ee065f40fa3f22b77387e8aaf1739018a4",
+      "git_bytes_sha256": "e7d1d6e3cd3f062a2b6f48dc07afa0d32459cd00a673a03921adf0846f4d7064",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HUMAN-IJRR-2011-PSR",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-IJRR-2011-PSR.json",
+      "recorded_sha256": "1b4177764933696f043d2bc0e63db5821110d93f4053f7f54659bf043fc1c8c6",
+      "git_bytes_sha256": "c19679f058533c845c57d7f6ad5a16f1610f357a505561a59dfdc1b63b29fd48",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "incremental-query-plan-problem_necessity",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/incremental-query-plan-problem_necessity.json",
+      "recorded_sha256": "e5f6f35ad464c21a6a8fae43cf1c2c8a462b7948d332382ab8c62acaf2c95606",
+      "git_bytes_sha256": "40aee1227c9fa1de15471d6aeb795c9c6e1c4516a6662b526f0fbc3d62c5ac5a",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "incremental-query-plan-method_design",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/query-plan/incremental-query-plan-method_design-2f1ab6126e79a3d8744e64c97f5e09758d6cc61677d2726b464a209ed0720747.json",
+      "recorded_sha256": "ed6367b83f1e952062f3cb5f417e26c4f2d3fbb2a3f4d03866fed5935048c074",
+      "git_bytes_sha256": "2f1ab6126e79a3d8744e64c97f5e09758d6cc61677d2726b464a209ed0720747",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HUMAN-TAC-2019-GENERAL-SAFETY-FRAMEWORK",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-TAC-2019-GENERAL-SAFETY-FRAMEWORK.json",
+      "recorded_sha256": "6bc0a703f8df74740dfb49199d30b223ad90bcdd696666f3d6ade2ef00d3d20b",
+      "git_bytes_sha256": "9b44164b8d7335c8bf1b1e0071a3fb5b72e7ac0751eeeb335a0397ac5784a7a4",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HUMAN-NEURIPS-2022-VES",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-NEURIPS-2022-VES.json",
+      "recorded_sha256": "76f6c2a1c3f8d3cb909c19eb8e62396cd172286d4acc6493bc0a6778349128a1",
+      "git_bytes_sha256": "924b4733b16509e3b01e15d5f15f77f4571caa59002b3056fb211d2cf7f5d184",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HUMAN-MANSCI-2021-SPO",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-MANSCI-2021-SPO.json",
+      "recorded_sha256": "abaa4dbc12393c2833e68c98f350d8356669e7a155ccfcd2551cf4fd9faab1e3",
+      "git_bytes_sha256": "72b77fc89c379beae4ee82ed019a1093805ec59b6f9e553ae33a1ee088b3a97e",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:HUMAN-NEURIPS-2023-PREDICT-CALIBRATE",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-HUMAN-NEURIPS-2023-PREDICT-CALIBRATE.json",
+      "recorded_sha256": "14c5162239b923178e21b0337719f1a5b5a98879ac09770632686e94ecd18aa2",
+      "git_bytes_sha256": "a8f3d0a52a76c6fe6805e15c332fbf5765b7525f4801ce5931b169ed8d00e5b8",
+      "reconstruction": "LF_TO_CRLF"
+    },
+    {
+      "name": "evidence:bRrwxfzJq_QJ",
+      "path": ".aris/canonical/impedance-control-landscape-e2e/evidence-bRrwxfzJq_QJ.json",
+      "recorded_sha256": "5e9beedf1b99ac0bfbeed298241fd5ae839eae8cc3f2f362431d0e2c9f341aaa",
+      "git_bytes_sha256": "d49ec2b9a41663228bd1ff0732b7db51a08e48462b0ed16d00bf93af8f254fa5",
+      "reconstruction": "LF_TO_CRLF"
+    }
+  ]
+}

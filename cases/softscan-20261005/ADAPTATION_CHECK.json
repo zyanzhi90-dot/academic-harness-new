@@ -1,0 +1,46 @@
+{
+  "scope": "Engineering checks only, not research effects or scientific approval",
+  "current_real_case_audit": {
+    "ok": true,
+    "coverage_status": "SUFFICIENT",
+    "errors": []
+  },
+  "isolated_missing_selected_evidence": {
+    "expected_rejection_observed": "full-text-selected candidate j4KJ1EdUyYAJ has no accepted Evidence Card",
+    "audit": {
+      "ok": false,
+      "coverage_status": "SUFFICIENT",
+      "errors": [
+        "evidence_registry row 47 breaks the append-only hash chain",
+        "literature_corpus row 97 (j4KJ1EdUyYAJ) is decision-grade without an evidence card",
+        "mandatory review/high-citation backbone paper j4KJ1EdUyYAJ has no full-text Evidence Card",
+        "full-text-selected candidate j4KJ1EdUyYAJ has no accepted Evidence Card"
+      ]
+    }
+  },
+  "source_archive_all_file_hashes_match": 410,
+  "current_bound_original_hashes_match": 113,
+  "inherited_jsonl": {
+    "idea-stage/LITERATURE_CORPUS.jsonl": {
+      "original_bytes": 8600247,
+      "original_sha256": "b934a2b79320af7e6db2493879994f1e2b3a6401404e693f5dde9117a1c7a1f0",
+      "original_prefix_preserved": true,
+      "current_bytes": 13648436,
+      "current_sha256": "9b507a656981c513638220350a049f4f2163314763af622e7d63f89ef94598d3"
+    },
+    "idea-stage/EVIDENCE_REGISTRY.jsonl": {
+      "original_bytes": 1066590,
+      "original_sha256": "9b700e11793a06be1c7451cdf1a2097f322abadf86b9aa52db4a2c16a38e8924",
+      "original_prefix_preserved": true,
+      "current_bytes": 1066590,
+      "current_sha256": "9b700e11793a06be1c7451cdf1a2097f322abadf86b9aa52db4a2c16a38e8924"
+    },
+    "idea-stage/SEARCH_LEDGER.jsonl": {
+      "original_bytes": 4235154,
+      "original_sha256": "fb2c1f5e52cabd6f79621bf329d53ea1060a2057ca8efd9b4a0c60b0c3217be5",
+      "original_prefix_preserved": true,
+      "current_bytes": 4235154,
+      "current_sha256": "fb2c1f5e52cabd6f79621bf329d53ea1060a2057ca8efd9b4a0c60b0c3217be5"
+    }
+  }
+}

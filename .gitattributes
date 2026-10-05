@@ -4,3 +4,8 @@
 # Preserve inherited EOF blank lines in these byte-identical reference files.
 vendor/aris/skills/shared-references/reference-paper-intake.md whitespace=-blank-at-eof
 vendor/aris/skills/skills-codex/shared-references/reference-paper-intake.md whitespace=-blank-at-eof
+# Research evidence and captured CLI output retain their recorded byte hashes.
+cases/softscan-20261005/** -text whitespace=cr-at-eol,-blank-at-eof
+idea-stage/** -text whitespace=cr-at-eol,-blank-at-eof
+.agents/skills/**/*.md whitespace=-blank-at-eof
+.codex/ARIS_CONTROLLER_LAYER.json -text whitespace=cr-at-eol

@@ -1,0 +1,5 @@
+[
+  "review_handoff",
+  "submit_review",
+  "request_literature_update"
+]

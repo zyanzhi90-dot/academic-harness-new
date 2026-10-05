@@ -1,0 +1,48 @@
+[
+  {
+    "label": "science_status_after_submission",
+    "argv": [
+      "science",
+      "status",
+      "impedance-control-landscape-e2e"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "8633a0e9034a4be423d0bb0c88ec8804ad0b4da7616ba6cfe25608813589efee",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "science_actions_after_submission",
+    "argv": [
+      "science",
+      "allowed-actions",
+      "impedance-control-landscape-e2e"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "36585fa632880fe122c6b80f3f5d53d3f29cf97d10eb1d03bca880cb5b9322cb",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "configured_review_handoff",
+    "argv": [
+      "science",
+      "review-handoff",
+      "impedance-control-landscape-e2e"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "31d56e25d9e0ba7eb2c203e6bf1ef3c3a5c1488b377e55b6a1a6b1968c2fc7d7",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "generic_review_handoff",
+    "argv": [
+      "science",
+      "review-handoff",
+      "impedance-control-landscape-e2e",
+      "--dispatch-mode",
+      "native_generic_compat"
+    ],
+    "exit_code": 0,
+    "stdout_sha256": "4773dce7d0ab821b55549bc9cb26ee1088fcb0c51153c3c3dbbaca5e97b1fd81",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]
